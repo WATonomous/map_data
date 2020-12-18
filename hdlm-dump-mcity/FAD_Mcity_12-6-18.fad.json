@@ -1,0 +1,4495 @@
+{
+   "OBJECTS" : [
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 238.73707260080,
+               "LATITUDE" : 42.30039918493951,
+               "LONGITUDE" : -83.69919898624524
+            },
+            {
+               "HEIGHT" : 238.73707260080,
+               "LATITUDE" : 42.30039896007844,
+               "LONGITUDE" : -83.69919394376377
+            },
+            {
+               "HEIGHT" : 239.8209859811478,
+               "LATITUDE" : 42.30039896007844,
+               "LONGITUDE" : -83.69919394376377
+            },
+            {
+               "HEIGHT" : 239.8209859811478,
+               "LATITUDE" : 42.30039918493951,
+               "LONGITUDE" : -83.69919898624524
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_6925022172_0",
+               "HDLM_LANE_GROUP" : "6212548049",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_2745156711_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1350341518_0",
+               "HDLM_LANE_GROUP" : "290611284",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_2745156711_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69700321606",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 240.6633567911750,
+               "LATITUDE" : 42.30093637887849,
+               "LONGITUDE" : -83.69911563164831
+            },
+            {
+               "HEIGHT" : 240.6633567911750,
+               "LATITUDE" : 42.30093581892497,
+               "LONGITUDE" : -83.69912052351322
+            },
+            {
+               "HEIGHT" : 241.7490118862046,
+               "LATITUDE" : 42.30093581892497,
+               "LONGITUDE" : -83.69912052351322
+            },
+            {
+               "HEIGHT" : 241.7490118862046,
+               "LATITUDE" : 42.30093637887849,
+               "LONGITUDE" : -83.69911563164831
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_3110390275_0",
+               "HDLM_LANE_GROUP" : "69805320243",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_5857526621_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_3110390275_0",
+               "HDLM_LANE_GROUP" : "69835317354",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_6925022177_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_0",
+               "HDLM_LANE_GROUP" : "69875318981",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_3110390275_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_1",
+               "HDLM_LANE_GROUP" : "69875318981",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_3110390275_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_2",
+               "HDLM_LANE_GROUP" : "69875318981",
+               "HDLM_LANE_GROUP_INDEX" : 3,
+               "START_PORTAL" : "PORTAL_3110390275_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69712819574",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 238.6524338670651,
+               "LATITUDE" : 42.30036896354224,
+               "LONGITUDE" : -83.69916711529514
+            },
+            {
+               "HEIGHT" : 238.6524338670651,
+               "LATITUDE" : 42.30036856163173,
+               "LONGITUDE" : -83.69916270492193
+            },
+            {
+               "HEIGHT" : 239.7816729616030,
+               "LATITUDE" : 42.30036856163173,
+               "LONGITUDE" : -83.69916270492193
+            },
+            {
+               "HEIGHT" : 239.7816729616030,
+               "LATITUDE" : 42.30036896354224,
+               "LONGITUDE" : -83.69916711529514
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_6925022172_0",
+               "HDLM_LANE_GROUP" : "6212548049",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_2745156711_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1350341518_0",
+               "HDLM_LANE_GROUP" : "290611284",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_2745156711_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69735320598",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 240.9960359106682,
+               "LATITUDE" : 42.30097232543020,
+               "LONGITUDE" : -83.69916229108475
+            },
+            {
+               "HEIGHT" : 240.9960359106682,
+               "LATITUDE" : 42.30097533655404,
+               "LONGITUDE" : -83.69916214705584
+            },
+            {
+               "HEIGHT" : 242.0156979470915,
+               "LATITUDE" : 42.30097533655405,
+               "LONGITUDE" : -83.69916214705584
+            },
+            {
+               "HEIGHT" : 242.0156979470915,
+               "LATITUDE" : 42.30097232543019,
+               "LONGITUDE" : -83.69916229108475
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_66167940509_0",
+               "HDLM_LANE_GROUP" : "69802823501",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_5857526621_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_3110390275_1",
+               "HDLM_LANE_GROUP" : "69890321226",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66167940509_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66167940509_0",
+               "HDLM_LANE_GROUP" : "69855318208",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_6925022177_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_2",
+               "HDLM_LANE_GROUP" : "69812818204",
+               "HDLM_LANE_GROUP_INDEX" : 3,
+               "START_PORTAL" : "PORTAL_66167940509_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_1",
+               "HDLM_LANE_GROUP" : "69812818204",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66167940509_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_0",
+               "HDLM_LANE_GROUP" : "69812818204",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66167940509_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69740321344",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 241.7403456430539,
+               "LATITUDE" : 42.30058104098855,
+               "LONGITUDE" : -83.69736296769693
+            },
+            {
+               "HEIGHT" : 241.7403456430539,
+               "LATITUDE" : 42.30058127587307,
+               "LONGITUDE" : -83.69735505178203
+            },
+            {
+               "HEIGHT" : 243.1064490790197,
+               "LATITUDE" : 42.30058127587307,
+               "LONGITUDE" : -83.69735505178203
+            },
+            {
+               "HEIGHT" : 243.1064490790197,
+               "LATITUDE" : 42.30058104098854,
+               "LONGITUDE" : -83.69736296769693
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_67215435027_5",
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 6,
+               "START_PORTAL" : "PORTAL_67215435022_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69732821555",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 241.7936772944304,
+               "LATITUDE" : 42.30058135029634,
+               "LONGITUDE" : -83.69741429188885
+            },
+            {
+               "HEIGHT" : 241.7936772944304,
+               "LATITUDE" : 42.30058172615634,
+               "LONGITUDE" : -83.69740674046906
+            },
+            {
+               "HEIGHT" : 243.1597807303962,
+               "LATITUDE" : 42.30058172615634,
+               "LONGITUDE" : -83.69740674046906
+            },
+            {
+               "HEIGHT" : 243.1597807303962,
+               "LATITUDE" : 42.30058135029635,
+               "LONGITUDE" : -83.69741429188885
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_67215435027_4",
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 5,
+               "START_PORTAL" : "PORTAL_67215435022_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_67215435027_3",
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 4,
+               "START_PORTAL" : "PORTAL_67215435022_2"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69762824466",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 242.5580370606480,
+               "LATITUDE" : 42.30161738432130,
+               "LONGITUDE" : -83.69712639196686
+            },
+            {
+               "HEIGHT" : 242.5580370606480,
+               "LATITUDE" : 42.30161930787363,
+               "LONGITUDE" : -83.69713079146310
+            },
+            {
+               "HEIGHT" : 243.3096380405804,
+               "LATITUDE" : 42.30161930787363,
+               "LONGITUDE" : -83.69713079146310
+            },
+            {
+               "HEIGHT" : 243.3096380405804,
+               "LATITUDE" : 42.30161738432130,
+               "LONGITUDE" : -83.69712639196686
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_1630446479_0",
+               "HDLM_LANE_GROUP" : "3015871411",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1630446474_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69765318874",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 242.6787760370781,
+               "LATITUDE" : 42.30159242545871,
+               "LONGITUDE" : -83.69704989017971
+            },
+            {
+               "HEIGHT" : 242.6787760370781,
+               "LATITUDE" : 42.30159378676650,
+               "LONGITUDE" : -83.69705372244833
+            },
+            {
+               "HEIGHT" : 243.4065270710215,
+               "LATITUDE" : 42.30159378676650,
+               "LONGITUDE" : -83.69705372244833
+            },
+            {
+               "HEIGHT" : 243.4065270710215,
+               "LATITUDE" : 42.30159242545871,
+               "LONGITUDE" : -83.69704989017971
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_1630446479_0",
+               "HDLM_LANE_GROUP" : "3015871411",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1630446474_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69720320498",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 238.7132781345263,
+               "LATITUDE" : 42.30040449177886,
+               "LONGITUDE" : -83.69919384795304
+            },
+            {
+               "HEIGHT" : 238.7132781345263,
+               "LATITUDE" : 42.30040465978863,
+               "LONGITUDE" : -83.69919804107667
+            },
+            {
+               "HEIGHT" : 239.7882044749709,
+               "LATITUDE" : 42.30040465978863,
+               "LONGITUDE" : -83.69919804107667
+            },
+            {
+               "HEIGHT" : 239.7882044749709,
+               "LATITUDE" : 42.30040449177886,
+               "LONGITUDE" : -83.69919384795304
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_6925022172_1",
+               "HDLM_LANE_GROUP" : "6220050991",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1350341518_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_6925022172_1",
+               "HDLM_LANE_GROUP" : "6212548049",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_2745156711_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69747815945",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 236.7890625670267,
+               "LATITUDE" : 42.29975872024214,
+               "LONGITUDE" : -83.69723196318057
+            },
+            {
+               "HEIGHT" : 236.7890625670267,
+               "LATITUDE" : 42.29975884169694,
+               "LONGITUDE" : -83.69722819297738
+            },
+            {
+               "HEIGHT" : 237.5750614273782,
+               "LATITUDE" : 42.29975884169694,
+               "LONGITUDE" : -83.69722819297738
+            },
+            {
+               "HEIGHT" : 237.5750614273782,
+               "LATITUDE" : 42.29975872024214,
+               "LONGITUDE" : -83.69723196318057
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_977945539_0",
+               "HDLM_LANE_GROUP" : "1215770801",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_977945534_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69705319124",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 241.462069450050,
+               "LATITUDE" : 42.30088456097405,
+               "LONGITUDE" : -83.69850301316752
+            },
+            {
+               "HEIGHT" : 241.462069450050,
+               "LATITUDE" : 42.30087904441696,
+               "LONGITUDE" : -83.69850295562122
+            },
+            {
+               "HEIGHT" : 242.7919931959244,
+               "LATITUDE" : 42.30087904441696,
+               "LONGITUDE" : -83.69850295562122
+            },
+            {
+               "HEIGHT" : 242.7919931959244,
+               "LATITUDE" : 42.30088456097405,
+               "LONGITUDE" : -83.69850301316752
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_66248037188_1",
+               "HDLM_LANE_GROUP" : "69747813709",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66188101930_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66215369058_1",
+               "HDLM_LANE_GROUP" : "69785320006",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66188101930_2"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69775316635",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 241.0381611633692,
+               "LATITUDE" : 42.30100719606727,
+               "LONGITUDE" : -83.69916138466294
+            },
+            {
+               "HEIGHT" : 241.0381611633692,
+               "LATITUDE" : 42.30101032696595,
+               "LONGITUDE" : -83.69916171139747
+            },
+            {
+               "HEIGHT" : 242.0520032482388,
+               "LATITUDE" : 42.30101032696595,
+               "LONGITUDE" : -83.69916171139747
+            },
+            {
+               "HEIGHT" : 242.0520032482388,
+               "LATITUDE" : 42.30100719606727,
+               "LONGITUDE" : -83.69916138466294
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_66167940509_0",
+               "HDLM_LANE_GROUP" : "69802823501",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_5857526621_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_3110390275_1",
+               "HDLM_LANE_GROUP" : "69890321226",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66167940509_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66167940509_0",
+               "HDLM_LANE_GROUP" : "69855318208",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_6925022177_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_2",
+               "HDLM_LANE_GROUP" : "69812818204",
+               "HDLM_LANE_GROUP_INDEX" : 3,
+               "START_PORTAL" : "PORTAL_66167940509_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_1",
+               "HDLM_LANE_GROUP" : "69812818204",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66167940509_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_0",
+               "HDLM_LANE_GROUP" : "69812818204",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66167940509_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69707821284",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 238.6973469849067,
+               "LATITUDE" : 42.30040015556227,
+               "LONGITUDE" : -83.69919062510426
+            },
+            {
+               "HEIGHT" : 238.6973469849067,
+               "LATITUDE" : 42.30040332543421,
+               "LONGITUDE" : -83.69919035289190
+            },
+            {
+               "HEIGHT" : 239.7821260868321,
+               "LATITUDE" : 42.30040332543421,
+               "LONGITUDE" : -83.69919035289190
+            },
+            {
+               "HEIGHT" : 239.7821260868321,
+               "LATITUDE" : 42.30040015556229,
+               "LONGITUDE" : -83.69919062510426
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_6925022172_0",
+               "HDLM_LANE_GROUP" : "6220050991",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1350341518_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1350341518_1",
+               "HDLM_LANE_GROUP" : "290611284",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_2745156711_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69730318954",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 241.2642460598872,
+               "LATITUDE" : 42.30095085326245,
+               "LONGITUDE" : -83.69881385048953
+            },
+            {
+               "HEIGHT" : 241.2642460598872,
+               "LATITUDE" : 42.30096048691694,
+               "LONGITUDE" : -83.69881427254884
+            },
+            {
+               "HEIGHT" : 242.6518531667709,
+               "LATITUDE" : 42.30096048691694,
+               "LONGITUDE" : -83.69881427254884
+            },
+            {
+               "HEIGHT" : 242.6518531667709,
+               "LATITUDE" : 42.30095085326245,
+               "LONGITUDE" : -83.69881385048953
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 2,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_66215369058_1",
+               "HDLM_LANE_GROUP" : "69757821400",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_69795318119_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66248037188_1",
+               "HDLM_LANE_GROUP" : "69705316824",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_69795318119_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_69795318119_1",
+               "HDLM_LANE_GROUP" : "69722821241",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66167940504_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_69795318119_1",
+               "HDLM_LANE_GROUP" : "69722821241",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66167940504_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66145580121_1",
+               "HDLM_LANE_GROUP" : "69750321008",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_69795318119_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69737819871",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 240.6103548838972,
+               "LATITUDE" : 42.30090183337624,
+               "LONGITUDE" : -83.69903478112548
+            },
+            {
+               "HEIGHT" : 240.6103548838972,
+               "LATITUDE" : 42.30089870549738,
+               "LONGITUDE" : -83.69903454136971
+            },
+            {
+               "HEIGHT" : 241.6250896598812,
+               "LATITUDE" : 42.30089870549738,
+               "LONGITUDE" : -83.69903454136971
+            },
+            {
+               "HEIGHT" : 241.6250896598812,
+               "LATITUDE" : 42.30090183337624,
+               "LONGITUDE" : -83.69903478112548
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_66188101930_2",
+               "HDLM_LANE_GROUP" : "69850317040",
+               "HDLM_LANE_GROUP_INDEX" : 3,
+               "START_PORTAL" : "PORTAL_5857526616_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_6925022177_0",
+               "HDLM_LANE_GROUP" : "69810322749",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_5857526616_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_3110390275_1",
+               "HDLM_LANE_GROUP" : "69885318583",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_5857526616_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_5857526621_0",
+               "HDLM_LANE_GROUP" : "69847817464",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_5857526616_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_1",
+               "HDLM_LANE_GROUP" : "69850317040",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_5857526616_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_0",
+               "HDLM_LANE_GROUP" : "69850317040",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_5857526616_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69725316468",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 240.6171734327646,
+               "LATITUDE" : 42.30093793694755,
+               "LONGITUDE" : -83.69909211082887
+            },
+            {
+               "HEIGHT" : 240.6171734327646,
+               "LATITUDE" : 42.30093809839922,
+               "LONGITUDE" : -83.69908695433145
+            },
+            {
+               "HEIGHT" : 241.6783458907650,
+               "LATITUDE" : 42.30093809839922,
+               "LONGITUDE" : -83.69908695433145
+            },
+            {
+               "HEIGHT" : 241.6783458907650,
+               "LATITUDE" : 42.30093793694755,
+               "LONGITUDE" : -83.69909211082887
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_66188101930_1",
+               "HDLM_LANE_GROUP" : "69830320152",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_6925022177_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_2",
+               "HDLM_LANE_GROUP" : "69830320152",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_6925022177_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_3110390275_1",
+               "HDLM_LANE_GROUP" : "69835317354",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_6925022177_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_5857526621_0",
+               "HDLM_LANE_GROUP" : "69857827782",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_6925022177_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69745317345",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 242.134556331280,
+               "LATITUDE" : 42.30072183226611,
+               "LONGITUDE" : -83.69751386250651
+            },
+            {
+               "HEIGHT" : 242.134556331280,
+               "LATITUDE" : 42.30072172293027,
+               "LONGITUDE" : -83.69752120188383
+            },
+            {
+               "HEIGHT" : 243.4132129908414,
+               "LATITUDE" : 42.30072172293027,
+               "LONGITUDE" : -83.69752120188383
+            },
+            {
+               "HEIGHT" : 243.4132129908414,
+               "LATITUDE" : 42.30072183226611,
+               "LONGITUDE" : -83.69751386250651
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_67215435027_1",
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_67215435022_4"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69742813910",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 241.4991824294475,
+               "LATITUDE" : 42.30091364397904,
+               "LONGITUDE" : -83.69850281900706
+            },
+            {
+               "HEIGHT" : 241.4991824294475,
+               "LATITUDE" : 42.30090457943167,
+               "LONGITUDE" : -83.69850299175164
+            },
+            {
+               "HEIGHT" : 242.8463271279805,
+               "LATITUDE" : 42.30090457943166,
+               "LONGITUDE" : -83.69850299175164
+            },
+            {
+               "HEIGHT" : 242.8463271279805,
+               "LATITUDE" : 42.30091364397904,
+               "LONGITUDE" : -83.69850281900706
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 2,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_66145580121_1",
+               "HDLM_LANE_GROUP" : "69752815934",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66188101930_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_0",
+               "HDLM_LANE_GROUP" : "69750321009",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66167940504_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_0",
+               "HDLM_LANE_GROUP" : "69750321009",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66167940504_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66248037188_1",
+               "HDLM_LANE_GROUP" : "69747813709",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66188101930_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66215369058_1",
+               "HDLM_LANE_GROUP" : "69785320006",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66188101930_2"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69745317719",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 240.9027002296515,
+               "LATITUDE" : 42.30093415779311,
+               "LONGITUDE" : -83.69914541478077
+            },
+            {
+               "HEIGHT" : 240.9027002296515,
+               "LATITUDE" : 42.30093403130729,
+               "LONGITUDE" : -83.69915020599754
+            },
+            {
+               "HEIGHT" : 241.9720917663774,
+               "LATITUDE" : 42.30093403130729,
+               "LONGITUDE" : -83.69915020599754
+            },
+            {
+               "HEIGHT" : 241.9720917663774,
+               "LATITUDE" : 42.30093415779309,
+               "LONGITUDE" : -83.69914541478077
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_3110390275_0",
+               "HDLM_LANE_GROUP" : "69805320243",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_5857526621_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_3110390275_0",
+               "HDLM_LANE_GROUP" : "69835317354",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_6925022177_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_0",
+               "HDLM_LANE_GROUP" : "69875318981",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_3110390275_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_1",
+               "HDLM_LANE_GROUP" : "69875318981",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_3110390275_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_2",
+               "HDLM_LANE_GROUP" : "69875318981",
+               "HDLM_LANE_GROUP_INDEX" : 3,
+               "START_PORTAL" : "PORTAL_3110390275_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69762824560",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 240.7617812626469,
+               "LATITUDE" : 42.30094024913306,
+               "LONGITUDE" : -83.69906053589168
+            },
+            {
+               "HEIGHT" : 240.7617812626469,
+               "LATITUDE" : 42.30094074759663,
+               "LONGITUDE" : -83.69905634127846
+            },
+            {
+               "HEIGHT" : 241.8329756938525,
+               "LATITUDE" : 42.30094074759664,
+               "LONGITUDE" : -83.69905634127846
+            },
+            {
+               "HEIGHT" : 241.8329756938525,
+               "LATITUDE" : 42.30094024913308,
+               "LONGITUDE" : -83.69906053589168
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_66188101930_1",
+               "HDLM_LANE_GROUP" : "69830320152",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_6925022177_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_2",
+               "HDLM_LANE_GROUP" : "69830320152",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_6925022177_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_3110390275_1",
+               "HDLM_LANE_GROUP" : "69835317354",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_6925022177_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_5857526621_0",
+               "HDLM_LANE_GROUP" : "69857827782",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_6925022177_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69767817421",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 236.7285716217947,
+               "LATITUDE" : 42.29975391221710,
+               "LONGITUDE" : -83.69732107786486
+            },
+            {
+               "HEIGHT" : 236.7285716217947,
+               "LATITUDE" : 42.29975422847333,
+               "LONGITUDE" : -83.69731690097031
+            },
+            {
+               "HEIGHT" : 237.4791647146150,
+               "LATITUDE" : 42.29975422847333,
+               "LONGITUDE" : -83.69731690097031
+            },
+            {
+               "HEIGHT" : 237.4791647146150,
+               "LATITUDE" : 42.29975391221711,
+               "LONGITUDE" : -83.69732107786486
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_977945539_0",
+               "HDLM_LANE_GROUP" : "1215770801",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_977945534_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69770322832",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 240.5751093338107,
+               "LATITUDE" : 42.30086801564926,
+               "LONGITUDE" : -83.69903021176840
+            },
+            {
+               "HEIGHT" : 240.5751093338107,
+               "LATITUDE" : 42.30086490817124,
+               "LONGITUDE" : -83.69902989614482
+            },
+            {
+               "HEIGHT" : 241.5898441097946,
+               "LATITUDE" : 42.30086490817124,
+               "LONGITUDE" : -83.69902989614482
+            },
+            {
+               "HEIGHT" : 241.5898441097946,
+               "LATITUDE" : 42.30086801564925,
+               "LONGITUDE" : -83.69903021176840
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_66188101930_2",
+               "HDLM_LANE_GROUP" : "69850317040",
+               "HDLM_LANE_GROUP_INDEX" : 3,
+               "START_PORTAL" : "PORTAL_5857526616_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_6925022177_0",
+               "HDLM_LANE_GROUP" : "69810322749",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_5857526616_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_3110390275_1",
+               "HDLM_LANE_GROUP" : "69885318583",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_5857526616_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_5857526621_0",
+               "HDLM_LANE_GROUP" : "69847817464",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_5857526616_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_1",
+               "HDLM_LANE_GROUP" : "69850317040",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_5857526616_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66188101930_0",
+               "HDLM_LANE_GROUP" : "69850317040",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_5857526616_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69775316261",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 238.0530585990002,
+               "LATITUDE" : 42.30043156425905,
+               "LONGITUDE" : -83.69880743709797
+            },
+            {
+               "HEIGHT" : 238.0530585990002,
+               "LATITUDE" : 42.30043738429273,
+               "LONGITUDE" : -83.69880750706372
+            },
+            {
+               "HEIGHT" : 239.4302595348874,
+               "LATITUDE" : 42.30043738429273,
+               "LONGITUDE" : -83.69880750706372
+            },
+            {
+               "HEIGHT" : 239.4302595348874,
+               "LATITUDE" : 42.30043156425906,
+               "LONGITUDE" : -83.69880743709797
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_2355365820_1",
+               "HDLM_LANE_GROUP" : "308182167",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1350341523_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_2355365820_1",
+               "HDLM_LANE_GROUP" : "325681782",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_2295079014_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_2355365820_1",
+               "HDLM_LANE_GROUP" : "67285634186",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66215369063_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69807819692",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 242.0463157594902,
+               "LATITUDE" : 42.30096563005121,
+               "LONGITUDE" : -83.69807450794464
+            },
+            {
+               "HEIGHT" : 242.0463157594902,
+               "LATITUDE" : 42.30096885992934,
+               "LONGITUDE" : -83.69807466216403
+            },
+            {
+               "HEIGHT" : 243.1601624398850,
+               "LATITUDE" : 42.30096885992933,
+               "LONGITUDE" : -83.69807466216403
+            },
+            {
+               "HEIGHT" : 243.1601624398850,
+               "LATITUDE" : 42.30096563005119,
+               "LONGITUDE" : -83.69807450794464
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_67200398566_0",
+               "HDLM_LANE_GROUP" : "69767815090",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66295503604_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_5960010105_0",
+               "HDLM_LANE_GROUP" : "69700319373",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_67200398566_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_7065019247_0",
+               "HDLM_LANE_GROUP" : "69790312405",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_67200398566_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_7065019247_1",
+               "HDLM_LANE_GROUP" : "69790312405",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_67200398566_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_475438731_0",
+               "HDLM_LANE_GROUP" : "69750321011",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_67200398566_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69802826469",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 241.5344376180619,
+               "LATITUDE" : 42.30108404520539,
+               "LONGITUDE" : -83.69859362202010
+            },
+            {
+               "HEIGHT" : 241.5344376180619,
+               "LATITUDE" : 42.30108395199430,
+               "LONGITUDE" : -83.69858610060258
+            },
+            {
+               "HEIGHT" : 242.9090936317268,
+               "LATITUDE" : 42.30108395199430,
+               "LONGITUDE" : -83.69858610060258
+            },
+            {
+               "HEIGHT" : 242.9090936317268,
+               "LATITUDE" : 42.30108404520539,
+               "LONGITUDE" : -83.69859362202010
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_66145580121_1",
+               "HDLM_LANE_GROUP" : "69740319009",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66215369058_3"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66248037188_1",
+               "HDLM_LANE_GROUP" : "69775313927",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66215369058_3"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69837822644",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 242.6208143291924,
+               "LATITUDE" : 42.30106856559190,
+               "LONGITUDE" : -83.69787475889106
+            },
+            {
+               "HEIGHT" : 242.6208143291924,
+               "LATITUDE" : 42.30106809818118,
+               "LONGITUDE" : -83.69786984875699
+            },
+            {
+               "HEIGHT" : 243.8548931454258,
+               "LATITUDE" : 42.30106809818118,
+               "LONGITUDE" : -83.69786984875699
+            },
+            {
+               "HEIGHT" : 243.8548931454258,
+               "LATITUDE" : 42.30106856559190,
+               "LONGITUDE" : -83.69787475889106
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_5960010105_2",
+               "HDLM_LANE_GROUP" : "69797818956",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_475438731_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_7065019247_0",
+               "HDLM_LANE_GROUP" : "69730316722",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_5960010105_2"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69827820078",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 238.6118473832939,
+               "LATITUDE" : 42.30037403028865,
+               "LONGITUDE" : -83.69916298844771
+            },
+            {
+               "HEIGHT" : 238.6118473832939,
+               "LATITUDE" : 42.30037441818550,
+               "LONGITUDE" : -83.69916748967775
+            },
+            {
+               "HEIGHT" : 239.8477717523182,
+               "LATITUDE" : 42.30037441818551,
+               "LONGITUDE" : -83.69916748967775
+            },
+            {
+               "HEIGHT" : 239.8477717523182,
+               "LATITUDE" : 42.30037403028865,
+               "LONGITUDE" : -83.69916298844771
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_6925022172_1",
+               "HDLM_LANE_GROUP" : "6220050991",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1350341518_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_6925022172_1",
+               "HDLM_LANE_GROUP" : "6212548049",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_2745156711_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69780319053",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 242.2567172983492,
+               "LATITUDE" : 42.30107121285172,
+               "LONGITUDE" : -83.69793239251698
+            },
+            {
+               "HEIGHT" : 242.2567172983492,
+               "LATITUDE" : 42.30107105479019,
+               "LONGITUDE" : -83.69792812015265
+            },
+            {
+               "HEIGHT" : 243.6769018319814,
+               "LATITUDE" : 42.30107105479019,
+               "LONGITUDE" : -83.69792812015265
+            },
+            {
+               "HEIGHT" : 243.6769018319814,
+               "LATITUDE" : 42.30107121285172,
+               "LONGITUDE" : -83.69793239251698
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_5960010105_1",
+               "HDLM_LANE_GROUP" : "69715317313",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66295503604_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_5960010105_2",
+               "HDLM_LANE_GROUP" : "69797818956",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_475438731_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_7065019247_0",
+               "HDLM_LANE_GROUP" : "69730316722",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_5960010105_2"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69822822962",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 241.3772356041202,
+               "LATITUDE" : 42.30079653859482,
+               "LONGITUDE" : -83.69866081238483
+            },
+            {
+               "HEIGHT" : 241.3772356041202,
+               "LATITUDE" : 42.30079644310869,
+               "LONGITUDE" : -83.69867304040744
+            },
+            {
+               "HEIGHT" : 242.7763860044213,
+               "LATITUDE" : 42.30079644310871,
+               "LONGITUDE" : -83.69867304040744
+            },
+            {
+               "HEIGHT" : 242.7763860044213,
+               "LATITUDE" : 42.30079653859480,
+               "LONGITUDE" : -83.69866081238483
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 2,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_66145580121_0",
+               "HDLM_LANE_GROUP" : "69795318120",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66248037188_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66145580121_0",
+               "HDLM_LANE_GROUP" : "69740319009",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66215369058_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66145580121_0",
+               "HDLM_LANE_GROUP" : "69770320594",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66167940504_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69835320304",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 240.5458785790061,
+               "LATITUDE" : 42.30031109183846,
+               "LONGITUDE" : -83.69796663428311
+            },
+            {
+               "HEIGHT" : 240.5458785790061,
+               "LATITUDE" : 42.30031122077912,
+               "LONGITUDE" : -83.69797068019345
+            },
+            {
+               "HEIGHT" : 241.5929095405474,
+               "LATITUDE" : 42.30031122077912,
+               "LONGITUDE" : -83.69797068019345
+            },
+            {
+               "HEIGHT" : 241.5929095405474,
+               "LATITUDE" : 42.30031109183846,
+               "LONGITUDE" : -83.69796663428311
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_5960010110_2",
+               "HDLM_LANE_GROUP" : "5522549339",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_3115208248_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_5960010110_2",
+               "HDLM_LANE_GROUP" : "5532549652",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_2355365825_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69827819507",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 238.6118473832954,
+               "LATITUDE" : 42.30037034190531,
+               "LONGITUDE" : -83.69915918303720
+            },
+            {
+               "HEIGHT" : 238.6118473832954,
+               "LATITUDE" : 42.30037306909401,
+               "LONGITUDE" : -83.69915955490283
+            },
+            {
+               "HEIGHT" : 239.7226388811903,
+               "LATITUDE" : 42.30037306909401,
+               "LONGITUDE" : -83.69915955490283
+            },
+            {
+               "HEIGHT" : 239.7226388811903,
+               "LATITUDE" : 42.30037034190533,
+               "LONGITUDE" : -83.69915918303720
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_1350341518_1",
+               "HDLM_LANE_GROUP" : "290611284",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_2745156711_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_6925022172_0",
+               "HDLM_LANE_GROUP" : "6220050991",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1350341518_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69782819890",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 238.2447279645749,
+               "LATITUDE" : 42.30046137661823,
+               "LONGITUDE" : -83.69875541254552
+            },
+            {
+               "HEIGHT" : 238.2447279645749,
+               "LATITUDE" : 42.30046205786369,
+               "LONGITUDE" : -83.69874811309728
+            },
+            {
+               "HEIGHT" : 239.6213364436612,
+               "LATITUDE" : 42.30046205786369,
+               "LONGITUDE" : -83.69874811309728
+            },
+            {
+               "HEIGHT" : 239.6213364436612,
+               "LATITUDE" : 42.30046137661822,
+               "LONGITUDE" : -83.69875541254552
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_2295079014_1",
+               "HDLM_LANE_GROUP" : "67205634217",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66215369063_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_2295079014_1",
+               "HDLM_LANE_GROUP" : "360679145",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1350341523_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_2355365820_0",
+               "HDLM_LANE_GROUP" : "325681782",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_2295079014_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69800324455",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 241.2642460598862,
+               "LATITUDE" : 42.30098449051773,
+               "LONGITUDE" : -83.6988137088150
+            },
+            {
+               "HEIGHT" : 241.2642460598862,
+               "LATITUDE" : 42.30099069133185,
+               "LONGITUDE" : -83.69881403008858
+            },
+            {
+               "HEIGHT" : 242.6231292757662,
+               "LATITUDE" : 42.30099069133185,
+               "LONGITUDE" : -83.69881403008858
+            },
+            {
+               "HEIGHT" : 242.6231292757662,
+               "LATITUDE" : 42.30098449051773,
+               "LONGITUDE" : -83.6988137088150
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_66145580121_1",
+               "HDLM_LANE_GROUP" : "69750321008",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_69795318119_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_69795318119_1",
+               "HDLM_LANE_GROUP" : "69722821241",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66167940504_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_69795318119_1",
+               "HDLM_LANE_GROUP" : "69722821241",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66167940504_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69780319156",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 242.134556331280,
+               "LATITUDE" : 42.30072057699739,
+               "LONGITUDE" : -83.69746920807012
+            },
+            {
+               "HEIGHT" : 242.134556331280,
+               "LATITUDE" : 42.30072105883112,
+               "LONGITUDE" : -83.69747645335983
+            },
+            {
+               "HEIGHT" : 243.4780326729006,
+               "LATITUDE" : 42.30072105883112,
+               "LONGITUDE" : -83.69747645335983
+            },
+            {
+               "HEIGHT" : 243.4780326729006,
+               "LATITUDE" : 42.30072057699738,
+               "LONGITUDE" : -83.69746920807012
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_67215435027_2",
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 3,
+               "START_PORTAL" : "PORTAL_67215435022_3"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69797821189",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 238.3443590385508,
+               "LATITUDE" : 42.30043544477412,
+               "LONGITUDE" : -83.69850024187785
+            },
+            {
+               "HEIGHT" : 238.3443590385508,
+               "LATITUDE" : 42.30043002383570,
+               "LONGITUDE" : -83.69849985885637
+            },
+            {
+               "HEIGHT" : 239.7356829427471,
+               "LATITUDE" : 42.30043002383569,
+               "LONGITUDE" : -83.69849985885637
+            },
+            {
+               "HEIGHT" : 239.7356829427471,
+               "LATITUDE" : 42.30043544477412,
+               "LONGITUDE" : -83.69850024187785
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_2355365820_0",
+               "HDLM_LANE_GROUP" : "308182167",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1350341523_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_2295079014_0",
+               "HDLM_LANE_GROUP" : "360679145",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1350341523_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1350341523_1",
+               "HDLM_LANE_GROUP" : "67278134178",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66215369063_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69800324346",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 242.1986107778373,
+               "LATITUDE" : 42.30089448965244,
+               "LONGITUDE" : -83.69783064624684
+            },
+            {
+               "HEIGHT" : 242.1986107778373,
+               "LATITUDE" : 42.30089098613670,
+               "LONGITUDE" : -83.69783039044434
+            },
+            {
+               "HEIGHT" : 243.2990909222201,
+               "LATITUDE" : 42.30089098613670,
+               "LONGITUDE" : -83.69783039044434
+            },
+            {
+               "HEIGHT" : 243.2990909222201,
+               "LATITUDE" : 42.30089448965244,
+               "LONGITUDE" : -83.69783064624684
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_7065019247_1",
+               "HDLM_LANE_GROUP" : "69740319011",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66248037193_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_7065019247_0",
+               "HDLM_LANE_GROUP" : "69740319011",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66248037193_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66248037193_0",
+               "HDLM_LANE_GROUP" : "69777816827",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_475438731_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66248037193_0",
+               "HDLM_LANE_GROUP" : "69717816037",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66295503604_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_5960010105_0",
+               "HDLM_LANE_GROUP" : "69780316822",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66248037193_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69820318872",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 233.5539074280144,
+               "LATITUDE" : 42.29912665554010,
+               "LONGITUDE" : -83.69927714286928
+            },
+            {
+               "HEIGHT" : 233.5539074280144,
+               "LATITUDE" : 42.29913022007672,
+               "LONGITUDE" : -83.69927863842270
+            },
+            {
+               "HEIGHT" : 234.7379505138778,
+               "LATITUDE" : 42.29913022007672,
+               "LONGITUDE" : -83.69927863842270
+            },
+            {
+               "HEIGHT" : 234.7379505138778,
+               "LATITUDE" : 42.29912665554010,
+               "LONGITUDE" : -83.69927714286928
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_1260059528_1",
+               "HDLM_LANE_GROUP" : "3023262562",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1257914044_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69827819391",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 241.3772356041202,
+               "LATITUDE" : 42.30079645828201,
+               "LONGITUDE" : -83.69870718713422
+            },
+            {
+               "HEIGHT" : 241.3772356041202,
+               "LATITUDE" : 42.30079676460014,
+               "LONGITUDE" : -83.69871538412785
+            },
+            {
+               "HEIGHT" : 242.7285747056589,
+               "LATITUDE" : 42.30079676460016,
+               "LONGITUDE" : -83.69871538412785
+            },
+            {
+               "HEIGHT" : 242.7285747056589,
+               "LATITUDE" : 42.30079645828201,
+               "LONGITUDE" : -83.69870718713422
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_66145580121_0",
+               "HDLM_LANE_GROUP" : "69740319009",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66215369058_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66145580121_0",
+               "HDLM_LANE_GROUP" : "69795318120",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66248037188_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66145580121_0",
+               "HDLM_LANE_GROUP" : "69770320594",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66167940504_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69867820400",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 235.0755732919729,
+               "LATITUDE" : 42.29926951317422,
+               "LONGITUDE" : -83.69911144778851
+            },
+            {
+               "HEIGHT" : 235.0755732919729,
+               "LATITUDE" : 42.29926778864409,
+               "LONGITUDE" : -83.69911474404981
+            },
+            {
+               "HEIGHT" : 236.2115748253713,
+               "LATITUDE" : 42.29926778864409,
+               "LONGITUDE" : -83.69911474404981
+            },
+            {
+               "HEIGHT" : 236.2115748253713,
+               "LATITUDE" : 42.29926951317422,
+               "LONGITUDE" : -83.69911144778851
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_1760245757_0",
+               "HDLM_LANE_GROUP" : "3083264581",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1207957997_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1260059528_0",
+               "HDLM_LANE_GROUP" : "3020762796",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1207957997_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1257914044_0",
+               "HDLM_LANE_GROUP" : "3030762291",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1207957997_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69880315939",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 238.4293423552008,
+               "LATITUDE" : 42.30032522277338,
+               "LONGITUDE" : -83.69850767346207
+            },
+            {
+               "HEIGHT" : 238.4293423552008,
+               "LATITUDE" : 42.30031946733013,
+               "LONGITUDE" : -83.69850801395498
+            },
+            {
+               "HEIGHT" : 239.7811361371330,
+               "LATITUDE" : 42.30031946733012,
+               "LONGITUDE" : -83.69850801395498
+            },
+            {
+               "HEIGHT" : 239.7811361371330,
+               "LATITUDE" : 42.30032522277338,
+               "LONGITUDE" : -83.69850767346207
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_2355365820_0",
+               "HDLM_LANE_GROUP" : "308182167",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1350341523_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_2295079014_0",
+               "HDLM_LANE_GROUP" : "360679145",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1350341523_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1350341523_1",
+               "HDLM_LANE_GROUP" : "67278134178",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66215369063_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69862825504",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 238.2405916055449,
+               "LATITUDE" : 42.30027703444593,
+               "LONGITUDE" : -83.69853043506657
+            },
+            {
+               "HEIGHT" : 238.2405916055449,
+               "LATITUDE" : 42.30027601975893,
+               "LONGITUDE" : -83.69853833421475
+            },
+            {
+               "HEIGHT" : 239.5754375825688,
+               "LATITUDE" : 42.30027601975893,
+               "LONGITUDE" : -83.69853833421475
+            },
+            {
+               "HEIGHT" : 239.5754375825688,
+               "LATITUDE" : 42.30027703444591,
+               "LONGITUDE" : -83.69853043506657
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_2295079014_0",
+               "HDLM_LANE_GROUP" : "67205634217",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66215369063_3"
+            },
+            {
+               "END_PORTAL" : "PORTAL_2355365820_0",
+               "HDLM_LANE_GROUP" : "67285634186",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66215369063_3"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1350341523_0",
+               "HDLM_LANE_GROUP" : "67278134178",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66215369063_3"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69855320605",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 235.3891608699152,
+               "LATITUDE" : 42.29925719332355,
+               "LONGITUDE" : -83.69916144014724
+            },
+            {
+               "HEIGHT" : 235.3891608699152,
+               "LATITUDE" : 42.29925505606123,
+               "LONGITUDE" : -83.69916502968053
+            },
+            {
+               "HEIGHT" : 236.4984013043590,
+               "LATITUDE" : 42.29925505606123,
+               "LONGITUDE" : -83.69916502968053
+            },
+            {
+               "HEIGHT" : 236.4984013043590,
+               "LATITUDE" : 42.29925719332353,
+               "LONGITUDE" : -83.69916144014724
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_1260059528_0",
+               "HDLM_LANE_GROUP" : "3020762796",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1207957997_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1257914044_0",
+               "HDLM_LANE_GROUP" : "3030762291",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1207957997_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1760245757_0",
+               "HDLM_LANE_GROUP" : "3083264581",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1207957997_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69847819750",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 235.5963543020187,
+               "LATITUDE" : 42.29928673179985,
+               "LONGITUDE" : -83.69923070821066
+            },
+            {
+               "HEIGHT" : 235.5963543020187,
+               "LATITUDE" : 42.29929008356221,
+               "LONGITUDE" : -83.69923408542829
+            },
+            {
+               "HEIGHT" : 236.7219610553792,
+               "LATITUDE" : 42.29929008356221,
+               "LONGITUDE" : -83.69923408542829
+            },
+            {
+               "HEIGHT" : 236.7219610553792,
+               "LATITUDE" : 42.29928673179985,
+               "LONGITUDE" : -83.69923070821066
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_1760245757_1",
+               "HDLM_LANE_GROUP" : "3083264581",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1207957997_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1760245757_1",
+               "HDLM_LANE_GROUP" : "3075759513",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1257914044_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1760245757_1",
+               "HDLM_LANE_GROUP" : "3053261811",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1260059528_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69852820688",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 235.0404761623612,
+               "LATITUDE" : 42.29924933126625,
+               "LONGITUDE" : -83.69899480393035
+            },
+            {
+               "HEIGHT" : 235.0404761623612,
+               "LATITUDE" : 42.29924771422866,
+               "LONGITUDE" : -83.69899206401162
+            },
+            {
+               "HEIGHT" : 236.0269434847556,
+               "LATITUDE" : 42.29924771422864,
+               "LONGITUDE" : -83.69899206401162
+            },
+            {
+               "HEIGHT" : 236.0269434847556,
+               "LATITUDE" : 42.29924933126625,
+               "LONGITUDE" : -83.69899480393035
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_1260059528_0",
+               "HDLM_LANE_GROUP" : "3023262562",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1257914044_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1760245757_0",
+               "HDLM_LANE_GROUP" : "3075759513",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1257914044_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1257914044_1",
+               "HDLM_LANE_GROUP" : "3030762291",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1207957997_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69860322677",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 240.7622998464825,
+               "LATITUDE" : 42.30035318781091,
+               "LONGITUDE" : -83.69781994615055
+            },
+            {
+               "HEIGHT" : 240.7622998464825,
+               "LATITUDE" : 42.30034969077647,
+               "LONGITUDE" : -83.69781962739940
+            },
+            {
+               "HEIGHT" : 241.9245671059662,
+               "LATITUDE" : 42.30034969077647,
+               "LONGITUDE" : -83.69781962739940
+            },
+            {
+               "HEIGHT" : 241.9245671059662,
+               "LATITUDE" : 42.30035318781092,
+               "LONGITUDE" : -83.69781994615055
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_5960010110_0",
+               "HDLM_LANE_GROUP" : "5532549652",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_2355365825_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_3115208248_0",
+               "HDLM_LANE_GROUP" : "373246920",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_2355365825_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69845325237",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 240.8853353899658,
+               "LATITUDE" : 42.30046299692305,
+               "LONGITUDE" : -83.69787963634363
+            },
+            {
+               "HEIGHT" : 240.8853353899658,
+               "LATITUDE" : 42.30046284078640,
+               "LONGITUDE" : -83.69787503278999
+            },
+            {
+               "HEIGHT" : 242.0288347358174,
+               "LATITUDE" : 42.30046284078640,
+               "LONGITUDE" : -83.69787503278999
+            },
+            {
+               "HEIGHT" : 242.0288347358174,
+               "LATITUDE" : 42.30046299692302,
+               "LONGITUDE" : -83.69787963634363
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_3115208248_1",
+               "HDLM_LANE_GROUP" : "373246920",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_2355365825_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_5960010110_0",
+               "HDLM_LANE_GROUP" : "5522549339",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_3115208248_2"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69852820804",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 237.9828149791148,
+               "LATITUDE" : 42.30033346722698,
+               "LONGITUDE" : -83.69881361841028
+            },
+            {
+               "HEIGHT" : 237.9828149791148,
+               "LATITUDE" : 42.30033901135543,
+               "LONGITUDE" : -83.69881459656609
+            },
+            {
+               "HEIGHT" : 239.3575831001894,
+               "LATITUDE" : 42.30033901135541,
+               "LONGITUDE" : -83.69881459656609
+            },
+            {
+               "HEIGHT" : 239.3575831001894,
+               "LATITUDE" : 42.30033346722697,
+               "LONGITUDE" : -83.69881361841028
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_2355365820_1",
+               "HDLM_LANE_GROUP" : "308182167",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1350341523_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_2355365820_1",
+               "HDLM_LANE_GROUP" : "325681782",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_2295079014_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_2355365820_1",
+               "HDLM_LANE_GROUP" : "67285634186",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66215369063_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69855320495",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 235.1636426505847,
+               "LATITUDE" : 42.29927370519634,
+               "LONGITUDE" : -83.69900872639110
+            },
+            {
+               "HEIGHT" : 235.1636426505847,
+               "LATITUDE" : 42.29927220230899,
+               "LONGITUDE" : -83.69900571459738
+            },
+            {
+               "HEIGHT" : 236.2194726558382,
+               "LATITUDE" : 42.29927220230899,
+               "LONGITUDE" : -83.69900571459738
+            },
+            {
+               "HEIGHT" : 236.2194726558382,
+               "LATITUDE" : 42.29927370519634,
+               "LONGITUDE" : -83.69900872639110
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_1257914044_1",
+               "HDLM_LANE_GROUP" : "3030762291",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1207957997_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1760245757_0",
+               "HDLM_LANE_GROUP" : "3075759513",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1257914044_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1260059528_0",
+               "HDLM_LANE_GROUP" : "3023262562",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1257914044_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69845325121",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 238.4131558806658,
+               "LATITUDE" : 42.30046367594525,
+               "LONGITUDE" : -83.69855381012290
+            },
+            {
+               "HEIGHT" : 238.4131558806658,
+               "LATITUDE" : 42.30046305328190,
+               "LONGITUDE" : -83.69854607855176
+            },
+            {
+               "HEIGHT" : 239.7694520387582,
+               "LATITUDE" : 42.30046305328190,
+               "LONGITUDE" : -83.69854607855176
+            },
+            {
+               "HEIGHT" : 239.7694520387582,
+               "LATITUDE" : 42.30046367594526,
+               "LONGITUDE" : -83.69855381012290
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_2295079014_1",
+               "HDLM_LANE_GROUP" : "67205634217",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66215369063_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_2295079014_1",
+               "HDLM_LANE_GROUP" : "360679145",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1350341523_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_2355365820_0",
+               "HDLM_LANE_GROUP" : "325681782",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_2295079014_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69852820802",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 242.0869631248526,
+               "LATITUDE" : 42.30079106665161,
+               "LONGITUDE" : -83.69799250405191
+            },
+            {
+               "HEIGHT" : 242.0869631248526,
+               "LATITUDE" : 42.30079153879875,
+               "LONGITUDE" : -83.69799721801672
+            },
+            {
+               "HEIGHT" : 243.2855417979231,
+               "LATITUDE" : 42.30079153879873,
+               "LONGITUDE" : -83.69799721801672
+            },
+            {
+               "HEIGHT" : 243.2855417979231,
+               "LATITUDE" : 42.30079106665159,
+               "LONGITUDE" : -83.69799250405191
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_5960010105_0",
+               "HDLM_LANE_GROUP" : "69797818956",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_475438731_2"
+            },
+            {
+               "END_PORTAL" : "PORTAL_475438731_2",
+               "HDLM_LANE_GROUP" : "69755317736",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66295503604_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69850320006",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 242.4985800562007,
+               "LATITUDE" : 42.30106966804279,
+               "LONGITUDE" : -83.69790525027999
+            },
+            {
+               "HEIGHT" : 242.4985800562007,
+               "LATITUDE" : 42.30106966500657,
+               "LONGITUDE" : -83.69790046672722
+            },
+            {
+               "HEIGHT" : 243.6727422288259,
+               "LATITUDE" : 42.30106966500656,
+               "LONGITUDE" : -83.69790046672722
+            },
+            {
+               "HEIGHT" : 243.6727422288259,
+               "LATITUDE" : 42.30106966804277,
+               "LONGITUDE" : -83.69790525027999
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_5960010105_2",
+               "HDLM_LANE_GROUP" : "69797818956",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_475438731_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_7065019247_0",
+               "HDLM_LANE_GROUP" : "69730316722",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_5960010105_2"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69860323364",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 242.0434537186972,
+               "LATITUDE" : 42.30079070065612,
+               "LONGITUDE" : -83.69796210172643
+            },
+            {
+               "HEIGHT" : 242.0434537186972,
+               "LATITUDE" : 42.30079073245641,
+               "LONGITUDE" : -83.69796789218651
+            },
+            {
+               "HEIGHT" : 243.2420323917678,
+               "LATITUDE" : 42.30079073245641,
+               "LONGITUDE" : -83.69796789218651
+            },
+            {
+               "HEIGHT" : 243.2420323917678,
+               "LATITUDE" : 42.30079070065614,
+               "LONGITUDE" : -83.69796210172643
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_5960010105_0",
+               "HDLM_LANE_GROUP" : "69797818956",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_475438731_2"
+            },
+            {
+               "END_PORTAL" : "PORTAL_475438731_2",
+               "HDLM_LANE_GROUP" : "69755317736",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66295503604_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69877823483",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 238.2405916055449,
+               "LATITUDE" : 42.30028102729943,
+               "LONGITUDE" : -83.69874201230171
+            },
+            {
+               "HEIGHT" : 238.2405916055449,
+               "LATITUDE" : 42.30028116145517,
+               "LONGITUDE" : -83.69875035022669
+            },
+            {
+               "HEIGHT" : 239.5799959444004,
+               "LATITUDE" : 42.30028116145519,
+               "LONGITUDE" : -83.69875035022669
+            },
+            {
+               "HEIGHT" : 239.5799959444004,
+               "LATITUDE" : 42.30028102729943,
+               "LONGITUDE" : -83.69874201230171
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_1350341523_0",
+               "HDLM_LANE_GROUP" : "67278134178",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66215369063_3"
+            },
+            {
+               "END_PORTAL" : "PORTAL_2295079014_0",
+               "HDLM_LANE_GROUP" : "67205634217",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66215369063_3"
+            },
+            {
+               "END_PORTAL" : "PORTAL_2355365820_0",
+               "HDLM_LANE_GROUP" : "67285634186",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66215369063_3"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69890323624",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 240.5894897323882,
+               "LATITUDE" : 42.30031304987364,
+               "LONGITUDE" : -83.69799647868881
+            },
+            {
+               "HEIGHT" : 240.5894897323882,
+               "LATITUDE" : 42.30031309706355,
+               "LONGITUDE" : -83.69800037683940
+            },
+            {
+               "HEIGHT" : 241.6784423305095,
+               "LATITUDE" : 42.30031309706353,
+               "LONGITUDE" : -83.69800037683940
+            },
+            {
+               "HEIGHT" : 241.6784423305095,
+               "LATITUDE" : 42.30031304987364,
+               "LONGITUDE" : -83.69799647868881
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_5960010110_2",
+               "HDLM_LANE_GROUP" : "5522549339",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_3115208248_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_5960010110_2",
+               "HDLM_LANE_GROUP" : "5532549652",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_2355365825_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69880316055",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 235.3823263697806,
+               "LATITUDE" : 42.29925006206233,
+               "LONGITUDE" : -83.69916020081978
+            },
+            {
+               "HEIGHT" : 235.3823263697806,
+               "LATITUDE" : 42.29925237341038,
+               "LONGITUDE" : -83.69915790602901
+            },
+            {
+               "HEIGHT" : 236.4848967090158,
+               "LATITUDE" : 42.29925237341038,
+               "LONGITUDE" : -83.69915790602901
+            },
+            {
+               "HEIGHT" : 236.4848967090158,
+               "LATITUDE" : 42.29925006206233,
+               "LONGITUDE" : -83.69916020081978
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_1260059528_1",
+               "HDLM_LANE_GROUP" : "3023262562",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1257914044_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1260059528_1",
+               "HDLM_LANE_GROUP" : "3020762796",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1207957997_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1760245757_0",
+               "HDLM_LANE_GROUP" : "3053261811",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1260059528_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69890323508",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 241.5344376180619,
+               "LATITUDE" : 42.30108327793119,
+               "LONGITUDE" : -83.69864044514181
+            },
+            {
+               "HEIGHT" : 241.5344376180619,
+               "LATITUDE" : 42.30108274764115,
+               "LONGITUDE" : -83.69862764728423
+            },
+            {
+               "HEIGHT" : 242.9468648350493,
+               "LATITUDE" : 42.30108274764115,
+               "LONGITUDE" : -83.69862764728423
+            },
+            {
+               "HEIGHT" : 242.9468648350493,
+               "LATITUDE" : 42.30108327793119,
+               "LONGITUDE" : -83.69864044514181
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 2,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_66145580121_1",
+               "HDLM_LANE_GROUP" : "69740319009",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66215369058_3"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66215369058_3",
+               "HDLM_LANE_GROUP" : "69725314135",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66167940504_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66215369058_3",
+               "HDLM_LANE_GROUP" : "69725314135",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66167940504_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66248037188_1",
+               "HDLM_LANE_GROUP" : "69775313927",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66215369058_3"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69895320103",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 242.1527129037488,
+               "LATITUDE" : 42.30100052506634,
+               "LONGITUDE" : -83.69807331474871
+            },
+            {
+               "HEIGHT" : 242.1527129037488,
+               "LATITUDE" : 42.30100367602672,
+               "LONGITUDE" : -83.69807342612799
+            },
+            {
+               "HEIGHT" : 243.2665595841436,
+               "LATITUDE" : 42.30100367602672,
+               "LONGITUDE" : -83.69807342612799
+            },
+            {
+               "HEIGHT" : 243.2665595841436,
+               "LATITUDE" : 42.30100052506632,
+               "LONGITUDE" : -83.69807331474871
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_67200398566_0",
+               "HDLM_LANE_GROUP" : "69767815090",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66295503604_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_5960010105_0",
+               "HDLM_LANE_GROUP" : "69700319373",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_67200398566_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_7065019247_0",
+               "HDLM_LANE_GROUP" : "69790312405",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_67200398566_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_7065019247_1",
+               "HDLM_LANE_GROUP" : "69790312405",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_67200398566_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_475438731_0",
+               "HDLM_LANE_GROUP" : "69750321011",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_67200398566_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69887830536",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 241.7647467716335,
+               "LATITUDE" : 42.30079014193590,
+               "LONGITUDE" : -83.69793659145824
+            },
+            {
+               "HEIGHT" : 241.7647467716335,
+               "LATITUDE" : 42.30079029270665,
+               "LONGITUDE" : -83.69794170400478
+            },
+            {
+               "HEIGHT" : 243.2840378867458,
+               "LATITUDE" : 42.30079029270663,
+               "LONGITUDE" : -83.69794170400478
+            },
+            {
+               "HEIGHT" : 243.2840378867458,
+               "LATITUDE" : 42.30079014193593,
+               "LONGITUDE" : -83.69793659145824
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_7065019247_0",
+               "HDLM_LANE_GROUP" : "69707818951",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_475438731_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_7065019247_1",
+               "HDLM_LANE_GROUP" : "69707818951",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_475438731_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_475438731_2",
+               "HDLM_LANE_GROUP" : "69755317736",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66295503604_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_5960010105_0",
+               "HDLM_LANE_GROUP" : "69797818956",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_475438731_2"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69890324195",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 235.0791292195370,
+               "LATITUDE" : 42.29926253082506,
+               "LONGITUDE" : -83.69910998031617
+            },
+            {
+               "HEIGHT" : 235.0791292195370,
+               "LATITUDE" : 42.29926522159377,
+               "LONGITUDE" : -83.69910726105292
+            },
+            {
+               "HEIGHT" : 236.2225187725593,
+               "LATITUDE" : 42.29926522159379,
+               "LONGITUDE" : -83.69910726105292
+            },
+            {
+               "HEIGHT" : 236.2225187725593,
+               "LATITUDE" : 42.29926253082505,
+               "LONGITUDE" : -83.69910998031617
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_1760245757_0",
+               "HDLM_LANE_GROUP" : "3053261811",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_1260059528_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1260059528_1",
+               "HDLM_LANE_GROUP" : "3020762796",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1207957997_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1260059528_1",
+               "HDLM_LANE_GROUP" : "3023262562",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1257914044_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69892823076",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 240.8131878776080,
+               "LATITUDE" : 42.30046352501315,
+               "LONGITUDE" : -83.69790899226972
+            },
+            {
+               "HEIGHT" : 240.8131878776080,
+               "LATITUDE" : 42.30046344690582,
+               "LONGITUDE" : -83.69790414140488
+            },
+            {
+               "HEIGHT" : 241.9566872234596,
+               "LATITUDE" : 42.30046344690579,
+               "LONGITUDE" : -83.69790414140488
+            },
+            {
+               "HEIGHT" : 241.9566872234596,
+               "LATITUDE" : 42.30046352501317,
+               "LONGITUDE" : -83.69790899226972
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_3115208248_1",
+               "HDLM_LANE_GROUP" : "373246920",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_2355365825_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_5960010110_0",
+               "HDLM_LANE_GROUP" : "5522549339",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_3115208248_2"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69892823192",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 235.6812123532769,
+               "LATITUDE" : 42.29925900431896,
+               "LONGITUDE" : -83.69920424365372
+            },
+            {
+               "HEIGHT" : 235.6812123532769,
+               "LATITUDE" : 42.29926223135953,
+               "LONGITUDE" : -83.69920833301960
+            },
+            {
+               "HEIGHT" : 236.8068191066374,
+               "LATITUDE" : 42.29926223135953,
+               "LONGITUDE" : -83.69920833301960
+            },
+            {
+               "HEIGHT" : 236.8068191066374,
+               "LATITUDE" : 42.29925900431896,
+               "LONGITUDE" : -83.69920424365372
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_1760245757_1",
+               "HDLM_LANE_GROUP" : "3053261811",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1260059528_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1760245757_1",
+               "HDLM_LANE_GROUP" : "3075759513",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1257914044_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_1760245757_1",
+               "HDLM_LANE_GROUP" : "3083264581",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_1207957997_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69897815110",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 242.1730272376377,
+               "LATITUDE" : 42.30085654026506,
+               "LONGITUDE" : -83.69783020768512
+            },
+            {
+               "HEIGHT" : 242.1730272376377,
+               "LATITUDE" : 42.30085247786680,
+               "LONGITUDE" : -83.69782977857609
+            },
+            {
+               "HEIGHT" : 243.4025147890818,
+               "LATITUDE" : 42.30085247786678,
+               "LONGITUDE" : -83.69782977857609
+            },
+            {
+               "HEIGHT" : 243.4025147890818,
+               "LATITUDE" : 42.30085654026506,
+               "LONGITUDE" : -83.69783020768512
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_7065019247_1",
+               "HDLM_LANE_GROUP" : "69740319011",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66248037193_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_7065019247_0",
+               "HDLM_LANE_GROUP" : "69740319011",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_66248037193_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66248037193_0",
+               "HDLM_LANE_GROUP" : "69777816827",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_475438731_0"
+            },
+            {
+               "END_PORTAL" : "PORTAL_66248037193_0",
+               "HDLM_LANE_GROUP" : "69717816037",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66295503604_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_5960010105_0",
+               "HDLM_LANE_GROUP" : "69780316822",
+               "HDLM_LANE_GROUP_INDEX" : 1,
+               "START_PORTAL" : "PORTAL_66248037193_0"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69885321551",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 240.8068196332565,
+               "LATITUDE" : 42.30036928385322,
+               "LONGITUDE" : -83.69782037662738
+            },
+            {
+               "HEIGHT" : 240.8068196332565,
+               "LATITUDE" : 42.30036586454360,
+               "LONGITUDE" : -83.69782017097631
+            },
+            {
+               "HEIGHT" : 241.9410095172114,
+               "LATITUDE" : 42.30036586454360,
+               "LONGITUDE" : -83.69782017097631
+            },
+            {
+               "HEIGHT" : 241.9410095172114,
+               "LATITUDE" : 42.30036928385322,
+               "LONGITUDE" : -83.69782037662738
+            }
+         ],
+         "BULBS" : [
+            {
+               "COLOR" : 1,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 2,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            },
+            {
+               "COLOR" : 4,
+               "DIAMETER" : 0.3048000037670135,
+               "FIGURE" : 0,
+               "INLAY" : 0
+            }
+         ],
+         "CODE" : "",
+         "LANE_ASSOCIATIONS" : [
+            {
+               "END_PORTAL" : "PORTAL_5960010110_0",
+               "HDLM_LANE_GROUP" : "5532549652",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_2355365825_1"
+            },
+            {
+               "END_PORTAL" : "PORTAL_3115208248_0",
+               "HDLM_LANE_GROUP" : "373246920",
+               "HDLM_LANE_GROUP_INDEX" : 2,
+               "START_PORTAL" : "PORTAL_2355365825_1"
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : [],
+         "OPERATING_TIMES" : [],
+         "SOURCE_ID" : "69897815226",
+         "STACKING_DIRECTION" : "STANDARD",
+         "TRAFFIC_LIGHT_TYPE" : 0,
+         "TYPE" : "TRAFFIC_LIGHT"
+      }
+   ]
+}

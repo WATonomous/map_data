@@ -1,0 +1,433 @@
+here_tile_id: 321618295
+link_attribution {
+  link_local_ref: 400106112
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BOTH
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 401795464
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BOTH
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 409011008
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BOTH
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 418015652
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BOTH
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 419924289
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BOTH
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 421695265
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 1
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 425832607
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BOTH
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 426148236
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 3
+    }
+  }
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BACKWARD
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 428209390
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BOTH
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 452652498
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BACKWARD
+    link_parametric_attribution {
+      lanes_through_count: 1
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 452657202
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 453044541
+  parametric_attribution {
+    applies_to_range {
+      range_offset_from_end: 0.70811334500598933
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+  parametric_attribution {
+    applies_to_range {
+      range_offset_from_end: 0.70811334500598933
+    }
+    applies_to_direction: BACKWARD
+    link_parametric_attribution {
+      lanes_through_count: 3
+    }
+  }
+  parametric_attribution {
+    applies_to_range {
+      range_offset_from_start: 0.29188665499401062
+    }
+    applies_to_direction: BOTH
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 454094131
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BOTH
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 455219850
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BOTH
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 460453746
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 461521253
+  parametric_attribution {
+    applies_to_range {
+      range_offset_from_end: 0.14906469327900462
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 1
+    }
+  }
+  parametric_attribution {
+    applies_to_range {
+      range_offset_from_start: 0.85093530672099538
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 3
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 462046836
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BACKWARD
+    link_parametric_attribution {
+      lanes_through_count: 1
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 467288631
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BOTH
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 469546650
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 1
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 469676816
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BACKWARD
+    link_parametric_attribution {
+      lanes_through_count: 1
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 469828509
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 469982688
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BACKWARD
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 470224652
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 470587123
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BOTH
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 478731849
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BACKWARD
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 478745050
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 478750775
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BACKWARD
+    link_parametric_attribution {
+      lanes_through_count: 1
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 478827130
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BACKWARD
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 478842482
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 753955789
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BACKWARD
+    link_parametric_attribution {
+      lanes_through_count: 3
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 753961231
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 3
+    }
+  }
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BACKWARD
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 753964028
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BACKWARD
+    link_parametric_attribution {
+      lanes_through_count: 3
+    }
+  }
+}
+link_attribution {
+  link_local_ref: 753971147
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: FORWARD
+    link_parametric_attribution {
+      lanes_through_count: 3
+    }
+  }
+  parametric_attribution {
+    applies_to_range {
+    }
+    applies_to_direction: BACKWARD
+    link_parametric_attribution {
+      lanes_through_count: 2
+    }
+  }
+}
