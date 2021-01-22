@@ -1,0 +1,94 @@
+// Schema Version: 2.19.0
+syntax = "proto3";
+package com.here.pb.hdmap.external.v1.lanes;
+
+import "com/here/pb/hdmap/external/v1/common/common.proto"; 
+import "com/here/pb/hdmap/external/v1/geometry/geometry.proto";
+
+// Top-level lane topology tile message
+message LaneTopologyLayerTile {
+
+	// HERE Tile ID
+	uint32 here_tile_id = 1;
+	
+	// Tile center point, for geometry offsets
+	sint64 tile_center_here_2d_coordinate = 2;
+	
+	// The set of lane groups starting in this tile, because their start lane group connector lies in this tile
+	repeated LaneGroup lane_groups_starting_in_tile = 3;
+	
+	// The set of lane group connectors in this tile, because their reference (first) point lies in this tile
+	repeated LaneGroupConnector lane_group_connectors_in_tile = 4; 
+	
+	// List of lane groups from other tiles whose geometry intersect this tile
+	repeated com.here.pb.hdmap.external.v1.common.TiledLaneGroupReference intersecting_lane_group_refs = 5;
+}
+
+// A group of lanes running between the same pair of lane group connectors, potentially sharing adjacent lane boundaries.
+// Lane groups are logically oriented from their start to end lane group connectors.
+message LaneGroup {
+
+	// The external reference for a lane group
+	uint64 lane_group_id = 1;
+
+	// The external reference for the start lane group connector for the lane group
+	uint64 start_lane_group_connector_ref = 2;
+
+	// End lane group connector for the lane group, which may be in a different tile
+	com.here.pb.hdmap.external.v1.common.TiledLaneGroupConnectorReference end_lane_group_connector_ref = 3;
+
+	// Ordered list of lanes in this group, spanning between the start and end lane group connectors. 
+	// Lanes are ordered and sequentially numbered within a lane group from left to right in the  
+	// relative to the lane group orientation from start to end connector.
+	repeated Lane lanes = 4;
+
+	// Bounding geometry for the lane group, representing it's 2D spatial extent.  
+	// This is specified by the outermost left and right lane boundaries.  Together with 
+	// the lane group connector bounding_geometry this forms a polygon for the lane group. 
+	LaneGroupReferenceGeometry boundary_geometry = 5;
+
+	message LaneGroupReferenceGeometry { 
+		com.here.pb.hdmap.external.v1.geometry.LineString2dOffset left_boundary = 1;
+		com.here.pb.hdmap.external.v1.geometry.LineString2dOffset right_boundary = 2;
+	}
+
+	// List of all tiles that this lane group intersects, including the current one.
+	// Intersection is defined by the geometry of the group's lane boundaries
+	repeated uint32 intersects_tiles = 6;
+
+	// Length rounded to nearest meter
+	uint32 lane_group_length_meters = 7;
+}
+		
+// A vertex in the lane-group topology model, connecting lane groups through which 
+// lateral traversal is possible.  Contains the set of lane connectors used to associate 
+// the specific lanes of laterally connected lane groups.  
+message LaneGroupConnector {
+
+	// The external reference for a lane group connector
+	uint64 lane_group_connector_id = 1; 
+
+	// Boundary geometry for the lane group connector, which is the line string representing
+	// the start/end boundary of the connected lane groups.  Tile affinity for lane group 
+	// connectors is the start point of this geometry.  Orientation is arbitrary but stable.
+	com.here.pb.hdmap.external.v1.geometry.LineString2dOffset boundary_geometry = 2;
+	
+	// The list of lane groups that connect to this lane group connector.  
+	// They may live in this tile or other tiles.
+	repeated com.here.pb.hdmap.external.v1.common.TiledLaneGroupReference connected_lane_group_refs = 3;
+}
+
+// A path between one lane connector and another within a lane group.
+// Lanes are uniquely identified by their lane number, which is their
+// position in their parent lane group's lane list
+message Lane {
+	// The position of the lane in it's start lane group connector
+	uint32 start_lane_connector_number = 1;
+	
+	// The position of the lane in it's end lane group connector
+	uint32 end_lane_connector_number = 2;
+		
+	// True if this lane starts or ends within its parent lane group
+	bool is_transitioning = 3;
+
+}

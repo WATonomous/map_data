@@ -1,0 +1,8 @@
+{
+    "main": {
+        "message": "com.here.pb.hdmap.external.v1.reference.ExternalReferenceAttributesLayerTile",
+        "source": "com/here/pb/hdmap/external/v1/reference/layer-external-reference-attributes.proto"
+    },
+    "components": [
+    ]
+}

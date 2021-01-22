@@ -1,0 +1,61 @@
+syntax = "proto3";
+
+package com.here.pb.hdmap.external.v1.localization.barrier;
+
+import "com/here/pb/hdmap/external/v1/geometry/geometry.proto";
+import "com/here/pb/hdmap/external/v1/common/common.proto";
+
+// Main message of barrier layer
+message LocalizationBarriersLayerTile {
+    
+    // HERE Tile ID
+    uint32 here_tile_id = 1;
+
+    // Tile center point, for geometry offsets
+    com.here.pb.hdmap.external.v1.geometry.Point3d tile_center_here_3d_coordinate = 2;
+
+    // List of barriers starting in tile
+    repeated Barrier barriers = 3;
+
+    // References to barriers associated with road links starting in this tile
+    repeated RoadToBarriersReference road_to_barriers_references = 4;
+
+    // List of barriers in other tiles whose geometry intersect this tile (excluding barriers in this tile)
+    repeated com.here.pb.hdmap.external.v1.common.TiledBarrierReference intersecting_barrier_refs = 5;
+}
+
+message Barrier {
+
+    // Barrier Identifier
+    uint64 barrier_id = 1;
+
+    // 3D offset polyline representing the barrier's top geometry
+    com.here.pb.hdmap.external.v1.geometry.LineString3dOffset top_geometry = 2;
+
+    // Category of the road barrier such as a wall, fence, curb, etc.
+    BarrierType type = 3;
+    
+    // List of all HERE tiles that this barrier intersects
+    repeated uint32 intersects_tile_refs = 4;
+}
+
+message RoadToBarriersReference {
+
+    // The HDLM Road Link reference
+    uint32 link_ref = 1;
+
+    // List of barriers associated with the road
+    repeated com.here.pb.hdmap.external.v1.common.TiledBarrierReference barrier_refs = 2;
+}
+
+// Enumerated list of barrier types
+enum BarrierType {
+	// BarrierType_UNKNOWN is the default value for a barrier which doesn't have a specified type
+	BarrierType_UNKNOWN = 0;
+	JERSEY_BARRIER = 1;
+	GUARDRAIL = 2;
+	CURB = 3;
+	WALL = 4;
+	FENCE = 5;
+	TUNNEL_WALL = 6;
+}

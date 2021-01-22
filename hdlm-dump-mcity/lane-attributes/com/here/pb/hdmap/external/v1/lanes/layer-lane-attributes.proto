@@ -1,0 +1,163 @@
+// Schema Version: 2.19.0
+syntax = "proto3";
+package com.here.pb.hdmap.external.v1.lanes;
+
+import "com/here/pb/hdmap/external/v1/common/common.proto";
+import "com/here/pb/hdmap/shared/v1/core/common.proto";
+import "com/here/pb/hdmap/shared/v1/lanes/lanes.proto";
+
+// Top-level generic lane model attribution tile message
+message LaneAttributionLayerTile {
+
+	// HERE Tile ID
+	uint32 here_tile_id = 1;
+
+	// Attribution for lane groups starting in this tile
+	repeated LaneGroupAttribution lane_group_attribution = 2;
+}
+
+// Attribution for a lane group
+message LaneGroupAttribution {
+
+	// Unique id for lane group
+	uint64 lane_group_ref = 1;
+
+	// Attributes for lanes in the lane group
+	repeated LaneAttribution lane_attribution = 2;
+
+	// Attributes for lane boundaries
+	repeated LaneBoundaryAttribution lane_boundary_attribution = 3;
+
+	// List of parametric attributes for the lane, associated with a
+	// range of their lane center line geometry
+	repeated ParametricAttribution parametric_attribution = 4;
+
+	// Attributes effective for a range of the lane group
+	message ParametricAttribution {
+
+		// Range of the lane geometry the attributes are effective for.
+		// Null indicates effective for entire range.
+		com.here.pb.hdmap.external.v1.common.ParametricRange applies_to_range = 1;
+
+		// Reused attribution groups
+		repeated uint32 attribution_group_indexes = 2;
+
+		// Attribute values for the range
+		repeated LaneGroupParametricAttribution lane_group_parametric_attribution = 3;
+	}
+}
+
+// Attributes for a lane
+message LaneAttribution {
+
+	// The lane number for this attribution, from the topology layer
+	uint32 lane_number = 1;
+
+	// List of parametric attributes for the lane, associated with a
+	// range of their lane center line geometry
+	repeated ParametricAttribution parametric_attribution = 2;
+
+	// Lane attributes effective for a range of the lane
+	message ParametricAttribution {
+
+		// Range of the lane geometry the attributes are effective for.
+		// Null indicates effective for entire range.
+		com.here.pb.hdmap.external.v1.common.ParametricRange applies_to_range = 1;
+
+		// Reused attribution groups
+		repeated uint32 attribution_group_indexes = 2;
+
+		// Attribute values for the range
+		repeated LaneParametricAttribution lane_parametric_attribution = 3;
+	}
+}
+
+// Attributes for a lane boundary
+message LaneBoundaryAttribution {
+
+	// The lane boundary number for this attribution
+	uint32 lane_boundary_number = 1;
+
+	// List of parametric attributes for the lane boundary, associated with a
+	// range of their lane center line boundary geometry
+	repeated ParametricAttribution parametric_attribution = 2;
+
+	// Lane boundary attributes effective for a range of the lane boundary
+	message ParametricAttribution {
+
+		// Range of the lane boundary geometry the attributes are effective for.
+		// Null indicates effective for entire range.
+		com.here.pb.hdmap.external.v1.common.ParametricRange applies_to_range = 1;
+
+		// Reused attribution groups
+		repeated uint32 attribution_group_indexes = 2 [packed=true];
+
+		// Attribute values for the range
+		repeated LaneBoundaryParametricAttribution lane_boundary_parametric_attribution = 3;
+	}
+}
+
+// Attributes associated with a range on a lane group as measured along its reference_geometry
+message LaneGroupParametricAttribution {
+
+	oneof attribute {
+		com.here.pb.hdmap.external.v1.common.SpecificationComplianceAssertion specification_compliance = 1;
+	}
+}
+
+// Attributes associated with a range on a lane as measures along its lane_path_geometry
+message LaneParametricAttribution {
+
+	oneof attribute {
+		// Relative to the direction of geometry from start to end
+		com.here.pb.hdmap.external.v1.common.RelativeDirection direction_of_travel = 1;
+		
+		// Lane Type
+		com.here.pb.hdmap.shared.v1.lanes.LaneType lane_type = 2;
+		
+		// Lane Transition Type
+		com.here.pb.hdmap.shared.v1.lanes.LaneTransitionType lane_transition_type = 3;
+		
+		// Describes the lane width properties
+		LaneWidthProfile lane_width_profile = 4;
+
+		// This value will only be set where the lane speed limit is different to the associated road speed limit
+		com.here.pb.hdmap.shared.v1.core.SpeedLimit speed_limit_override = 5;
+		
+		// The subset of road users that are permitted to drive in the direction of travel
+		com.here.pb.hdmap.shared.v1.core.RoadUsers accessible_by = 6;
+	}
+}
+
+// Attributes associated with a range on a lane boundary as measured along its lane_boundary_geometry
+message LaneBoundaryParametricAttribution {
+
+	oneof attribute {
+		com.here.pb.hdmap.shared.v1.lanes.LaneBoundaryMarking lane_boundary_marking = 1;
+
+		// Reference to another lane group adjacent to the subject lane boundary
+		com.here.pb.hdmap.external.v1.common.TiledLaneGroupReference adjacent_lane_group_ref = 2;
+
+		// Road boundary type attribution that is referenced to a lane boundary
+		RoadBoundaryType road_boundary_type = 3;
+	}
+
+}
+
+// Describes the lane width properties
+message LaneWidthProfile {
+	// Minimum lane width in centimeters
+	uint32 min_width_cm = 1;
+	// Maximum lane width in centimeters
+	uint32 max_width_cm = 2;
+	// Parametric location on lane path of minimum lane width, relative to the attribution range
+	com.here.pb.hdmap.external.v1.common.ParametricLocation profile_relative_min_location = 3;
+	// Parametric location on lane path of maximum lane width, relative to the attribution range
+	com.here.pb.hdmap.external.v1.common.ParametricLocation profile_relative_max_location = 4;
+}
+
+// Enumeration for road boundary type
+enum RoadBoundaryType {
+	ROAD_BOUNDARY_TYPE_UNKNOWN = 0;
+	GORE = 1;
+}

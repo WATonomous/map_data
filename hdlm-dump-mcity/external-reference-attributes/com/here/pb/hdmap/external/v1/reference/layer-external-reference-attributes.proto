@@ -1,0 +1,116 @@
+// Schema Version: 2.19.0
+syntax = "proto3";
+package com.here.pb.hdmap.external.v1.reference;
+
+import "com/here/pb/hdmap/external/v1/common/common.proto";
+import "com/here/pb/hdmap/shared/v1/core/unconditional_attributes.proto";
+
+// References to external topology systems.
+// Currently covering the HERE Core Map.
+
+// Coverage is defined as attributions for:
+// - Links starting in this tile
+// - Nodes lying in the tile
+message ExternalReferenceAttributesLayerTile {
+
+	// HERE Tile ID
+	uint32 here_tile_id = 1;
+
+	// Attributes for links starting in this tile
+    repeated LinkAttribution link_attribution = 2;
+
+    // Attributes for nodes in this tile
+    repeated NodeAttribution node_attribution = 3;
+}
+
+
+// Attribution for a link
+message LinkAttribution {
+
+	uint32 link_local_ref = 1;
+
+	// List of parametric attributes for the link
+	repeated ParametricAttribution parametric_attribution = 2;
+
+	// Link attributes effective for a range of the link
+	message ParametricAttribution {
+
+		// Range of the link geometry the attributes are effective for.  Leave off for whole range
+		com.here.pb.hdmap.external.v1.common.ParametricRange applies_to_range = 1;
+
+		// The DOT the attribution applies to
+		com.here.pb.hdmap.external.v1.common.RelativeDirection applies_to_direction = 2;
+
+		// Reused attribution groups
+		repeated uint32 attribution_group_indexes = 3 [packed=true];
+
+		// Attribute values for the range
+		repeated ReferenceLinkParametricAttribution link_parametric_attribution = 4;
+
+	}
+
+	// List of point attributes for the link
+	repeated PointAttribution point_attribution = 3;
+
+	// Link attributes effective for a range of the link
+	message PointAttribution {
+
+		// extent along link geometry at which the attribute is located
+		double applies_to_location = 1;
+
+		// The DOT the attribution applies to
+		com.here.pb.hdmap.external.v1.common.RelativeDirection applies_to_direction = 2;
+
+		// Attribution group references
+		repeated uint32 attribution_group_indexes = 3 [packed=true];
+
+		// Attribute values for the point
+		repeated ReferenceLinkPointAttribution link_point_attribution = 4;
+
+	}
+
+}
+
+// Attributes applying to nodes, i.e. intersections
+message NodeAttribution {
+
+	// The node these attributes apply to
+	uint32 node_id = 1;
+
+	// List of intersection traversals
+	repeated IntersectionTraversalAttribution intersection_traversal_attribution = 2;
+
+	message IntersectionTraversalAttribution {
+
+		// Layer specific attribution
+		repeated ReferenceNodeAttribution node_attribution = 1;
+
+	}
+}
+
+// Attributes associated with range on a link
+message ReferenceLinkParametricAttribution {
+    oneof attribute {
+    	// The range of a Core Map link on the HD Map link
+    	com.here.pb.hdmap.shared.v1.core.CoreMapReference core_map_link_pvid = 1;
+
+		// The range of a Core Map topology segment pvid on the HD Map link
+		com.here.pb.hdmap.shared.v1.core.CoreMapReference core_map_topology_segment_pvid = 2;
+	}
+}
+
+// Attributes associated with point on a link
+message ReferenceLinkPointAttribution {
+	oneof attribute {
+		// The location of a Core Map nodes on a HD Map link
+    	com.here.pb.hdmap.shared.v1.core.CoreMapReference core_map_node_pvid = 1;
+    }
+}
+
+// Attributes associated with point on a link
+message ReferenceNodeAttribution {
+	oneof attribute {
+		// Core Map non-bivalent nodes that are mapped to HD Map nodes
+    	com.here.pb.hdmap.shared.v1.core.CoreMapReference core_map_node_pvid = 1;
+    }
+}
