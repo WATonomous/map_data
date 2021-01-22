@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package com.here.pb.hdmap.external.v1.localization.structure;
+
+import "com/here/pb/hdmap/external/v1/common/common.proto";
+import "com/here/pb/hdmap/external/v1/geometry/geometry.proto";
+
+// Main message of landmark-OverheadStructureFace layer
+message LocalizationOverheadLayerTile {
+    // HERE Tile ID
+    uint32 here_tile_id = 1;
+
+    // Tile center point, for geometry offsets
+    com.here.pb.hdmap.external.v1.geometry.Point3d tile_center_here_3d_coordinate = 2;
+
+    // OverheadStructureFaces affinity to a HERE Tile first point of lower boundary
+    repeated OverheadStructureFace overhead_structure_faces = 3;
+
+    // List of Road Links that start in this tile and the OverheadStructureFaces that reference them
+    repeated RoadToOverheadStructureFacesReference road_to_overhead_structure_faces_references = 4;
+}
+
+// A OverheadStructureFace that can be used for localization
+message OverheadStructureFace {
+
+    // Unique ID for the OverheadStructureFace
+    uint64 id = 1;
+
+    com.here.pb.hdmap.external.v1.geometry.VerticalSurface vertical_surface = 2;
+}
+
+// Road Links that start in this tile with references to OverheadStructureFaces associated with it
+message RoadToOverheadStructureFacesReference {
+
+    // The HDLM Road Link reference
+    uint32 link_ref = 1;
+
+    // OverheadStructureFace reference associated with road link
+    repeated com.here.pb.hdmap.external.v1.common.TiledOverheadStructureFaceReference overhead_structure_face_refs = 2;
+}

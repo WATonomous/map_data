@@ -1,0 +1,76 @@
+// Schema Version: 2.19.0
+syntax = "proto3";
+package com.here.pb.hdmap.external.v1.lanes;
+
+import "com/here/pb/hdmap/external/v1/common/common.proto";
+
+// Layer contains cross-references between the lane and road topology and geometry 
+message LaneRoadReferenceLayerTile {
+
+	// HERE Tile ID
+	uint32 here_tile_id = 1;
+
+	// Road references for lane groups starting in this tile
+	repeated LaneGroupLinkReferences lane_group_link_references = 2;
+	
+	// Lane group references for links starting in this tile
+    repeated LinkLaneGroupReferences link_lane_group_references = 3;
+    
+}
+
+// The set of parametric link references for a lane group.
+// Lane group ranges parameterized against the lane group reference geometry.
+// Link ranges are parameterized against the link geometry.
+message LaneGroupLinkReferences {
+
+	// Lane group identifier
+	uint64 lane_group_ref = 1;
+
+	// Set of link ranges the apply to ranges of this lane group	
+	repeated ParametricLinkReference link_references = 2;
+}
+
+// The set of parametric lane group references for a link.
+// Lane group ranges parameterized against the lane group reference geometry.
+// Link ranges are parameterized against the link geometry.
+message LinkLaneGroupReferences {
+
+	// Link identifier 
+	uint32 link_local_ref = 1;
+
+	// Set of lane group ranges the apply to ranges of this link	
+	repeated ParametricLaneGroupReference lane_group_references = 2;
+	
+}
+
+// Bi-parameterized lane group to link topology reference 
+message ParametricLinkReference {
+
+	// The range on the source topology this reference applies to 
+	com.here.pb.hdmap.external.v1.common.ParametricRange applies_to_lane_group_range = 1;
+
+	// The destination topology item referenced from the source range
+	com.here.pb.hdmap.external.v1.common.TiledLinkReference link_ref = 2;
+	
+	// The range on the destination topology referenced from the source range 
+	com.here.pb.hdmap.external.v1.common.ParametricRange applies_to_link_range = 3;
+
+	// True if the source lane group has the same orientation as the destination link
+	bool has_same_orientation = 4;
+}
+
+// Bi-parameterized lane group to link topology reference 
+message ParametricLaneGroupReference {
+
+	// The range on the source topology this reference applies to 
+	com.here.pb.hdmap.external.v1.common.ParametricRange applies_to_link_range = 1;
+
+	// The destination topology item referenced from the source range
+	com.here.pb.hdmap.external.v1.common.TiledLaneGroupReference lane_group_ref = 2;
+	
+	// The range on the destination topology referenced from the source range 
+	com.here.pb.hdmap.external.v1.common.ParametricRange applies_to_lane_group_range = 3;
+
+	// True if the source link has the same orientation as the destination lane group 
+	bool has_same_orientation = 4;
+}

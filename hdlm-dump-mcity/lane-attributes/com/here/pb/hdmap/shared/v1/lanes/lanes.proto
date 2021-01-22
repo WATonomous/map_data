@@ -1,0 +1,135 @@
+syntax = "proto3";
+
+package com.here.pb.hdmap.shared.v1.lanes;
+
+import "com/here/pb/hdmap/platform/v1/common/common.proto";
+
+enum LaneType {
+    LANE_TYPE_UNKNOWN = 0;		// A lane type not supported in this version of the schema
+    REGULAR = 1; 				// Not designated as any other lane type
+    HIGH_OCCUPANCY_VEHICLE = 2;	// Reserved for HOV traffic, at some times or all times
+    DRIVABLE_SHOULDER = 3;		// Designated as a Shoulder at certain times but usable as a traffic lane at other times
+    BICYCLE = 4; 				// Typically only allows bicycle travel as indicated by lane markings, signs, buffers, or barriers
+    PARKING = 5;				// Parallel to driving lanes and is solely used for parking
+    REVERSIBLE = 6;             // A lane where the lanes direction of travel changes during specific times to manage traffic flow
+    EXPRESS = 7;                // A dedicated lane used for faster moving traffic and with fewer entrances and exits
+    ACCELERATION = 8;           // A dedicated or designated lane that allows a vehicle to increase its speed to a point where it can safely merge with traffic
+    DECELERATION = 9;           // A dedicated or designated lane that allows a vehicle to decrease its speed to where it can safely stop or turn and not affect ongoing traffic
+    AUXILIARY = 10;             // A dedicated or designated lane that is used as both an acceleration and deceleration lane between multiple entrance and exit ramps
+    SLOW = 11;                  // A lane that is provided/designated on long and/or steep uphill stretches of high-speed roads to enhance the ability of vehicles that can maintain speed up the incline to pass those vehicles (typically heavy trucks) that cannot
+    PASSING = 12;               // A lane added to bidirectional roads where passing needs to be regulated for safety
+    REGULATED_ACCESS = 13;      // A lane used to regulate traffic using time intervals
+    TURN = 14;                  // A dedicated lane that allows vehicles to slow down in a direction dependent lane and make a turn without disrupting traffic flow
+    CENTRE_TURN = 15;           // A lane in the centre of a bi-directional road that allows vehicles to slow down and/or wait to make turns across oncoming lanes of traffic. Centre Turn Lanes allow traffic to make turns from either direction of travel without disrupting traffic flow
+    TRUCK_PARKING  = 16;        // A lane provided for truck parking
+    SHOULDER = 17;              // A shoulder lane is designated as a part-time driving lane.
+    VARIABLE_DRIVING = 18;      // lanes added to a road that open and close to accommodate traffic flow using variable indicators/electronic controls, but marked differently from Drivable Shoulders
+    DRIVABLE_PARKING = 19;      // A lane that exists on the roadbed, parallel to the driving lanes, and is typically used for parking; however, it may allow vehicles to use it as a driving lane at times
+    OTHER = 20;					// A lane that is not classifiable with any of the above lane types
+}
+
+// Describes the lane boundary marking properties
+message LaneBoundaryMarking {
+
+    // The elements comprising this boundary, ordered left to right with respect to the lane boundary
+    // orientation, which matches the boundary's parent lane group orientation
+    repeated LaneBoundaryMarkingElement elements = 1;
+
+    // An individual element in the Lane Boundary Marking (LBM)
+    message LaneBoundaryMarkingElement {
+
+        // element position from left to right relative to the boundary direction, numbered from 1
+        uint32 element_number = 1;
+
+        LaneBoundaryMarkingStyle style = 2;
+        LaneBoundaryMarkingColor color = 3;
+        LaneBoundaryMarkingMaterial material = 4;
+        reserved 5;
+        LaneBoundaryMarkingWidth width = 6;
+
+        // Style of LBM element
+        enum LaneBoundaryMarkingStyle {
+            LANE_BOUNDARY_MARKING_STYLE_UNKNOWN = 0;
+            SOLID = 1;
+            DASHED = 2;
+            ALTERNATE_DASHED = 3;
+        }
+
+        // Color of the LBM element
+        enum LaneBoundaryMarkingColor {
+            LANE_BOUNDARY_MARKING_COLOR_UNKNOWN = 0;
+            WHITE = 1;
+            YELLOW = 2;
+            ORANGE = 3;
+            RED = 4;
+        }
+
+        // Material of the LBM element
+        enum LaneBoundaryMarkingMaterial {
+            LANE_BOUNDARY_MARKING_MATERIAL_UNKNOWN = 0;
+            PAINT = 1;
+            BOTTS_DOTS = 2;
+        }
+
+        // Width in CM of the LBM element
+        message LaneBoundaryMarkingWidth {
+            uint32 element_width_cm = 1;
+        }
+
+    }
+
+}
+
+// Enumeration for lane transition type
+enum LaneTransitionType {
+    LANE_TRANSTITION_TYPE_UNKNOWN = 0;     // an unknown transition type
+    SPLIT = 1;
+    MERGE = 2;
+}
+
+// Describes the lane width properties
+message LaneWidthProfile {
+	uint32 start_width_cm = 1;
+	uint32 end_width_cm = 2;
+	uint32 min_width_cm = 3;
+	uint32 max_width_cm = 4;
+    com.here.pb.hdmap.platform.v1.common.ParametricLocation profile_relative_min_location = 5;
+	com.here.pb.hdmap.platform.v1.common.ParametricLocation profile_relative_max_location = 6;
+}
+
+// Road boundary type attribution that is referenced to a lane boundary
+message RoadBoundaryType {
+
+    // The type of road boundary
+    RoadBoundaryTypeValue type = 1;
+
+    // Additional information used during derivation process
+    RoadBoundaryDerivationDetails derivation_details = 2;
+
+    // Enumeration for road boundary type
+    enum RoadBoundaryTypeValue {
+        ROAD_BOUNDARY_TYPE_UNKNOWN = 0;
+        GORE = 1;
+    }
+
+}
+
+// Reference to another lane group adjacent to the subject lane boundary
+message AdjacentLaneGroup {
+    com.here.pb.hdmap.platform.v1.common.TiledFeatureReference lane_group_ref = 1;
+}
+
+
+// Additional details used for road boundary attribution derivation
+message RoadBoundaryDerivationDetails {
+    oneof attribute {
+        GoreDerivationDetails gore_derivation_details = 1;
+    }
+}
+
+message GoreDerivationDetails {
+    // Reference to adjacent lane group
+    com.here.pb.hdmap.platform.v1.common.TiledFeatureReference adjacent_lane_group_ref = 1;
+}
+
+

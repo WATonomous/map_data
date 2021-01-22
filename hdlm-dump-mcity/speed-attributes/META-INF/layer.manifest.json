@@ -1,0 +1,8 @@
+{
+    "main": {
+        "message": "com.here.pb.hdmap.external.v1.speed.SpeedAttributesLayerTile",
+        "source": "com/here/pb/hdmap/external/v1/speed/layer-speed-attributes.proto"
+    },
+    "components": [
+    ]
+}

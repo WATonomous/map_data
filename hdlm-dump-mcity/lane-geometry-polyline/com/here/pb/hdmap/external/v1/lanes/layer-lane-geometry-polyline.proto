@@ -1,0 +1,60 @@
+// Schema Version: 2.19.0
+syntax = "proto3";
+package com.here.pb.hdmap.external.v1.lanes;
+
+import "com/here/pb/hdmap/external/v1/geometry/geometry.proto";
+
+// Top-level lane geometry tile message
+message LaneGeometryPolylineLayerTile {
+
+	// HERE Tile ID
+	uint32 here_tile_id = 1;
+	
+	// Tile center point, for geometry offsets
+	com.here.pb.hdmap.external.v1.geometry.Point3d tile_center_here_3d_coordinate = 2;
+	
+	// The set of lane groups starting in this tile, because their start lane group connector lies in this tile
+	repeated LaneGroupGeometry lane_group_geometries = 3;
+
+}
+
+// The geometries for a lane group, comprising the individual lane boundaries and 
+// a reference geometry for the lane group itself.
+message LaneGroupGeometry {
+
+	// Reference to lane group in this tile in topology layer 
+	uint64 lane_group_ref = 1;
+
+	// Reference geometry for the lane group, representing a generalized path, 
+	// useful for map matching, generalized curvature and slope
+	com.here.pb.hdmap.external.v1.geometry.LineString3dOffset reference_geometry = 2;
+
+	// Ordered list of geometries for lanes in this group.  
+	// Positions here match lane position in lane group
+	repeated LaneGeometry lane_geometries = 3;
+	
+	// Ordered list of lane boundaries used by the lanes in this group.
+	repeated LaneBoundaryGeometry lane_boundary_geometries = 4;
+	
+}
+
+// Centerline and boundary geometry references for a lane in a lane group
+message LaneGeometry {
+	
+	// Lane path geometry, oriented in the direction as the parent lane group 
+	com.here.pb.hdmap.external.v1.geometry.LineString3dOffset lane_path_geometry = 1;
+	
+	// References the left-side lane boundary geometry from the parent lane group,
+	// relative to the parent lane group orientation
+	uint32 left_lane_boundary_number = 2;
+
+	// References the right-side lane boundary geometry from the parent lane group,
+	// relative to the parent lane group orientation	
+	uint32 right_lane_boundary_number = 3;
+}
+
+// A sharable boundary geometry for lanes in a lane group.  
+// Oriented in the same direction as the lane group.
+message LaneBoundaryGeometry {
+	com.here.pb.hdmap.external.v1.geometry.LineString3dOffset geometry = 1;
+}

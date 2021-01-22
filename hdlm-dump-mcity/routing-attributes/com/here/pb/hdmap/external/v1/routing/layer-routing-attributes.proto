@@ -1,0 +1,330 @@
+// Schema Version: 2.19.0
+syntax = "proto3";
+package com.here.pb.hdmap.external.v1.routing;
+
+import "com/here/pb/hdmap/external/v1/common/common.proto";
+import "com/here/pb/hdmap/shared/v1/core/common.proto";
+import "com/here/pb/hdmap/shared/v1/core/conditional_attributes.proto";
+import "com/here/pb/hdmap/shared/v1/core/unconditional_attributes.proto";
+// Core navigation attribution
+
+// Coverage is defined as attributions for:
+// - Links starting in this tile
+// - Nodes lying in the tile
+// - Link strands whose first link starts in this tile
+message RoutingAttributesLayerTile {
+
+	// HERE Tile ID
+	uint32 here_tile_id = 1;
+
+	// list of attributes for links in this tile
+    repeated LinkAttribution link_attribution = 2;
+
+	// list of attributes for links in this tile
+    repeated NodeAttribution node_attribution = 3;
+
+	// list of attributes for link strands in this tile
+    repeated StrandAttribution strand_attribution = 4;
+
+	// attribution groups for value reuse
+	repeated RoutingAttributionGroup attribution_group_list = 5;
+
+}
+
+
+// Attribution for a link
+message LinkAttribution {
+
+	uint32 link_local_ref = 1;
+
+	// List of parametric attributes for the link
+	repeated ParametricAttribution parametric_attribution = 2;
+
+	// Link attributes effective for a range of the link
+	message ParametricAttribution {
+
+		// Range of the link geometry the attributes are effective for.  Leave off for whole range
+		com.here.pb.hdmap.external.v1.common.ParametricRange applies_to_range = 1;
+
+		// The DOT the attribution applies to
+		com.here.pb.hdmap.external.v1.common.RelativeDirection applies_to_direction = 2;
+
+		// Reused attribution groups
+		repeated uint32 attribution_group_indexes = 3 [packed=true];
+
+		// Attribute values for the range
+		repeated RoutingLinkParametricAttribution link_parametric_attribution = 4;
+
+	}
+
+	// List of point attributes for the link
+	repeated PointAttribution point_attribution = 3;
+
+	// Link attributes effective for a range of the link
+	message PointAttribution {
+
+		// extent along link geometry at which the attribute is located
+		double applies_to_location = 1;
+
+		// The DOT the attribution applies to
+		com.here.pb.hdmap.external.v1.common.RelativeDirection applies_to_direction = 2;
+
+		// Attribution group references
+		repeated uint32 attribution_group_indexes = 3 [packed=true];
+
+		// Attribute values for the point
+		repeated RoutingLinkPointAttribution link_point_attribution = 4;
+
+	}
+
+	// List of all the strand attributes this link is a member of.  Parallel arrays.
+	// (including the strands in this tile for completeness)
+	repeated com.here.pb.hdmap.external.v1.common.TiledStrandAttributionReference strand_attribution_refs = 4;
+
+}
+
+// Attributes applying to nodes, i.e. intersections
+message NodeAttribution {
+
+	// The node these attributes apply to
+	uint32 node_id = 1;
+
+	// List of intersection traversals
+	repeated IntersectionTraversalAttribution intersection_traversal_attribution = 2;
+
+	message IntersectionTraversalAttribution {
+
+		// Incoming link for the traversal.  If not populated, applied to all entries to the intersection
+		repeated com.here.pb.hdmap.external.v1.common.TiledLinkReference from_link_refs = 1;
+
+		// Outgoing link for the traversal.  If not populated, applied to all exits from the intersection
+		repeated com.here.pb.hdmap.external.v1.common.TiledLinkReference to_link_refs = 2;
+
+		// Attribute group references
+		repeated uint32 attribution_group_indexes = 3 [packed=true];
+
+		// Layer specific attribution
+		repeated RoutingNodeAttribution node_attribution = 4;
+
+	}
+}
+
+// An extent covering sections of an ordered list of links.
+// LinkStrand are located in the home tile of their first link
+message StrandAttribution {
+
+	// Link Strand Attribution identifier
+	com.here.pb.hdmap.external.v1.common.StrandAttributionLocalReference strand_attribution_id = 1;
+
+	// The first link in the strand, which is always local to the tile
+	uint32 first_link_id = 2;
+
+	// Range of the first link in the strand
+	com.here.pb.hdmap.external.v1.common.ParametricLocation first_link_start = 3;
+
+	// Direction of the first link in the strand
+	com.here.pb.hdmap.external.v1.common.RelativeDirection first_link_orientation_in_strand = 4;
+
+	// The remaining links in this strand from start to end.
+	repeated OrientedTiledLinkReference additional_link_refs = 5;
+
+	message OrientedTiledLinkReference {
+		com.here.pb.hdmap.external.v1.common.TiledLinkReference additional_link_refs = 1;
+		com.here.pb.hdmap.external.v1.common.RelativeDirection link_orientation_in_strand = 2;
+	}
+
+	// Range of the last link in the strand
+	com.here.pb.hdmap.external.v1.common.ParametricLocation last_link_end = 6;
+
+	// Attribute group references
+	repeated uint32 attribution_group_indexes = 7 [packed=true];
+
+	// Attribute values for the strand
+	repeated RoutingStrandAttribution strand_attribution = 8;
+}
+
+
+// Common attribution values
+message RoutingAttributionGroup {
+	reserved 1;
+}
+
+// Attributes associated with range on a link
+message RoutingLinkParametricAttribution {
+
+    oneof attribute {
+
+		// Keeping 1 aside for now.
+
+		com.here.pb.hdmap.shared.v1.core.RoadUsers accessible_by = 2;
+		com.here.pb.hdmap.shared.v1.core.FunctionalClass functional_class = 3;
+
+		// Identifies ranges that are digitised representing lanes of traffic as separate pieces of geometry.
+		bool is_multiply_digitized = 4;
+
+		// Identifies a structure that allows a road, railway, or walkway to pass over another road, railway, waterway, or valley.
+		bool is_bridge = 5;
+
+		// Identifies an enclosed (on all sides) passageway through or under an obstruction
+		bool is_tunnel = 6;
+
+		// Identified ranges with limited entrances and exits that allow uninterrupted high speed traffic flow
+		bool is_controlled_access = 7;
+
+		// Indicates separately digitised, high speed roads where traffic is controlled via ramps.
+		bool is_limited_access = 8;
+
+		// Defines the developed area of a location
+		bool is_urban = 9;
+
+		// defines road stretches that have signs indicating priority on the road
+		bool is_priority_road = 10;
+
+		// Indicates a road that connects roads that do not intersect at grade
+		bool is_ramp = 11;
+
+		com.here.pb.hdmap.shared.v1.core.BuiltUpAreaRoad built_up_area_road = 12;
+		com.here.pb.hdmap.shared.v1.core.ComplexIntersection complex_intersection = 13;
+		com.here.pb.hdmap.shared.v1.core.TrafficMessageChannelCode rds_tmc_code = 14;
+		com.here.pb.hdmap.shared.v1.core.ConditionalUsageFeeRequired conditional_usage_fee_required = 15;
+
+		// end of common attributes
+		com.here.pb.hdmap.shared.v1.core.ConditionalOvertakingRestriction conditional_overtaking_restriction = 16;
+		com.here.pb.hdmap.shared.v1.core.ConditionalAccessRestriction conditional_access_restriction = 17;
+		com.here.pb.hdmap.shared.v1.core.ConditionalAccessPermission conditional_access_permission = 18;
+		com.here.pb.hdmap.shared.v1.core.RoadDivider road_divider = 19;
+		// Indicates the administrative area relationship associated with the range
+		AdministrativeAreaRelationship administrative_area_relationship = 20;
+		com.here.pb.hdmap.shared.v1.core.RoadIdentifiers road_identifiers = 21;
+
+		// Indicates a road that is within a motorway interchange
+		bool is_within_interchange = 22;
+
+		// Indicates a range on the road which is below some permanent object, which obscures visibility of the sky
+		bool is_obstructed_overhead = 23;
+
+		// Indicates a range on the road which is a POI Access Road
+		bool is_poi_access_road = 24;
+
+		// Indicates a drivable and movable bridge which is able to open and close
+		bool is_movable_bridge = 25;
+
+		// Represents the presence of a physical barrier of type GUARDRAIL or JERSEY_BARRIER
+		InfrastructureSeparation infrastructure_separation = 26;
+
+		// Indicates the presence of a median between the two carriageways of a multiply digitized road.
+		MedianSeparation median_separation = 27;
+
+		// Indicates this range of the road link has stacked roads that would affect map matching accuracy
+		bool is_stacked_road_present = 28;
+
+		// Indicates the superelevation value (side-to-side tilt).
+		Superelevation superelevation = 29;
+	}
+}
+
+// Attributes associated with point on a link
+message RoutingLinkPointAttribution {
+	oneof attribute {
+
+		// Indicates that continuation along the link in the direction of the point is restricted
+		com.here.pb.hdmap.shared.v1.core.ConditionalRestrictedDrivingManoeuvre conditional_restricted_driving_manoeuvre = 1;
+
+		// Indicates that a U-turn is not allowed on bidirectional road in areas where administrative wide u-turn restrictions do not exist.
+		com.here.pb.hdmap.shared.v1.core.ConditionalRestrictedDrivingManoeuvre conditional_uturn_restricted_driving_manoeuvre = 2;
+
+		// Indicates that a U-turn is allowed on a bidirectional road in areas where administrative wide u-turn restrictions exist.
+		com.here.pb.hdmap.shared.v1.core.ConditionalPermittedDrivingManoeuvre conditional_uturn_permitted_driving_manoeuvre = 3;
+
+		// Indicates presence of conditional toll structure
+		com.here.pb.hdmap.shared.v1.core.ConditionalTollStructure conditional_toll_structure = 4;
+
+		// Indicates the location of a vehicle checkpoint
+		com.here.pb.hdmap.shared.v1.core.VehicleCheckpoint vehicle_checkpoint = 5;
+
+		// Indicates the location of a traffic signal. The orientation of the attribute indicates the direction of travel controlled by the traffic signal
+		com.here.pb.hdmap.shared.v1.core.TrafficSignal traffic_signal = 6;
+	}
+}
+
+// Attributes associated with point on a link
+message RoutingNodeAttribution {
+	oneof attribute {
+
+    	// 	Indicates the specific traversal through the intersection is restricted under certain conditions
+		com.here.pb.hdmap.shared.v1.core.ConditionalRestrictedDrivingManoeuvre conditional_restricted_driving_manoeuvre = 1;
+
+    }
+}
+
+// Attributes associated with point on a link
+message RoutingStrandAttribution {
+
+	oneof type {
+		com.here.pb.hdmap.shared.v1.core.ConditionalRestrictedDrivingManoeuvre conditional_restricted_driving_manoeuvre = 1;
+		com.here.pb.hdmap.shared.v1.core.ConditionalPermittedDrivingManoeuvre conditional_permitted_driving_manoeuvre = 2;
+	}
+}
+
+// Indicates the type of Administrative Area reference defined for a link parametric range
+message AdministrativeAreaRelationship {
+    oneof relation {
+        DefinesAdministrativeAreaBoundary administrative_area_boundary = 1;
+        WithinAdministrativeArea within_administrative_area = 2;
+    }
+}
+
+// If the link parametric range is a boundary, get left and right administrative area information
+message DefinesAdministrativeAreaBoundary {
+
+    // Reference to the administrative area lying on the left side of this link parametric range relative to the logical direction of the link
+    com.here.pb.hdmap.external.v1.common.PartitionedAdministrativeAreaReference left_administrative_area_ref = 1;
+
+    // Reference to the administrative area lying on the right side of this link parametric range relative to the logical direction of the link
+    com.here.pb.hdmap.external.v1.common.PartitionedAdministrativeAreaReference right_administrative_area_ref = 2;
+}
+
+// If the parametric range is wholly contained in an administrative area, get the single administrative area information
+message WithinAdministrativeArea {
+    com.here.pb.hdmap.external.v1.common.PartitionedAdministrativeAreaReference administrative_area_ref = 1;
+}
+
+// InfrastructureSeparation is a parametric road attribute derived from localization barriers
+// It represents the presence of a physical barrier of type GUARDRAIL or JERSEY_BARRIER
+// on a parametric range of a road along with which side of the road it is associated with
+message InfrastructureSeparation {
+
+	// Side of the road link (relative to logical orientation) that the infrastructure separation is present on
+	com.here.pb.hdmap.external.v1.common.RelativeSide present_on_side = 1;
+}
+
+// Indicates the side of the road link which the median is present as well as the width of the median between the multiply digitized road links
+message MedianSeparation {
+
+	// Side of the road link (relative to logical orientation) that the median separation is present
+	com.here.pb.hdmap.external.v1.common.RelativeSide present_on_side = 1;
+
+	// The width of the median rounded down to the nearest 5 meters.  Widths greater than 50 meters will be represented as 50 meters.
+	uint32 median_width_quantized_meters = 2;
+}
+
+// Superelevation details.
+message Superelevation {
+	SuperelevationClass superelevation_class = 1;
+}
+
+// Ranges in degrees representing the side-to-side tilt angle.
+// The tangent of the angle can be derived using the vertical difference between the outer lane boundaries,
+// divided by the lateral distance between those lane boundaries.
+// Sign is with respect to the digitizing direction of the road: positive means the elevation increases
+// from left to right, negative means the elevation decreases from left to right.
+enum SuperelevationClass {
+	SUPERELEVATION_UNKNOWN = 0;
+	FLAT = 1;
+	MORE_THAN_FOUR_DEGREES = 2;
+	MORE_THAN_SIX_DEGREES = 3;
+	MORE_THAN_EIGHT_DEGREES = 4;
+	LESS_THAN_MINUS_FOUR_DEGREES = 5;
+	LESS_THAN_MINUS_SIX_DEGREES = 6;
+	LESS_THAN_MINUS_EIGHT_DEGREES = 7;
+}
