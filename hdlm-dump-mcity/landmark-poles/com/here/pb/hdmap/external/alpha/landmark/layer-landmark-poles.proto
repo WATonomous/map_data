@@ -1,0 +1,44 @@
+// Schema Version: 1.3.0
+syntax = "proto3";
+package com.here.pb.hdmap.external.alpha.landmark;
+
+import "com/here/pb/hdmap/external/v1/geometry/geometry.proto";
+import "com/here/pb/hdmap/external/v1/common/common.proto";
+
+// Top level Pole Like Objects tile message
+message LandmarkPolesLayerTile {
+    // Here tile id
+    uint32 here_tile_id = 1;
+
+    // List of Lane Groups with Poles
+    repeated PolesForLaneGroup poles_for_lane_groups = 2;
+}
+
+// List Of Poles for a given Lane Group
+message PolesForLaneGroup {
+    // Lane Group Identifier
+    uint64 lane_group_ref = 1;
+
+    // List of poles that apply for a given Lane Group
+    repeated Pole poles = 2;
+}
+
+message Pole {
+    // Id of a pole like object
+    string id = 1;
+
+    // Diameter of the bottom cross section in centimeters
+    sint32 bottom_cross_section_diameter_cm = 2;
+
+    // Diameter of the top cross section in centimeters
+    sint32 top_cross_section_diameter_cm = 3;
+
+    // Coordinate of the bottom crossection center point
+    com.here.pb.hdmap.external.v1.geometry.Point3d bottom_center_point = 4;
+
+    // Coordinate of the top crossection center point
+    com.here.pb.hdmap.external.v1.geometry.Point3d top_center_point = 5;
+
+    // Specification compliance of the given pole like object
+    com.here.pb.hdmap.external.v1.common.SpecificationComplianceAssertion specification_compliance = 6;
+}

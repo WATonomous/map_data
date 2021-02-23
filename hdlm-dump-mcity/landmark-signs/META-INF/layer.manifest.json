@@ -1,0 +1,8 @@
+{
+    "main": {
+        "message": "com.here.pb.hdmap.external.alpha.landmark.LandmarkSignsLayerTile",
+        "source": "com/here/pb/hdmap/external/alpha/landmark/layer-landmark-signs.proto"
+    },
+    "components": [
+    ]
+}

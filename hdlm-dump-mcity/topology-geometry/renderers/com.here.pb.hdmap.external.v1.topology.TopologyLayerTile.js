@@ -62,8 +62,7 @@
                 style : {
                    color: "black",
                   width: 2
-                },
-                tooltip: "<b>Node Id:</b> "+node.node_id
+                }
             },
             geometry : {
                 type : "Polygon",
@@ -114,8 +113,7 @@
 	            style : {
                 	color: "blue",
                 	width: 2
-                },
-                tooltip: "<b>Link Id:</b> "+link_id
+                }
 	        },
 	        geometry : {
 	            type : "LineString",

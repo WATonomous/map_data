@@ -1,4 +1,4 @@
-// Schema Version: 2.19.0
+// Schema Version: 1.9.0
 syntax = "proto3";
 package com.here.pb.hdmap.external.v1.geometry;
 
@@ -62,23 +62,4 @@ message OrientedRectangle3d {
     
     // The bearing in degrees of where the Oriented Rectangle faces relative to true North in clockwise direction.
     uint32 bearing_in_degrees = 4;
-}
-
-// Represents a vertical 3D polygon
-message VerticalSurface {
-    // Represents the points that comprise the lower edge of the polygon, ordered from the leftmost point to rightmost, relative to an observer viewing the front face of the surface.
-    com.here.pb.hdmap.external.v1.geometry.LineString3dOffset bottom = 1;
-
-    // The elevation in centimeters of the top edge of the polygon, relative to points on the lower edge's geometry.
-    // Missing index values assume the previous point's elevation.
-    // Additional redundant shape points are introduced to the bottom geometry to allow for all required top edge points.
-    repeated RelativePointHeight relative_upper_point_heights = 2;
-}
-
-message RelativePointHeight {
-    // Base-1 index into the related parent geometry LineString points.
-    uint32 related_point_number = 1;
-
-    // Relative altitude increase for this top point measured from the altitude of the related point.
-    uint32 centimeters_above_related_point = 2;
 }

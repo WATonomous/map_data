@@ -1,4 +1,4 @@
-// Schema Version: 2.19.0
+// Schema Version: 1.9.0
 syntax = "proto3";
 package com.here.pb.hdmap.external.v1.lanes;
 

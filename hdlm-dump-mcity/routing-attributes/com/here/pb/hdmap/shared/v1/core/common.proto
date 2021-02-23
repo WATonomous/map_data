@@ -1,3 +1,4 @@
+// Schema Version: 1.9.0
 syntax = "proto3";
 package com.here.pb.hdmap.shared.v1.core;
 
@@ -18,35 +19,35 @@ message RoadUsers {
 	bool bicycles = 11;
 }
 
-// Definition of a speed limit
+// Definition of a speed limit 
 message SpeedLimit {
 
 	uint32 value = 1;
 	SpeedLimitUnit unit = 2;
-
+	
 	enum SpeedLimitUnit {
-		SPEED_LIMIT_UNIT_UNKNOWN = 0;
+		SpeedLimitUnit_UNKNOWN = 0;
 		KILOMETERS_PER_HOUR = 1;
 		MILES_PER_HOUR = 2;
 	}
-
+	
 	SpeedLimitSource source = 3;
-
+	 
 	enum SpeedLimitSource {
-		SPEED_LIMIT_SOURCE_UNKNOWN = 0;
+		SpeedLimitSource_UNKNOWN = 0;
 		POSTED_SIGN = 1;
 		BUILT_UP_AREA_SIGN = 2;
 		MOTORWAY_SIGN = 3;
 		UNPOSTED = 4;
-		POSTED_LANE = 5;
+		POSTED_LANE = 5; 
 		POSTED_DIR = 6;
 		MOTORISED_VEHICLES_ONLY = 7;
 		DERIVED_FROM_SPEED_CATEGORY = 8;
 		RAMP_UNPOSTED = 9;
 		TRAFFIC_CALMING = 10;
 	}
-
+	
 	// If the speed limit of 0.0 indicates unlimited speed
 	bool is_unlimited = 4;
-
-}
+	
+} 

@@ -1,4 +1,4 @@
-// Schema Version: 2.19.0
+// Schema Version: 1.9.0
 syntax = "proto3";
 package com.here.pb.hdmap.external.v1.lanes;
 
@@ -54,9 +54,6 @@ message ParametricLinkReference {
 	
 	// The range on the destination topology referenced from the source range 
 	com.here.pb.hdmap.external.v1.common.ParametricRange applies_to_link_range = 3;
-
-	// True if the source lane group has the same orientation as the destination link
-	bool has_same_orientation = 4;
 }
 
 // Bi-parameterized lane group to link topology reference 
@@ -70,7 +67,4 @@ message ParametricLaneGroupReference {
 	
 	// The range on the destination topology referenced from the source range 
 	com.here.pb.hdmap.external.v1.common.ParametricRange applies_to_lane_group_range = 3;
-
-	// True if the source link has the same orientation as the destination lane group 
-	bool has_same_orientation = 4;
 }

@@ -1,4 +1,4 @@
-// Schema Version: 2.19.0
+// Schema Version: 1.9.0
 syntax = "proto3";
 package com.here.pb.hdmap.external.v1.common;
 
@@ -115,37 +115,4 @@ message LocalAdministrativeAreaReference {
 message PartitionedAdministrativeAreaReference {
     sint32 administrative_area_id = 1;
     string administrative_area_partition_id = 2;
-}
-
-// External reference to a barrier within a specific tile
-message TiledBarrierReference {
-	uint64 barrier_id = 1;
-	uint32 barrier_here_tile_id = 2;
-}
-
-// External reference to a sign within a specific tile
-message TiledSignReference {
-	uint64 sign_id = 1;
-	uint32 sign_here_tile_id = 2;
-}
-
-
-// External reference to a pole within a specific tile
-message TiledPoleReference {
-	uint64 pole_id = 1;
-	uint32 pole_here_tile_id = 2;
-}
-
-// External reference to a OSF within a specific tile
-message TiledOverheadStructureFaceReference {
-	uint64 overhead_structure_face_id = 1;
-	uint32 overhead_structure_face_here_tile_id = 2;
-}
-
-// Indicates the side of feature, relative to its logical orientation
-enum RelativeSide {
-	RELATIVE_SIDE_UNKNOWN = 0;
-	LEFT = 1;
-	RIGHT = 2;
-	BOTH_LEFT_AND_RIGHT = 3;
 }

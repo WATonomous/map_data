@@ -1,17 +1,17 @@
-// Schema Version: 2.19.0
+// Schema Version: 1.9.0
 syntax = "proto3";
 package com.here.pb.hdmap.external.v1.speed;
 
 import "com/here/pb/hdmap/external/v1/common/common.proto";
 import "com/here/pb/hdmap/shared/v1/core/common.proto";
-import "com/here/pb/hdmap/shared/v1/core/conditional_attributes.proto";
-import "com/here/pb/hdmap/shared/v1/core/unconditional_attributes.proto";
+import "com/here/pb/hdmap/shared/v1/core/conditional-attributes.proto";
+import "com/here/pb/hdmap/shared/v1/core/unconditional-attributes.proto";
 
 // Core navigation attribution
 
 // Coverage is defined as attributions for:
 // - Links starting in this tile
-// - Nodes lying in the tile
+// - Nodes lying in the tile 
 // - Link strands whose first link starts in this tile
 message SpeedAttributesLayerTile {
 
@@ -33,41 +33,41 @@ message LinkAttribution {
 
 	// Link attributes effective for a range of the link
 	message ParametricAttribution {
-
+	
 		// Range of the link geometry the attributes are effective for.  Leave off for whole range
 		com.here.pb.hdmap.external.v1.common.ParametricRange applies_to_range = 1;
-
+	
 		// The DOT the attribution applies to
-		com.here.pb.hdmap.external.v1.common.RelativeDirection applies_to_direction = 2;
-
+		com.here.pb.hdmap.external.v1.common.RelativeDirection applies_to_direction = 2; 		
+				
 		// Reused attribution groups
 		repeated uint32 attribution_group_indexes = 3 [packed=true];
-
+		
 		// Attribute values for the range
 		repeated SpeedLinkParametricAttribution link_parametric_attribution = 4;
-
-	}
-
+		
+	}	
+	
 	// List of point attributes for the link
 	repeated PointAttribution point_attribution = 3;
-
+	
 	// Link attributes effective for a range of the link
 	message PointAttribution {
 
 		// extent along link geometry at which the attribute is located
 		double applies_to_location = 1;
-
+	
 		// The DOT the attribution applies to
-		com.here.pb.hdmap.external.v1.common.RelativeDirection applies_to_direction = 2;
-
+		com.here.pb.hdmap.external.v1.common.RelativeDirection applies_to_direction = 2; 		
+				
 		// Attribution group references
 		repeated uint32 attribution_group_indexes = 3 [packed=true];
 
 		// Attribute values for the point
 		repeated SpeedLinkPointAttribution link_point_attribution = 4;
-
+		
 	}
-
+	
 	// List of all the strand attributes this link is a member of.  Parallel arrays.
 	// (including the strands in this tile for completeness)
 	repeated com.here.pb.hdmap.external.v1.common.TiledStrandAttributionReference strand_attribution_refs = 4;
@@ -79,15 +79,15 @@ message SpeedLinkParametricAttribution {
 
     oneof attribute {
 		com.here.pb.hdmap.shared.v1.core.SpeedLimit speed_limit = 1;
-		com.here.pb.hdmap.shared.v1.core.SpeedCategory speed_category = 2;
+		com.here.pb.hdmap.shared.v1.core.SpeedCategory speed_category = 2;		
 		com.here.pb.hdmap.shared.v1.core.VariableSpeedLimit variable_speed_limit = 3;
 		com.here.pb.hdmap.shared.v1.core.ConditionalSpeedLimit conditional_speed_limit = 4;
 	}
-}
+} 
 
 // Attributes associated with point on a link
 message SpeedLinkPointAttribution {
 	oneof attribute {
 		com.here.pb.hdmap.shared.v1.core.VariableSpeedSign variable_speed_sign = 1;
-	}
+	} 
 }

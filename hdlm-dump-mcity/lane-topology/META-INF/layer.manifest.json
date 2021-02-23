@@ -1,8 +1,0 @@
-{
-    "main": {
-        "message": "com.here.pb.hdmap.external.v1.lanes.LaneTopologyLayerTile",
-        "source": "com/here/pb/hdmap/external/v1/lanes/layer-lane-topology.proto"
-    },
-    "components": [
-    ]
-}

@@ -1,0 +1,65 @@
+// Schema Version: 1.3.0
+syntax = "proto3";
+package com.here.pb.hdmap.external.alpha.landmark;
+
+import "com/here/pb/hdmap/external/v1/geometry/geometry.proto";
+import "com/here/pb/hdmap/external/v1/common/common.proto";
+import "com/here/pb/hdmap/external/alpha/common/common.proto";
+
+// Top-level landmark-barriers tile message
+message LandmarkBarriersLayerTile {
+    // HERE Tile ID
+    uint32 here_tile_id = 1;
+
+    // Tile center point, for geometry offsets
+    com.here.pb.hdmap.external.v1.geometry.Point3d tile_center_here_3d_coordinate = 2;
+
+    // List of barriers starting in tile
+    repeated Barrier barriers = 3;
+
+    // Repeated Barriers for a Lane Group
+    repeated BarriersForLaneGroup barriers_for_lane_groups = 4;
+}
+
+message Barrier {
+    // Barrier ID
+    string id = 1;
+
+    // Barrier geometry
+    com.here.pb.hdmap.external.v1.geometry.LineString3dOffset barrier_geometry = 2;
+
+    // Category of the road barrier such as a wall, fence, curb, etc.
+    BarrierType type = 3;
+}
+
+message BarriersForLaneGroup {
+    // Unique id for lane group
+    uint64 lane_group_ref = 1;
+
+    // List of barriers associated with the lane group
+    repeated LaneGroupBarrierReference lane_group_barrier_feature_references = 2;
+}
+
+message LaneGroupBarrierReference {
+    // Tiled Barrier Reference identifying barrier home tile and its id
+    com.here.pb.hdmap.external.alpha.common.TiledBarrierReference barrier_feature_reference = 1;
+
+    // Specification compliance of the given barrier
+    com.here.pb.hdmap.external.v1.common.SpecificationComplianceAssertion specification_compliance = 2;
+
+}
+
+// Enumerated list of barrier types
+enum  BarrierType {
+    // BarrierType_UNKNOWN is the default value for a barrier which doesn't have a specified type
+    BarrierType_UNKNOWN = 0;
+    JERSEY_BARRIER = 1;
+    GUARDRAIL = 2;
+    CURB = 3;
+    WALL = 4;
+    FENCE = 5;
+    TUNNEL_WALL = 6;
+}
+
+
+

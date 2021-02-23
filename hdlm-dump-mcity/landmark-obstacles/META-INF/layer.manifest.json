@@ -1,0 +1,8 @@
+{
+    "main": {
+        "message": "com.here.pb.hdmap.external.alpha.landmark.LandmarkObstaclesLayerTile",
+        "source": "com/here/pb/hdmap/external/alpha/landmark/layer-landmark-obstacles.proto"
+    },
+    "components": [
+    ]
+}

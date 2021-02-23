@@ -1,0 +1,77 @@
+// Schema Version: 1.3.0
+syntax = "proto3";
+package com.here.pb.hdmap.external.alpha.landmark;
+import "com/here/pb/hdmap/external/v1/geometry/geometry.proto";
+import "com/here/pb/hdmap/external/alpha/common/common.proto";
+
+
+// Top-level landmark-signs tile message
+message LandmarkSignsLayerTile {
+
+    // HERE Tile ID
+    uint32 here_tile_id = 1;
+
+    // The set of sign faces which have their center points in this tile
+    repeated SignFace sign_faces = 2;
+
+    // List of Road Links, starting in this tile, with their references to Signs
+    repeated SignsForRoadLink signs_for_road_links = 3;
+}
+
+// A Sign Face that can be used for localization
+message SignFace {
+
+    // Unique ID for the sign face
+    string id = 1;
+
+    // 3D center point of the sign face
+    com.here.pb.hdmap.external.v1.geometry.Point3d center_point = 2;
+
+    // The shape of the Sign Face
+    SignFaceInteriorShape shape = 3;
+
+    // The heading, in degrees relative to true north in a clockwise direction, of the surface normal of the sign face
+    double heading = 4;
+
+    SignFaceClassification classification = 5;
+
+    // Sign Face geometry i.e. height and width in centimeters
+    SignFaceGeometry sign_face_geometry = 6;
+}
+
+// Classification or the type and purpose of sign.
+message SignFaceClassification {
+    reserved 1;
+
+    // Classification string
+    string classification = 2;
+}
+
+// Enumerated list of Sign Face shapes
+enum SignFaceInteriorShape {
+    SignFaceShape_UNKNOWN = 0;
+    RECTANGULAR = 1;
+    CIRCULAR = 2;
+    TRIANGULAR = 3;
+    DIAMOND = 4;
+    OTHER = 5;
+}
+
+// Sign Face geometry i.e. height and width in centimeters
+message SignFaceGeometry {
+    // Sign Face height in centimeters
+    uint32 sign_face_height_in_cm = 1;
+
+    // Sign Face width in centimeters
+    uint32 sign_face_width_in_cm = 2;
+}
+
+// Road Link id with references to signs associated with it
+message SignsForRoadLink {
+
+    // Road Link ID
+    uint32 link_local_ref = 1;
+
+    // List of sign references associated with road link
+    repeated com.here.pb.hdmap.external.alpha.common.TiledSignReference sign_refs = 2;
+}

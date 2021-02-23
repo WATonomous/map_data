@@ -1,0 +1,43 @@
+// Schema Version: 1.3.0
+syntax = "proto3";
+package com.here.pb.hdmap.external.alpha.landmark;
+
+import "com/here/pb/hdmap/external/v1/geometry/geometry.proto";
+import "com/here/pb/hdmap/external/v1/common/common.proto";
+
+// Top level obstacles message
+message LandmarkObstaclesLayerTile {
+    // HERE Tile ID
+    uint32 here_tile_id = 1;
+
+    // Tile center point, for geometry offsets
+    sint64 tile_center_here_2d_coordinate = 2;
+
+    // List of Lane Groups with their Obstacles
+    repeated ObstaclesForLaneGroup obstacles_for_lane_groups = 3;
+}
+
+// Set of Obstacles for a given Lane Group
+message ObstaclesForLaneGroup {
+    // Lane group identifier
+    uint64 lane_group_ref = 1;
+
+    // List of Obstacles apply to this lane group
+    repeated Obstacle obstacles = 2;
+}
+
+message Obstacle {
+    // Id of the Obstacles which is unique within the tile
+    string id = 1;
+
+    // Obstacle's geometry represents a 2D polyline using point offset encoding from tile centerpoint
+    com.here.pb.hdmap.external.v1.geometry.LineString2dOffset geometry = 2;
+
+    // Specification compliance of the given obstacle
+    com.here.pb.hdmap.external.v1.common.SpecificationComplianceAssertion specification_compliance = 3;
+
+    // The "base height" of the obstacle. The base height is defined as the height
+    // distance between the obstacle and the closest point on the closest road
+    // boundary (in centimeters)
+    sint32 height_above_road_cm = 4;
+}

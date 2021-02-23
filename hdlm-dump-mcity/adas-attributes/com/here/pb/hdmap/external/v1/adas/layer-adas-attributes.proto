@@ -1,0 +1,172 @@
+// Schema Version: 1.9.0
+syntax = "proto3";
+package com.here.pb.hdmap.external.v1.adas;
+
+import "com/here/pb/hdmap/external/v1/common/common.proto";
+import "com/here/pb/hdmap/shared/v1/adas/common.proto";
+
+// ADAS attribution layer
+
+// Coverage is defined as attributions for:
+// - Links starting in this tile
+// - Nodes lying in the tile 
+message AdasAttributesLayerTile {
+
+	// HERE Tile ID
+	uint32 here_tile_id = 1;
+
+	// list of attributes for links in this tile
+    repeated LinkAttribution link_attribution = 2;
+    
+	// list of attributes for link strands in this tile
+    repeated NodeAttribution node_attribution = 3;
+
+}
+
+// Attribution for a link
+message LinkAttribution {
+
+	uint32 link_id = 1;
+	
+	// List of parametric attributes for the link
+	repeated ParametricAttribution parametric_attribution = 2;
+
+	// Link attributes effective for a range of the link
+	message ParametricAttribution {
+	
+		// Range of the link geometry the attributes are effective for.  Leave off for whole range
+		com.here.pb.hdmap.external.v1.common.ParametricRange applies_to_range = 1;
+	
+		// The DOT the attribution applies to
+		com.here.pb.hdmap.external.v1.common.RelativeDirection applies_to_direction = 2; 		
+					
+		// ADAS Layer specific attribution
+		repeated AdasLinkParametricAttribution link_parametric_attribution = 3;
+		
+	}	
+	
+	// List of point attributes for the link
+	repeated PointAttribution point_attribution = 3;
+	
+	// Link attributes effective for a range of the link
+	message PointAttribution {
+
+		// extent along link geometry at which the attribute is located
+		double applies_to_location = 1;
+	
+		// The DOT the attribution applies to
+		com.here.pb.hdmap.external.v1.common.RelativeDirection applies_to_direction = 2; 		
+	
+		// ADAS Layer specific attribution
+		repeated AdasLinkPointAttribution link_point_attribution = 3;
+		
+	}
+}
+
+// Attributes applying to nodes, i.e. intersections
+message NodeAttribution {
+
+	// The node these attributes apply to
+	uint32 node_id = 1;
+	
+	// List of intersection traversals  
+	repeated IntersectionTraversalAttribution intersection_traversal_attribution = 2;
+	
+	message IntersectionTraversalAttribution {
+
+		// Incoming link for the traversal.  If not populated, applied to all entries to the intersection
+		repeated com.here.pb.hdmap.external.v1.common.TiledLinkReference from_link_refs = 1;
+
+		// Outgoing link for the traversal.  If not populated, applied to all exits from the intersection 
+		repeated com.here.pb.hdmap.external.v1.common.TiledLinkReference to_link_refs = 2;
+				
+		// ADAS Layer specific attribution
+		repeated AdasIntersectionTraversalAttribution node_attribution = 3;
+		
+	}
+}
+
+// Attributes associated with a range on a link
+message AdasLinkParametricAttribution {
+
+	oneof attribute {
+		// indicates geometry in this range is to ADAS accuracy level
+		LinkGeometryAccuracy link_geometry_accuracy = 1; 
+	}
+}
+
+// ADAS samples association with a point on a link  
+message AdasLinkPointAttribution {
+
+	oneof attribute {
+
+		// Curvature relative to the link direction
+		com.here.pb.hdmap.shared.v1.adas.CurvatureMeasure link_point_curvature = 1;
+	
+		// Heading relative to the link direction  
+	    com.here.pb.hdmap.shared.v1.adas.HeadingMeasure link_point_heading = 2;
+	
+		// Slope relative to the link direction                
+		AdasSlopeSample link_point_slope = 3;            
+	
+		// Elevation relative to the link direction                
+		AdasElevationSample link_point_elevation = 4;
+		
+	}
+
+}
+
+// ADAS samples associated with an intersection
+message AdasIntersectionTraversalAttribution {
+
+	oneof attribute {
+		AdasIntersectionTraversalValues intersection_traversal_values = 1;
+		AdasSlopeSample intersection_exit_slope = 2;
+		AdasElevationSample intersection_elevation = 3;
+	}
+	
+}
+
+// ADAS samples associated with a traversal through an intersection from a link to another link adjoining a common node
+message AdasIntersectionTraversalValues {
+
+	// Curvature at the intersection, relative to the traversal via the "from" and "to" links
+	com.here.pb.hdmap.shared.v1.adas.CurvatureMeasure curvature = 1;
+	        
+	// Heading at the intersection, relative to the traversal via the "from" and "to" links
+    com.here.pb.hdmap.shared.v1.adas.HeadingMeasure heading = 2;          
+}
+
+// A sampled slope value, including the measure and accuracy 
+message AdasSlopeSample {
+
+	// Slope at the intersection exit in the direction of the "to" link
+	com.here.pb.hdmap.shared.v1.adas.SlopeMeasure slope = 1;
+	        	
+	// Accuracy of the slope measure
+	SlopeElevationAccuracy accuracy = 2;
+}
+
+// A sampled elevation value, including the measure and accuracy
+message AdasElevationSample {
+
+	// Elevation of the intersection node location
+	com.here.pb.hdmap.shared.v1.adas.ElevationMeasure elevation = 1;
+	
+	// Accuracy of the elevation measure	
+	SlopeElevationAccuracy accuracy = 2;
+}	
+
+// Indication of the accuracy of the slope and/or height values
+enum SlopeElevationAccuracy {
+	SlopeElevationAccuracy_UNKNOWN = 0;
+	BASIC = 1;
+	HIGH = 2;
+}
+
+// Geometry accuracy measures
+enum LinkGeometryAccuracy {
+	LinkGeometryAccuracy_UNKNOWN = 0;
+	BASIC_GEOMETRY = 1;
+	HIGH_ACCURACY_GEOMETRY = 2;
+}

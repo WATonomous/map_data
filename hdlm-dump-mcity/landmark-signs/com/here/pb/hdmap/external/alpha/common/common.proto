@@ -1,0 +1,22 @@
+// Schema Version: 1.3.0
+syntax = "proto3";
+package com.here.pb.hdmap.external.alpha.common;
+
+// External reference to a Barrier in a specific tile.
+// May be inlined if not optional
+message TiledBarrierReference {
+   string barrier_id = 1;
+   uint32 barrier_here_tile_id = 2;
+}
+
+// External reference to a Sign in a specific tile.
+message TiledSignReference {
+   string sign_id = 1;
+   uint32 sign_here_tile_id = 2;
+}
+
+// External reference to a Perpendicular Wall in a specific tile.
+message TiledPerpendicularWallReference {
+   string perpendicular_wall_id = 1;
+   uint32 perpendicular_wall_here_tile_id = 2;
+}

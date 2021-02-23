@@ -1,0 +1,29 @@
+// Schema Version: 1.9.0
+syntax = "proto3";
+package com.here.pb.hdmap.shared.v1.adas;
+
+
+// Common messages used for ADAS attribution
+
+message ElevationMeasure {
+	// integer centimeters from WGS84 ellipsoid 
+	sint32 cm_from_WGS84_ellipsoid = 1;	
+}
+
+message HeadingMeasure {
+    // Heading value in decimal degrees, divided by 1000
+    // relative to true north 0 - 359,999
+    uint32 thousandths_of_degree = 1;      
+}
+
+message SlopeMeasure {
+    // Slope value in decimal degrees, divided by 1000
+    // Logical range -90 to +90 degrees, currently capped to -21 to +21 degrees
+    sint32 thousandths_of_degree = 1;      
+}
+
+message CurvatureMeasure {
+	// Curvature value in inverse of radius in meters divided by 1,000,000
+	sint32 inverse_radius_millionths_of_meter = 1;	 
+}
+

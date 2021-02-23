@@ -1,0 +1,234 @@
+// Schema Version: 1.9.0
+syntax = "proto3";
+package com.here.pb.hdmap.shared.v1.core;
+
+import "com/here/pb/hdmap/shared/v1/core/common.proto";
+import "com/here/pb/hdmap/shared/v1/core/conditional-attribute-modifiers.proto";
+
+// Attributes that are conditional on types of road users or times
+
+// Indicates a restriction for vehicles passing other vehicles on the road 
+message ConditionalOvertakingRestriction {
+
+	// The subset of road users the condition applies to
+	RoadUsers applies_to = 1;
+		
+	// The times the condition applies
+	repeated DateTimeModifier applies_during = 2;
+	
+	WeatherType applies_in_weather_conditions = 3;
+	
+	enum WeatherType {
+		WeatherType_UNKNOWN = 0;
+		RAIN = 1;
+		SNOW = 2;
+		FOG = 3;
+		NOT_APPLICABLE = 4;
+	}
+	
+}
+
+// Identifies sections of road that require payment for use
+message ConditionalUsageFeeRequired {
+
+	// The subset of road users the condition applied to
+  	RoadUsers applies_to = 1;
+
+	// The times the condition applies
+  	repeated DateTimeModifier applies_during = 2;
+
+	// Type of toll feature the toll represents
+	TollFeatureType toll_feature_type = 3; 
+ 
+	enum TollFeatureType {
+		TollFeatureType_UNKNOWN = 0;
+		TOLL_ROAD = 1;
+		BRIDGE = 2;
+		TUNNEL = 3;
+		PARK = 4;
+		MOUNTAIN_PASS = 5;
+		SCENIC_ROUTE = 6;
+		VIGNETTE_ROAD = 7;
+		TOLL_ZONE = 8;
+	}
+  
+}
+
+// A restriction of a driving manoeuvre that would otherwise be permitted
+message ConditionalRestrictedDrivingManoeuvre {
+
+	// The specific road users the restriction applies to
+  	RoadUsers applies_to = 1;
+  	
+  	// The times the restriction applies
+   	repeated DateTimeModifier applies_during = 2; 
+  
+  	// The nature of the restriction
+	RestrictionType restriction_type  = 3;
+
+	enum RestrictionType {
+		RestrictionType_NONE	= 0;
+	    LEGAL       			= 1;
+	    PHYSICAL    			= 2;
+	    LOGICAL     			= 3;
+	}
+}
+
+// Explicit permission of a driving manoeuvre that would otherwise be restricted 
+message ConditionalPermittedDrivingManoeuvre {
+
+	// The subset of road users the condition applied to
+  	RoadUsers applies_to      = 1;
+
+  	// The times the condition applies
+  	repeated DateTimeModifier applies_during = 2; 
+  
+  	PermissionType permission_type = 3;
+  	  
+  	enum PermissionType {
+  		PermissionType_UNKNOWN = 0;
+    	LEGAL = 1; // PDMs can (currently) only be legal
+  	}
+		
+}
+
+// Used to identify situations where specified types of road users 
+// are prohibited from traveling on the road at specific times.
+message ConditionalAccessRestriction {
+
+	// The subset of road users the condition applied to
+	RoadUsers applies_to = 1;
+
+  	// Identifies any date/time constraints for the condition.
+  	repeated DateTimeModifier applies_during = 2; 
+
+  	// Indicates there is a dependency, 
+  	// e.g., traffic flow, weather, etc., for which causes a link 
+  	// or lane Access Restriction to be in effect and a set time 
+  	// is not specified.
+  	DependentAccessType dependent_access_type = 3;    
+
+	enum DependentAccessType {
+		DependentAccessType_UNKNOWN = 0;
+	    VARIABLE    = 1;
+	}
+  
+}
+
+// Used to conditional indicate permission specific road users to access 
+// links in a specific directions of travel at specific times 
+message ConditionalAccessPermission {
+
+	// The subset of road users who are permitted to drive in the direction of travel 
+   	RoadUsers applies_to = 1;
+
+  	// Date/time constraints for the conditional access
+   	repeated DateTimeModifier applies_during = 2; 
+}
+
+// Indicates a speed that exists under special circumstances.
+message ConditionalSpeedLimit {  
+
+	oneof situation {
+		Advisory advisory = 1;
+		TrafficCalmingMeasures traffic_calming_measures = 2; 
+		LocationProximity location_proximity = 3;
+		Environmental environmental = 4;
+		TimeDependent time_dependent  = 5;
+		LaneDependent lane_dependent = 6;
+	}
+
+	// Special speed limit advised, usually by sign
+	message Advisory {
+		// Overrides normal speed limit for this situation
+		SpeedLimit override_speed_limit = 1;
+	}
+	
+	// Speed reduced by installations such as speed bumps
+	message TrafficCalmingMeasures {	
+		// marker only, no additional fields
+	}
+
+	// Speed reduced due to proximity to location such as a school 
+	message LocationProximity {
+	
+		// Overrides normal speed limit for this situation
+		SpeedLimit overrideSpeedLimit = 1;
+		
+		// The time/dates this speed limit is in effect  
+		repeated com.here.pb.hdmap.shared.v1.core.DateTimeModifier during_date_time = 2;
+		
+		LocationProximityType location_proximity_type = 3;
+		
+		enum LocationProximityType {
+			LocationProximityType_UNKNOWN = 0;
+			SCHOOL = 1; 
+		}
+	}
+	
+	// Speed reduced due to environmental factors such as rain 
+	message Environmental {
+	
+		// Overrides normal speed limit for this situation
+		SpeedLimit override_speed_limit = 1;
+		
+		// The specific environmental situation triggering the restriction
+		EnvironmentalType environmental_type = 2;
+		
+		enum EnvironmentalType {
+			EnvironmentalType_UNKNOWN = 0;
+			FOG = 1;
+			RAIN = 2;
+			SNOW = 3;
+		}
+	}
+	
+	// Speed reduced for certain times and dates, including seasonal
+	message TimeDependent {
+	
+		// Overrides normal speed limit for this situation
+		SpeedLimit override_speed_limit = 1;
+		
+		// The time/dates this speed limit is in effect  
+		repeated com.here.pb.hdmap.shared.v1.core.DateTimeModifier during_date_time = 2;
+	
+	}
+		
+	// Speed reduced for some lanes only
+	message LaneDependent {
+		// Marker only, no fields
+	}	
+}  
+
+// Identifies sections of road that Toll Structures are represented
+message ConditionalTollStructure {
+
+	// The subset of road users the condition applied to
+	RoadUsers applies_to = 1;
+ 
+	// The type of Toll Structure
+	repeated TollStructureType toll_structure_type = 2; 
+ 	
+	enum TollStructureType {
+		TollStructureType_UNKNOWN = 0;
+		FIXED_FEE = 1;
+		OBTAIN_TICKET = 2;
+		PAY_PER_TICKET = 3;
+		ELECTRONIC = 4;
+	}
+	
+	// The type of payment that is accepted at the toll structure in order to pass through
+	repeated TollPaymentMethod toll_payment_method = 3; 
+	
+	enum TollPaymentMethod {
+		TollPaymentMethod_UNKNOWN = 0;
+		CASH = 1;
+		BANK_CARD = 2;
+		CREDIT_CARD = 3;
+		PASS_OR_SUBSCRIPTION = 4;
+		TRANSPONDER = 5;
+		VIDEO_TOLL_CHARGE = 6;
+		EXACT_CASH = 7;
+		TRAVEL_CARD = 8;
+	}
+}
