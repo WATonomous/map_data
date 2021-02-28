@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <osm version="0.6" generator="lanelet2">
   <node id="24985" lat="0.0008610231" lon="-0.00122341911" version="1" />
   <node id="24984" lat="0.00086071869" lon="-0.0012262542" version="1" />
