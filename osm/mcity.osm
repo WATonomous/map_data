@@ -19781,6 +19781,28 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="left_turn" />
 	</relation>
+	<relation id="1196" version="1" visible="true">
+		<member ref="460" role="regulatory element" type="relation" />
+		<member ref="1178" role="left" type="way" />
+		<member ref="1169" role="right" type="way" />
+		<member ref="1195" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="1205" version="1" visible="true">
+		<member ref="395" role="regulatory element" type="relation" />
+		<member ref="1178" role="left" type="way" />
+		<member ref="1186" role="right" type="way" />
+		<member ref="1204" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
 	<relation id="1251" version="1" visible="true">
 		<member ref="1228" role="left" type="way" />
 		<member ref="1215" role="right" type="way" />
@@ -19800,6 +19822,61 @@
 		<tag k="one_way" v="yes" />
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="1436" version="1" visible="true">
+		<member ref="359" role="regulatory element" type="relation" />
+		<member ref="1426" role="left" type="way" />
+		<member ref="1423" role="right" type="way" />
+		<member ref="1435" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="1442" version="1" visible="true">
+		<member ref="401" role="regulatory element" type="relation" />
+		<member ref="1426" role="left" type="way" />
+		<member ref="1432" role="right" type="way" />
+		<member ref="1441" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="1745" version="1" visible="true">
+		<member ref="359" role="regulatory element" type="relation" />
+		<member ref="1708" role="left" type="way" />
+		<member ref="1695" role="right" type="way" />
+		<member ref="1744" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="1757" version="1" visible="true">
+		<member ref="359" role="regulatory element" type="relation" />
+		<member ref="1718" role="left" type="way" />
+		<member ref="1708" role="right" type="way" />
+		<member ref="1756" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="1767" version="1" visible="true">
+		<member ref="466" role="regulatory element" type="relation" />
+		<member ref="1727" role="left" type="way" />
+		<member ref="1734" role="right" type="way" />
+		<member ref="1766" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="1780" version="1" visible="true">
 		<member ref="1773" role="left" type="way" />
@@ -19860,6 +19937,50 @@
 		<tag k="one_way" v="yes" />
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="2257" version="1" visible="true">
+		<member ref="466" role="regulatory element" type="relation" />
+		<member ref="2226" role="left" type="way" />
+		<member ref="2215" role="right" type="way" />
+		<member ref="2256" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="2266" version="1" visible="true">
+		<member ref="401" role="regulatory element" type="relation" />
+		<member ref="2235" role="left" type="way" />
+		<member ref="2244" role="right" type="way" />
+		<member ref="2265" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="2424" version="1" visible="true">
+		<member ref="413" role="regulatory element" type="relation" />
+		<member ref="2402" role="left" type="way" />
+		<member ref="2392" role="right" type="way" />
+		<member ref="2423" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="2436" version="1" visible="true">
+		<member ref="407" role="regulatory element" type="relation" />
+		<member ref="2402" role="left" type="way" />
+		<member ref="2411" role="right" type="way" />
+		<member ref="2435" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="2646" version="1" visible="true">
 		<member ref="2637" role="left" type="way" />
@@ -21281,6 +21402,50 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="left_turn" />
 	</relation>
+	<relation id="17795" version="1" visible="true">
+		<member ref="419" role="regulatory element" type="relation" />
+		<member ref="17787" role="left" type="way" />
+		<member ref="17785" role="right" type="way" />
+		<member ref="17794" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="17799" version="1" visible="true">
+		<member ref="413" role="regulatory element" type="relation" />
+		<member ref="17789" role="left" type="way" />
+		<member ref="17792" role="right" type="way" />
+		<member ref="17798" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="17843" version="1" visible="true">
+		<member ref="419" role="regulatory element" type="relation" />
+		<member ref="17815" role="left" type="way" />
+		<member ref="17807" role="right" type="way" />
+		<member ref="17842" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="17854" version="1" visible="true">
+		<member ref="407" role="regulatory element" type="relation" />
+		<member ref="17823" role="left" type="way" />
+		<member ref="17834" role="right" type="way" />
+		<member ref="17853" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
 	<relation id="17864" version="1" visible="true">
 		<member ref="17857" role="left" type="way" />
 		<member ref="17860" role="right" type="way" />
@@ -21295,6 +21460,72 @@
 		<member ref="17869" role="left" type="way" />
 		<member ref="17877" role="right" type="way" />
 		<member ref="17884" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="17894" version="1" visible="true">
+		<member ref="377" role="regulatory element" type="relation" />
+		<member ref="17889" role="left" type="way" />
+		<member ref="17887" role="right" type="way" />
+		<member ref="17893" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="17897" version="1" visible="true">
+		<member ref="395" role="regulatory element" type="relation" />
+		<member ref="17889" role="left" type="way" />
+		<member ref="17891" role="right" type="way" />
+		<member ref="17896" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="17934" version="1" visible="true">
+		<member ref="377" role="regulatory element" type="relation" />
+		<member ref="17915" role="left" type="way" />
+		<member ref="17908" role="right" type="way" />
+		<member ref="17933" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="17942" version="1" visible="true">
+		<member ref="460" role="regulatory element" type="relation" />
+		<member ref="17915" role="left" type="way" />
+		<member ref="17923" role="right" type="way" />
+		<member ref="17941" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="17955" version="1" visible="true">
+		<member ref="389" role="regulatory element" type="relation" />
+		<member ref="17948" role="left" type="way" />
+		<member ref="17945" role="right" type="way" />
+		<member ref="17954" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="17959" version="1" visible="true">
+		<member ref="365" role="regulatory element" type="relation" />
+		<member ref="17948" role="left" type="way" />
+		<member ref="17951" role="right" type="way" />
+		<member ref="17958" role="centerline" type="way" />
 		<tag k="subtype" v="road" />
 		<tag k="location" v="urban" />
 		<tag k="one_way" v="yes" />
@@ -21541,6 +21772,50 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="straight" />
 	</relation>
+	<relation id="24657" version="1" visible="true">
+		<member ref="466" role="regulatory element" type="relation" />
+		<member ref="24635" role="left" type="way" />
+		<member ref="24632" role="right" type="way" />
+		<member ref="24656" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="24664" version="1" visible="true">
+		<member ref="466" role="regulatory element" type="relation" />
+		<member ref="24643" role="left" type="way" />
+		<member ref="24635" role="right" type="way" />
+		<member ref="24663" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="24669" version="1" visible="true">
+		<member ref="442" role="regulatory element" type="relation" />
+		<member ref="24646" role="left" type="way" />
+		<member ref="24650" role="right" type="way" />
+		<member ref="24668" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="24673" version="1" visible="true">
+		<member ref="442" role="regulatory element" type="relation" />
+		<member ref="24650" role="left" type="way" />
+		<member ref="24653" role="right" type="way" />
+		<member ref="24672" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
 	<relation id="24688" version="1" visible="true">
 		<member ref="24679" role="left" type="way" />
 		<member ref="24675" role="right" type="way" />
@@ -21580,6 +21855,61 @@
 		<tag k="one_way" v="yes" />
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="24783" version="1" visible="true">
+		<member ref="401" role="regulatory element" type="relation" />
+		<member ref="24756" role="left" type="way" />
+		<member ref="24747" role="right" type="way" />
+		<member ref="24782" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="24793" version="1" visible="true">
+		<member ref="401" role="regulatory element" type="relation" />
+		<member ref="24765" role="left" type="way" />
+		<member ref="24756" role="right" type="way" />
+		<member ref="24792" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="24802" version="1" visible="true">
+		<member ref="442" role="regulatory element" type="relation" />
+		<member ref="24765" role="left" type="way" />
+		<member ref="24771" role="right" type="way" />
+		<member ref="24801" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="24837" version="1" visible="true">
+		<member ref="359" role="regulatory element" type="relation" />
+		<member ref="24817" role="left" type="way" />
+		<member ref="24808" role="right" type="way" />
+		<member ref="24836" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="24850" version="1" visible="true">
+		<member ref="442" role="regulatory element" type="relation" />
+		<member ref="24817" role="left" type="way" />
+		<member ref="24828" role="right" type="way" />
+		<member ref="24849" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="26008" version="1" visible="true">
 		<member ref="25986" role="left" type="way" />
@@ -21711,6 +22041,17 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="straight" />
 	</relation>
+	<relation id="30217" version="1" visible="true">
+		<member ref="478" role="regulatory element" type="relation" />
+		<member ref="30192" role="left" type="way" />
+		<member ref="30204" role="right" type="way" />
+		<member ref="30216" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
 	<relation id="30262" version="1" visible="true">
 		<member ref="30234" role="left" type="way" />
 		<member ref="30226" role="right" type="way" />
@@ -21761,6 +22102,39 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="left_turn" />
 	</relation>
+	<relation id="30494" version="1" visible="true">
+		<member ref="454" role="regulatory element" type="relation" />
+		<member ref="30468" role="left" type="way" />
+		<member ref="30483" role="right" type="way" />
+		<member ref="30493" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="30584" version="1" visible="true">
+		<member ref="430" role="regulatory element" type="relation" />
+		<member ref="30550" role="left" type="way" />
+		<member ref="30561" role="right" type="way" />
+		<member ref="30583" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="30596" version="1" visible="true">
+		<member ref="430" role="regulatory element" type="relation" />
+		<member ref="30561" role="left" type="way" />
+		<member ref="30572" role="right" type="way" />
+		<member ref="30595" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
 	<relation id="30625" version="1" visible="true">
 		<member ref="30615" role="left" type="way" />
 		<member ref="30606" role="right" type="way" />
@@ -21791,6 +22165,72 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="left_turn" />
 	</relation>
+	<relation id="30805" version="1" visible="true">
+		<member ref="383" role="regulatory element" type="relation" />
+		<member ref="30790" role="left" type="way" />
+		<member ref="30779" role="right" type="way" />
+		<member ref="30804" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="30957" version="1" visible="true">
+		<member ref="353" role="regulatory element" type="relation" />
+		<member ref="30943" role="left" type="way" />
+		<member ref="30935" role="right" type="way" />
+		<member ref="30956" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="31324" version="1" visible="true">
+		<member ref="454" role="regulatory element" type="relation" />
+		<member ref="31314" role="left" type="way" />
+		<member ref="31311" role="right" type="way" />
+		<member ref="31323" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="31328" version="1" visible="true">
+		<member ref="454" role="regulatory element" type="relation" />
+		<member ref="31317" role="left" type="way" />
+		<member ref="31314" role="right" type="way" />
+		<member ref="31327" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="31447" version="1" visible="true">
+		<member ref="436" role="regulatory element" type="relation" />
+		<member ref="31424" role="left" type="way" />
+		<member ref="31415" role="right" type="way" />
+		<member ref="31446" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="31456" version="1" visible="true">
+		<member ref="436" role="regulatory element" type="relation" />
+		<member ref="31434" role="left" type="way" />
+		<member ref="31424" role="right" type="way" />
+		<member ref="31455" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
 	<relation id="31532" version="1" visible="true">
 		<member ref="31519" role="left" type="way" />
 		<member ref="31513" role="right" type="way" />
@@ -21810,6 +22250,17 @@
 		<tag k="one_way" v="yes" />
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="31651" version="1" visible="true">
+		<member ref="383" role="regulatory element" type="relation" />
+		<member ref="31632" role="left" type="way" />
+		<member ref="31641" role="right" type="way" />
+		<member ref="31650" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="31674" version="1" visible="true">
 		<member ref="31660" role="left" type="way" />
@@ -21870,6 +22321,50 @@
 		<tag k="one_way" v="yes" />
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="32114" version="1" visible="true">
+		<member ref="341" role="regulatory element" type="relation" />
+		<member ref="32105" role="left" type="way" />
+		<member ref="32101" role="right" type="way" />
+		<member ref="32113" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="32118" version="1" visible="true">
+		<member ref="436" role="regulatory element" type="relation" />
+		<member ref="32108" role="left" type="way" />
+		<member ref="32110" role="right" type="way" />
+		<member ref="32117" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="32128" version="1" visible="true">
+		<member ref="353" role="regulatory element" type="relation" />
+		<member ref="32120" role="left" type="way" />
+		<member ref="32121" role="right" type="way" />
+		<member ref="32127" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="32135" version="1" visible="true">
+		<member ref="353" role="regulatory element" type="relation" />
+		<member ref="32121" role="left" type="way" />
+		<member ref="32126" role="right" type="way" />
+		<member ref="32134" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="32152" version="1" visible="true">
 		<member ref="32143" role="left" type="way" />
@@ -21981,6 +22476,28 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="right_turn" />
 	</relation>
+	<relation id="32588" version="1" visible="true">
+		<member ref="454" role="regulatory element" type="relation" />
+		<member ref="32572" role="left" type="way" />
+		<member ref="32579" role="right" type="way" />
+		<member ref="32587" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="32616" version="1" visible="true">
+		<member ref="478" role="regulatory element" type="relation" />
+		<member ref="32597" role="left" type="way" />
+		<member ref="32606" role="right" type="way" />
+		<member ref="32615" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
 	<relation id="32657" version="1" visible="true">
 		<member ref="32637" role="left" type="way" />
 		<member ref="32627" role="right" type="way" />
@@ -22051,6 +22568,28 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="right_turn" />
 	</relation>
+	<relation id="33018" version="1" visible="true">
+		<member ref="430" role="regulatory element" type="relation" />
+		<member ref="33008" role="left" type="way" />
+		<member ref="33000" role="right" type="way" />
+		<member ref="33017" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="33109" version="1" visible="true">
+		<member ref="454" role="regulatory element" type="relation" />
+		<member ref="33084" role="left" type="way" />
+		<member ref="33097" role="right" type="way" />
+		<member ref="33108" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
 	<relation id="33128" version="1" visible="true">
 		<member ref="33117" role="left" type="way" />
 		<member ref="33121" role="right" type="way" />
@@ -22111,10 +22650,43 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="right_turn" />
 	</relation>
+	<relation id="33351" version="1" visible="true">
+		<member ref="478" role="regulatory element" type="relation" />
+		<member ref="33347" role="left" type="way" />
+		<member ref="33344" role="right" type="way" />
+		<member ref="33350" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
 	<relation id="33367" version="1" visible="true">
 		<member ref="33358" role="left" type="way" />
 		<member ref="33362" role="right" type="way" />
 		<member ref="33366" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="33467" version="1" visible="true">
+		<member ref="341" role="regulatory element" type="relation" />
+		<member ref="33449" role="left" type="way" />
+		<member ref="33444" role="right" type="way" />
+		<member ref="33466" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="33476" version="1" visible="true">
+		<member ref="341" role="regulatory element" type="relation" />
+		<member ref="33458" role="left" type="way" />
+		<member ref="33449" role="right" type="way" />
+		<member ref="33475" role="centerline" type="way" />
 		<tag k="subtype" v="road" />
 		<tag k="location" v="urban" />
 		<tag k="one_way" v="yes" />
@@ -22181,6 +22753,28 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="straight" />
 	</relation>
+	<relation id="33611" version="1" visible="true">
+		<member ref="436" role="regulatory element" type="relation" />
+		<member ref="33595" role="left" type="way" />
+		<member ref="33602" role="right" type="way" />
+		<member ref="33610" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="33707" version="1" visible="true">
+		<member ref="353" role="regulatory element" type="relation" />
+		<member ref="33696" role="left" type="way" />
+		<member ref="33686" role="right" type="way" />
+		<member ref="33706" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
 	<relation id="33895" version="1" visible="true">
 		<member ref="33860" role="left" type="way" />
 		<member ref="33865" role="right" type="way" />
@@ -22231,6 +22825,17 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="straight" />
 	</relation>
+	<relation id="33945" version="1" visible="true">
+		<member ref="353" role="regulatory element" type="relation" />
+		<member ref="33928" role="left" type="way" />
+		<member ref="33936" role="right" type="way" />
+		<member ref="33944" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
 	<relation id="34134" version="1" visible="true">
 		<member ref="34121" role="left" type="way" />
 		<member ref="34126" role="right" type="way" />
@@ -22265,6 +22870,28 @@
 		<member ref="34167" role="left" type="way" />
 		<member ref="34161" role="right" type="way" />
 		<member ref="34187" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="34256" version="1" visible="true">
+		<member ref="478" role="regulatory element" type="relation" />
+		<member ref="34215" role="left" type="way" />
+		<member ref="34228" role="right" type="way" />
+		<member ref="34255" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="34271" version="1" visible="true">
+		<member ref="478" role="regulatory element" type="relation" />
+		<member ref="34228" role="left" type="way" />
+		<member ref="34243" role="right" type="way" />
+		<member ref="34270" role="centerline" type="way" />
 		<tag k="subtype" v="road" />
 		<tag k="location" v="urban" />
 		<tag k="one_way" v="yes" />
@@ -22331,6 +22958,17 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="left_turn" />
 	</relation>
+	<relation id="34499" version="1" visible="true">
+		<member ref="341" role="regulatory element" type="relation" />
+		<member ref="34487" role="left" type="way" />
+		<member ref="34478" role="right" type="way" />
+		<member ref="34498" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
 	<relation id="34515" version="1" visible="true">
 		<member ref="34503" role="left" type="way" />
 		<member ref="34501" role="right" type="way" />
@@ -22390,6 +23028,28 @@
 		<tag k="one_way" v="yes" />
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="34634" version="1" visible="true">
+		<member ref="383" role="regulatory element" type="relation" />
+		<member ref="34628" role="left" type="way" />
+		<member ref="34627" role="right" type="way" />
+		<member ref="34633" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="34637" version="1" visible="true">
+		<member ref="430" role="regulatory element" type="relation" />
+		<member ref="34629" role="left" type="way" />
+		<member ref="34632" role="right" type="way" />
+		<member ref="34636" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="34648" version="1" visible="true">
 		<member ref="34643" role="left" type="way" />
@@ -22481,6 +23141,17 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="right_turn" />
 	</relation>
+	<relation id="35078" version="1" visible="true">
+		<member ref="489" role="regulatory element" type="relation" />
+		<member ref="35073" role="left" type="way" />
+		<member ref="35072" role="right" type="way" />
+		<member ref="35077" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
 	<relation id="35093" version="1" visible="true">
 		<member ref="35082" role="left" type="way" />
 		<member ref="35080" role="right" type="way" />
@@ -22571,6 +23242,17 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="straight" />
 	</relation>
+	<relation id="35515" version="1" visible="true">
+		<member ref="448" role="regulatory element" type="relation" />
+		<member ref="35504" role="left" type="way" />
+		<member ref="35507" role="right" type="way" />
+		<member ref="35514" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
 	<relation id="35961" version="1" visible="true">
 		<member ref="35940" role="left" type="way" />
 		<member ref="35929" role="right" type="way" />
@@ -22630,6 +23312,39 @@
 		<tag k="one_way" v="yes" />
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="36927" version="1" visible="true">
+		<member ref="448" role="regulatory element" type="relation" />
+		<member ref="36894" role="left" type="way" />
+		<member ref="36911" role="right" type="way" />
+		<member ref="36926" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="37169" version="1" visible="true">
+		<member ref="489" role="regulatory element" type="relation" />
+		<member ref="37160" role="left" type="way" />
+		<member ref="37153" role="right" type="way" />
+		<member ref="37168" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="37259" version="1" visible="true">
+		<member ref="347" role="regulatory element" type="relation" />
+		<member ref="37237" role="left" type="way" />
+		<member ref="37248" role="right" type="way" />
+		<member ref="37258" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="37661" version="1" visible="true">
 		<member ref="37648" role="left" type="way" />
@@ -22800,6 +23515,17 @@
 		<tag k="one_way" v="yes" />
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="no_turn" />
+	</relation>
+	<relation id="50372" version="1" visible="true">
+		<member ref="359" role="regulatory element" type="relation" />
+		<member ref="50367" role="left" type="way" />
+		<member ref="50365" role="right" type="way" />
+		<member ref="50371" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="50375" version="1" visible="true">
 		<member ref="50367" role="left" type="way" />
@@ -23131,6 +23857,17 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="straight" />
 	</relation>
+	<relation id="52059" version="1" visible="true">
+		<member ref="489" role="regulatory element" type="relation" />
+		<member ref="52048" role="left" type="way" />
+		<member ref="52052" role="right" type="way" />
+		<member ref="52058" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
 	<relation id="52170" version="1" visible="true">
 		<member ref="52150" role="left" type="way" />
 		<member ref="52145" role="right" type="way" />
@@ -23211,10 +23948,76 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="straight" />
 	</relation>
+	<relation id="52352" version="1" visible="true">
+		<member ref="472" role="regulatory element" type="relation" />
+		<member ref="52322" role="left" type="way" />
+		<member ref="52332" role="right" type="way" />
+		<member ref="52351" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="52364" version="1" visible="true">
+		<member ref="472" role="regulatory element" type="relation" />
+		<member ref="52332" role="left" type="way" />
+		<member ref="52341" role="right" type="way" />
+		<member ref="52363" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="52384" version="1" visible="true">
+		<member ref="448" role="regulatory element" type="relation" />
+		<member ref="52367" role="left" type="way" />
+		<member ref="52375" role="right" type="way" />
+		<member ref="52383" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="52388" version="1" visible="true">
+		<member ref="448" role="regulatory element" type="relation" />
+		<member ref="52375" role="left" type="way" />
+		<member ref="52378" role="right" type="way" />
+		<member ref="52387" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="52458" version="1" visible="true">
+		<member ref="347" role="regulatory element" type="relation" />
+		<member ref="52438" role="left" type="way" />
+		<member ref="52445" role="right" type="way" />
+		<member ref="52457" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
 	<relation id="52466" version="1" visible="true">
 		<member ref="52445" role="left" type="way" />
 		<member ref="52450" role="right" type="way" />
 		<member ref="52465" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="52488" version="1" visible="true">
+		<member ref="472" role="regulatory element" type="relation" />
+		<member ref="52480" role="left" type="way" />
+		<member ref="52472" role="right" type="way" />
+		<member ref="52487" role="centerline" type="way" />
 		<tag k="subtype" v="road" />
 		<tag k="location" v="urban" />
 		<tag k="one_way" v="yes" />
@@ -23311,6 +24114,39 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="no_turn" />
 	</relation>
+	<relation id="52811" version="1" visible="true">
+		<member ref="371" role="regulatory element" type="relation" />
+		<member ref="52796" role="left" type="way" />
+		<member ref="52803" role="right" type="way" />
+		<member ref="52810" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="right_turn" />
+	</relation>
+	<relation id="52835" version="1" visible="true">
+		<member ref="472" role="regulatory element" type="relation" />
+		<member ref="52829" role="left" type="way" />
+		<member ref="52826" role="right" type="way" />
+		<member ref="52834" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="52839" version="1" visible="true">
+		<member ref="347" role="regulatory element" type="relation" />
+		<member ref="52829" role="left" type="way" />
+		<member ref="52831" role="right" type="way" />
+		<member ref="52838" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
 	<relation id="52856" version="1" visible="true">
 		<member ref="52844" role="left" type="way" />
 		<member ref="52841" role="right" type="way" />
@@ -23361,6 +24197,17 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="straight" />
 	</relation>
+	<relation id="52917" version="1" visible="true">
+		<member ref="371" role="regulatory element" type="relation" />
+		<member ref="52893" role="left" type="way" />
+		<member ref="52905" role="right" type="way" />
+		<member ref="52916" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
 	<relation id="53120" version="1" visible="true">
 		<member ref="53114" role="left" type="way" />
 		<member ref="53113" role="right" type="way" />
@@ -23401,6 +24248,39 @@
 		<tag k="subtype" v="road" />
 		<tag k="turn direction" v="straight" />
 	</relation>
+	<relation id="53157" version="1" visible="true">
+		<member ref="448" role="regulatory element" type="relation" />
+		<member ref="53135" role="left" type="way" />
+		<member ref="53147" role="right" type="way" />
+		<member ref="53156" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="53350" version="1" visible="true">
+		<member ref="371" role="regulatory element" type="relation" />
+		<member ref="53332" role="left" type="way" />
+		<member ref="53320" role="right" type="way" />
+		<member ref="53349" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
+	<relation id="53364" version="1" visible="true">
+		<member ref="371" role="regulatory element" type="relation" />
+		<member ref="53337" role="left" type="way" />
+		<member ref="53332" role="right" type="way" />
+		<member ref="53363" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="left_turn" />
+	</relation>
 	<relation id="53492" version="1" visible="true">
 		<member ref="53486" role="left" type="way" />
 		<member ref="53483" role="right" type="way" />
@@ -23415,6 +24295,17 @@
 		<member ref="53486" role="left" type="way" />
 		<member ref="53488" role="right" type="way" />
 		<member ref="53495" role="centerline" type="way" />
+		<tag k="subtype" v="road" />
+		<tag k="location" v="urban" />
+		<tag k="one_way" v="yes" />
+		<tag k="subtype" v="road" />
+		<tag k="turn direction" v="straight" />
+	</relation>
+	<relation id="53529" version="1" visible="true">
+		<member ref="371" role="regulatory element" type="relation" />
+		<member ref="53526" role="left" type="way" />
+		<member ref="53527" role="right" type="way" />
+		<member ref="53528" role="centerline" type="way" />
 		<tag k="subtype" v="road" />
 		<tag k="location" v="urban" />
 		<tag k="one_way" v="yes" />
