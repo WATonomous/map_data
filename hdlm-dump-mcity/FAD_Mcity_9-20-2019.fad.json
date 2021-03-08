@@ -74,6 +74,254 @@
       {
          "BOUNDARY" : [
             {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.3005651,
+               "LONGITUDE" : -83.697486
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.3005651,
+               "LONGITUDE" : -83.6973402
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.3005599,
+               "LONGITUDE" : -83.6973402
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.3005599,
+               "LONGITUDE" : -83.697486
+            }
+         ],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 4
+            },
+            {
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 5
+            },
+            {
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 6
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["69762824466", "69732821555"],
+         "ROAD_MARKING_TYPE" : "STOP_LINE",
+         "SOURCE_ID" : "1111",
+         "TYPE" : "ROAD_MARKING"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.3007365,
+               "LONGITUDE" : -83.6974905
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.3007365,
+               "LONGITUDE" : -83.6975705
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.3007417,
+               "LONGITUDE" : -83.6975705
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.3007417,
+               "LONGITUDE" : -83.6974905
+            }
+         ],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            },
+            {
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 3
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["69742813910", "69797821189"],
+         "ROAD_MARKING_TYPE" : "STOP_LINE",
+         "SOURCE_ID" : "2222",
+         "TYPE" : "ROAD_MARKING"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.2991601,
+               "LONGITUDE" : -83.6991627
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.2991443,
+               "LONGITUDE" : -83.6991402
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.2991409,
+               "LONGITUDE" : -83.6991453
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.299156,
+               "LONGITUDE" : -83.6991676
+            }
+         ],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "3023262562",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            },
+            {
+               "HDLM_LANE_GROUP" : "3030762291",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            },
+            {
+               "HDLM_LANE_GROUP" : "3075759513",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["69845325121", "69860322677"],
+         "ROAD_MARKING_TYPE" : "STOP_LINE",
+         "SOURCE_ID" : "3333",
+         "TYPE" : "ROAD_MARKING"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.2991802,
+               "LONGITUDE" : -83.6989746
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.2992104,
+               "LONGITUDE" : -83.6989594
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.299209,
+               "LONGITUDE" : -83.6989518
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.299178,
+               "LONGITUDE" : -83.6989675
+            }
+         ],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "3020762796",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            },
+            {
+               "HDLM_LANE_GROUP" : "3023262562",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            },
+            {
+               "HDLM_LANE_GROUP" : "3053261811",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["69890323508","69892823076"],
+         "ROAD_MARKING_TYPE" : "STOP_LINE",
+         "SOURCE_ID" : "4444",
+         "TYPE" : "ROAD_MARKING"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.2993324,
+               "LONGITUDE" : -83.6990715
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.2993766,
+               "LONGITUDE" : -83.6991205
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.2993808,
+               "LONGITUDE" : -83.6991091
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.2993376,
+               "LONGITUDE" : -83.6990632
+            }
+         ],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "3053261811",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            },
+            {
+               "HDLM_LANE_GROUP" : "3075759513",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            },
+            {
+               "HDLM_LANE_GROUP" : "3083264581",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["69897815110","69852820688"],
+         "ROAD_MARKING_TYPE" : "STOP_LINE",
+         "SOURCE_ID" : "5555",
+         "TYPE" : "ROAD_MARKING"
+      },
+      {
+         "BOUNDARY" : [
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.2994369,
+               "LONGITUDE" : -83.6992402
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.2994335,
+               "LONGITUDE" : -83.6992824
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.2994389,
+               "LONGITUDE" : -83.6992832
+            },
+            {
+               "HEIGHT" : 0,
+               "LATITUDE" : 42.2994419,
+               "LONGITUDE" : -83.6992406
+            }
+         ],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "3020762796",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            },
+            {
+               "HDLM_LANE_GROUP" : "3030762291",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            },
+            {
+               "HDLM_LANE_GROUP" : "3083264581",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["69847819750","69880315939"],
+         "ROAD_MARKING_TYPE" : "STOP_LINE",
+         "SOURCE_ID" : "6666",
+         "TYPE" : "ROAD_MARKING"
+      },
+      {
+         "BOUNDARY" : [
+            {
                "HEIGHT" : 240.9027002296515,
                "LATITUDE" : 42.30093415779311,
                "LONGITUDE" : -83.69914541478077
@@ -321,8 +569,21 @@
             }
          ],
          "CODE" : "",
-         "LANE_ASSOCIATIONS" : [],
-         "OBJECT_ASSOCIATIONS" : [],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 4
+            },
+            {
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 5
+            },
+            {
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 6
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["1111"],
          "OPERATING_TIMES" : [],
          "SOURCE_ID" : "69732821555",
          "STACKING_DIRECTION" : "STANDARD",
@@ -786,8 +1047,17 @@
             }
          ],
          "CODE" : "",
-         "LANE_ASSOCIATIONS" : [],
-         "OBJECT_ASSOCIATIONS" : [],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            },
+            {
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 3
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["2222"],
          "OPERATING_TIMES" : [],
          "SOURCE_ID" : "69742813910",
          "STACKING_DIRECTION" : "STANDARD",
@@ -933,8 +1203,21 @@
             }
          ],
          "CODE" : "",
-         "LANE_ASSOCIATIONS" : [],
-         "OBJECT_ASSOCIATIONS" : [],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 4
+            },
+            {
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 5
+            },
+            {
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 6
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["1111"],
          "OPERATING_TIMES" : [],
          "SOURCE_ID" : "69762824466",
          "STACKING_DIRECTION" : "STANDARD",
@@ -1204,8 +1487,21 @@
             }
          ],
          "CODE" : "",
-         "LANE_ASSOCIATIONS" : [],
-         "OBJECT_ASSOCIATIONS" : [],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "3020762796",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            },
+            {
+               "HDLM_LANE_GROUP" : "3030762291",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            },
+            {
+               "HDLM_LANE_GROUP" : "3083264581",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["6666"],
          "OPERATING_TIMES" : [],
          "SOURCE_ID" : "69880315939",
          "STACKING_DIRECTION" : "STANDARD",
@@ -1422,8 +1718,21 @@
             }
          ],
          "CODE" : "",
-         "LANE_ASSOCIATIONS" : [],
-         "OBJECT_ASSOCIATIONS" : [],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "3020762796",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            },
+            {
+               "HDLM_LANE_GROUP" : "3023262562",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            },
+            {
+               "HDLM_LANE_GROUP" : "3053261811",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["4444"],
          "OPERATING_TIMES" : [],
          "SOURCE_ID" : "69890323508",
          "STACKING_DIRECTION" : "STANDARD",
@@ -1758,8 +2067,21 @@
             }
          ],
          "CODE" : "",
-         "LANE_ASSOCIATIONS" : [],
-         "OBJECT_ASSOCIATIONS" : [],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "3020762796",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            },
+            {
+               "HDLM_LANE_GROUP" : "3023262562",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            },
+            {
+               "HDLM_LANE_GROUP" : "3053261811",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["4444"],
          "OPERATING_TIMES" : [],
          "SOURCE_ID" : "69892823076",
          "STACKING_DIRECTION" : "STANDARD",
@@ -1875,8 +2197,21 @@
             }
          ],
          "CODE" : "",
-         "LANE_ASSOCIATIONS" : [],
-         "OBJECT_ASSOCIATIONS" : [],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "3053261811",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            },
+            {
+               "HDLM_LANE_GROUP" : "3075759513",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            },
+            {
+               "HDLM_LANE_GROUP" : "3083264581",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["5555"],
          "OPERATING_TIMES" : [],
          "SOURCE_ID" : "69897815110",
          "STACKING_DIRECTION" : "STANDARD",
@@ -3861,8 +4196,21 @@
             }
          ],
          "CODE" : "",
-         "LANE_ASSOCIATIONS" : [],
-         "OBJECT_ASSOCIATIONS" : [],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "3023262562",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            },
+            {
+               "HDLM_LANE_GROUP" : "3030762291",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            },
+            {
+               "HDLM_LANE_GROUP" : "3075759513",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["3333"],
          "OPERATING_TIMES" : [],
          "SOURCE_ID" : "69845325121",
          "STACKING_DIRECTION" : "STANDARD",
@@ -4055,8 +4403,21 @@
             }
          ],
          "CODE" : "",
-         "LANE_ASSOCIATIONS" : [],
-         "OBJECT_ASSOCIATIONS" : [],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "3053261811",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            },
+            {
+               "HDLM_LANE_GROUP" : "3075759513",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            },
+            {
+               "HDLM_LANE_GROUP" : "3083264581",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["5555"],
          "OPERATING_TIMES" : [],
          "SOURCE_ID" : "69852820688",
          "STACKING_DIRECTION" : "STANDARD",
@@ -4403,8 +4764,21 @@
             }
          ],
          "CODE" : "",
-         "LANE_ASSOCIATIONS" : [],
-         "OBJECT_ASSOCIATIONS" : [],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "3023262562",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            },
+            {
+               "HDLM_LANE_GROUP" : "3030762291",
+               "HDLM_LANE_GROUP_INDEX" : 1
+            },
+            {
+               "HDLM_LANE_GROUP" : "3075759513",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["3333"],
          "OPERATING_TIMES" : [],
          "SOURCE_ID" : "69860322677",
          "STACKING_DIRECTION" : "STANDARD",
@@ -4455,8 +4829,21 @@
             }
          ],
          "CODE" : "",
-         "LANE_ASSOCIATIONS" : [],
-         "OBJECT_ASSOCIATIONS" : [],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "3020762796",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            },
+            {
+               "HDLM_LANE_GROUP" : "3030762291",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            },
+            {
+               "HDLM_LANE_GROUP" : "3083264581",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["6666"],
          "OPERATING_TIMES" : [],
          "SOURCE_ID" : "69847819750",
          "STACKING_DIRECTION" : "STANDARD",
@@ -6537,8 +6924,17 @@
             }
          ],
          "CODE" : "",
-         "LANE_ASSOCIATIONS" : [],
-         "OBJECT_ASSOCIATIONS" : [],
+         "LANE_ASSOCIATIONS" : [
+            {
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 2
+            },
+            {
+               "HDLM_LANE_GROUP" : "69030039515",
+               "HDLM_LANE_GROUP_INDEX" : 3
+            }
+         ],
+         "OBJECT_ASSOCIATIONS" : ["2222"],
          "OPERATING_TIMES" : [],
          "SOURCE_ID" : "69797821189",
          "STACKING_DIRECTION" : "STANDARD",
