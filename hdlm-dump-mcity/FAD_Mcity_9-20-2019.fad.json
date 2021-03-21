@@ -111,7 +111,8 @@
          "OBJECT_ASSOCIATIONS" : ["69762824466", "69732821555"],
          "ROAD_MARKING_TYPE" : "STOP_LINE",
          "SOURCE_ID" : "1111",
-         "TYPE" : "ROAD_MARKING"
+         "TYPE" : "ROAD_MARKING",
+         "SUBTYPE" : "VIRTUAL"
       },
       {
          "BOUNDARY" : [
@@ -149,7 +150,8 @@
          "OBJECT_ASSOCIATIONS" : ["69742813910", "69797821189"],
          "ROAD_MARKING_TYPE" : "STOP_LINE",
          "SOURCE_ID" : "2222",
-         "TYPE" : "ROAD_MARKING"
+         "TYPE" : "ROAD_MARKING",
+         "SUBTYPE" : "VIRTUAL"
       },
       {
          "BOUNDARY" : [

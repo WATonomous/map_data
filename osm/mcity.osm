@@ -7457,6 +7457,7 @@
 		<nd ref="338" />
 		<nd ref="339" />
 		<tag k="type" v="stop_line" />
+		<tag k="subtype" v="virtual" />
 	</way>
 	<way id="346" visible="true" version="1">
 		<nd ref="342" />
@@ -7464,6 +7465,7 @@
 		<nd ref="344" />
 		<nd ref="345" />
 		<tag k="type" v="stop_line" />
+		<tag k="subtype" v="virtual" />
 	</way>
 	<way id="352" visible="true" version="1">
 		<nd ref="348" />
