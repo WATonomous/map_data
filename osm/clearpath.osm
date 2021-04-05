@@ -1315,11 +1315,11 @@
   <node id="560111" visible="true" version="1" lat="43.50008678475" lon="-80.54936264424" />
   <node id="560113" visible="true" version="1" lat="43.50008302869" lon="-80.54935767326" />
   <node id="560115" visible="true" version="1" lat="43.50008633402" lon="-80.5493537379" />
-  <node id="560127" action="modify" visible="true" version="1" lat="43.50074403979" lon="-80.54799779414" />
-  <node id="560129" action="modify" visible="true" version="1" lat="43.50074422759" lon="-80.54799939935" />
-  <node id="560131" action="modify" visible="true" version="1" lat="43.50074539195" lon="-80.54799769058" />
-  <node id="560133" action="modify" visible="true" version="1" lat="43.50074388955" lon="-80.54799603359" />
-  <node id="560135" action="modify" visible="true" version="1" lat="43.50074283786" lon="-80.54799779414" />
+  <node id="560127" action="modify" visible="true" version="1" lat="43.50077884359" lon="-80.54820391281" />
+  <node id="560129" action="modify" visible="true" version="1" lat="43.50077903139" lon="-80.54820551802" />
+  <node id="560131" action="modify" visible="true" version="1" lat="43.50078019575" lon="-80.54820380925" />
+  <node id="560133" action="modify" visible="true" version="1" lat="43.50077869335" lon="-80.54820215226" />
+  <node id="560135" action="modify" visible="true" version="1" lat="43.50077764166" lon="-80.54820391281" />
   <node id="560540" visible="true" version="1" lat="43.50051039" lon="-80.54887713301" />
   <node id="560542" visible="true" version="1" lat="43.50048962927" lon="-80.54890130798" />
   <node id="560544" visible="true" version="1" lat="43.50047854344" lon="-80.54890908843" />
@@ -3888,7 +3888,7 @@
     <member type="way" ref="560759" role="centerline" />
     <member type="way" ref="560773" role="right" />
     <member type="way" ref="32" role="left" />
-    <member type="relation" ref="9999" role="regulatory element" />
+    <member type="relation" ref="9999" role="regulatory_element" />
     <tag k="name" v="centerArcRight" />
     <tag k="subtype" v="road" />
     <tag k="turn_direction" v="right" />
@@ -3898,14 +3898,14 @@
     <member type="way" ref="560762" role="centerline" />
     <member type="way" ref="560772" role="left" />
     <member type="way" ref="33" role="right" />
-    <member type="relation" ref="9999" role="regulatory element" />
+    <member type="relation" ref="9999" role="regulatory_element" />
     <tag k="name" v="centerArcLeft" />
     <tag k="subtype" v="road" />
     <tag k="turn_direction" v="left" />
     <tag k="type" v="lanelet" />
   </relation>
   <relation id="560937" visible="true" version="1">
-    <member type="relation" ref="9999" role="regulatory element" />
+    <member type="relation" ref="9999" role="regulatory_element" />
     <member type="way" ref="560758" role="centerline" />
     <member type="way" ref="560765" role="right" />
     <member type="way" ref="560774" role="left" />
@@ -4187,7 +4187,7 @@
     <member type="way" ref="560736" role="centerline" />
     <member type="way" ref="560737" role="right" />
     <member type="way" ref="66" role="left" />
-    <member type="relation" ref="8888" role="regulatory element" />
+    <member type="relation" ref="8888" role="regulatory_element" />
     <tag k="name" v="lotWestLeft1" />
     <tag k="subtype" v="road" />
     <tag k="turn_direction" v="left" />
@@ -4215,7 +4215,7 @@
     <member type="way" ref="560707" role="centerline" />
     <member type="way" ref="560724" role="left" />
     <member type="way" ref="69" role="right" />
-    <member type="relation" ref="8888" role="regulatory element" />
+    <member type="relation" ref="8888" role="regulatory_element" />
     <tag k="name" v="lotWestRight2" />
     <tag k="subtype" v="road" />
     <tag k="turn_direction" v="right" />
