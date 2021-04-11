@@ -19899,7 +19899,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="1232" visible="true" version="1">
-		<member ref="496" role="regulatory element" type="relation" />
+		<member ref="496" role="regulatory_element" type="relation" />
 		<member ref="1214" role="left" type="way" />
 		<member ref="1205" role="right" type="way" />
 		<member ref="1231" role="centerline" type="way" />
@@ -19910,7 +19910,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="1241" visible="true" version="1">
-		<member ref="431" role="regulatory element" type="relation" />
+		<member ref="431" role="regulatory_element" type="relation" />
 		<member ref="1214" role="left" type="way" />
 		<member ref="1222" role="right" type="way" />
 		<member ref="1240" role="centerline" type="way" />
@@ -19941,7 +19941,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="1472" visible="true" version="1">
-		<member ref="395" role="regulatory element" type="relation" />
+		<member ref="395" role="regulatory_element" type="relation" />
 		<member ref="1462" role="left" type="way" />
 		<member ref="1459" role="right" type="way" />
 		<member ref="1471" role="centerline" type="way" />
@@ -19952,7 +19952,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="1478" visible="true" version="1">
-		<member ref="437" role="regulatory element" type="relation" />
+		<member ref="437" role="regulatory_element" type="relation" />
 		<member ref="1462" role="left" type="way" />
 		<member ref="1468" role="right" type="way" />
 		<member ref="1477" role="centerline" type="way" />
@@ -19963,7 +19963,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="1781" visible="true" version="1">
-		<member ref="395" role="regulatory element" type="relation" />
+		<member ref="395" role="regulatory_element" type="relation" />
 		<member ref="1744" role="left" type="way" />
 		<member ref="1731" role="right" type="way" />
 		<member ref="1780" role="centerline" type="way" />
@@ -19974,7 +19974,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="1793" visible="true" version="1">
-		<member ref="395" role="regulatory element" type="relation" />
+		<member ref="395" role="regulatory_element" type="relation" />
 		<member ref="1754" role="left" type="way" />
 		<member ref="1744" role="right" type="way" />
 		<member ref="1792" role="centerline" type="way" />
@@ -19985,7 +19985,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="1803" visible="true" version="1">
-		<member ref="502" role="regulatory element" type="relation" />
+		<member ref="502" role="regulatory_element" type="relation" />
 		<member ref="1763" role="left" type="way" />
 		<member ref="1770" role="right" type="way" />
 		<member ref="1802" role="centerline" type="way" />
@@ -20056,7 +20056,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="2293" visible="true" version="1">
-		<member ref="502" role="regulatory element" type="relation" />
+		<member ref="502" role="regulatory_element" type="relation" />
 		<member ref="2262" role="left" type="way" />
 		<member ref="2251" role="right" type="way" />
 		<member ref="2292" role="centerline" type="way" />
@@ -20067,7 +20067,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="2302" visible="true" version="1">
-		<member ref="437" role="regulatory element" type="relation" />
+		<member ref="437" role="regulatory_element" type="relation" />
 		<member ref="2271" role="left" type="way" />
 		<member ref="2280" role="right" type="way" />
 		<member ref="2301" role="centerline" type="way" />
@@ -20078,7 +20078,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="2460" visible="true" version="1">
-		<member ref="449" role="regulatory element" type="relation" />
+		<member ref="449" role="regulatory_element" type="relation" />
 		<member ref="2438" role="left" type="way" />
 		<member ref="2428" role="right" type="way" />
 		<member ref="2459" role="centerline" type="way" />
@@ -20089,7 +20089,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="2472" visible="true" version="1">
-		<member ref="443" role="regulatory element" type="relation" />
+		<member ref="443" role="regulatory_element" type="relation" />
 		<member ref="2438" role="left" type="way" />
 		<member ref="2447" role="right" type="way" />
 		<member ref="2471" role="centerline" type="way" />
@@ -21270,7 +21270,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="16400" visible="true" version="1">
-		<member ref="359" role="regulatory element" type="relation" />
+		<member ref="359" role="regulatory_element" type="relation" />
 		<member ref="16381" role="left" type="way" />
 		<member ref="16372" role="right" type="way" />
 		<member ref="16399" role="centerline" type="way" />
@@ -21281,7 +21281,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="16410" visible="true" version="1">
-		<member ref="371" role="regulatory element" type="relation" />
+		<member ref="371" role="regulatory_element" type="relation" />
 		<member ref="16381" role="left" type="way" />
 		<member ref="16390" role="right" type="way" />
 		<member ref="16409" role="centerline" type="way" />
@@ -21292,7 +21292,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="16444" visible="true" version="1">
-		<member ref="359" role="regulatory element" type="relation" />
+		<member ref="359" role="regulatory_element" type="relation" />
 		<member ref="16427" role="left" type="way" />
 		<member ref="16419" role="right" type="way" />
 		<member ref="16443" role="centerline" type="way" />
@@ -21303,7 +21303,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="16453" visible="true" version="1">
-		<member ref="353" role="regulatory element" type="relation" />
+		<member ref="353" role="regulatory_element" type="relation" />
 		<member ref="16427" role="left" type="way" />
 		<member ref="16435" role="right" type="way" />
 		<member ref="16452" role="centerline" type="way" />
@@ -21314,7 +21314,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="16552" visible="true" version="1">
-		<member ref="353" role="regulatory element" type="relation" />
+		<member ref="353" role="regulatory_element" type="relation" />
 		<member ref="16529" role="left" type="way" />
 		<member ref="16519" role="right" type="way" />
 		<member ref="16551" role="centerline" type="way" />
@@ -21325,7 +21325,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="16563" visible="true" version="1">
-		<member ref="371" role="regulatory element" type="relation" />
+		<member ref="371" role="regulatory_element" type="relation" />
 		<member ref="16529" role="left" type="way" />
 		<member ref="16540" role="right" type="way" />
 		<member ref="16562" role="centerline" type="way" />
@@ -21336,7 +21336,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="16832" visible="true" version="1">
-		<member ref="365" role="regulatory element" type="relation" />
+		<member ref="365" role="regulatory_element" type="relation" />
 		<member ref="16810" role="left" type="way" />
 		<member ref="16797" role="right" type="way" />
 		<member ref="16831" role="centerline" type="way" />
@@ -21347,7 +21347,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="16843" visible="true" version="1">
-		<member ref="359" role="regulatory element" type="relation" />
+		<member ref="359" role="regulatory_element" type="relation" />
 		<member ref="16810" role="left" type="way" />
 		<member ref="16818" role="right" type="way" />
 		<member ref="16842" role="centerline" type="way" />
@@ -21398,7 +21398,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="16989" visible="true" version="1">
-		<member ref="365" role="regulatory element" type="relation" />
+		<member ref="365" role="regulatory_element" type="relation" />
 		<member ref="16970" role="left" type="way" />
 		<member ref="16960" role="right" type="way" />
 		<member ref="16988" role="centerline" type="way" />
@@ -21409,7 +21409,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="16997" visible="true" version="1">
-		<member ref="353" role="regulatory element" type="relation" />
+		<member ref="353" role="regulatory_element" type="relation" />
 		<member ref="16970" role="left" type="way" />
 		<member ref="16977" role="right" type="way" />
 		<member ref="16996" role="centerline" type="way" />
@@ -21420,7 +21420,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="17073" visible="true" version="1">
-		<member ref="365" role="regulatory element" type="relation" />
+		<member ref="365" role="regulatory_element" type="relation" />
 		<member ref="17050" role="left" type="way" />
 		<member ref="17040" role="right" type="way" />
 		<member ref="17072" role="centerline" type="way" />
@@ -21431,7 +21431,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="17087" visible="true" version="1">
-		<member ref="371" role="regulatory element" type="relation" />
+		<member ref="371" role="regulatory_element" type="relation" />
 		<member ref="17050" role="left" type="way" />
 		<member ref="17065" role="right" type="way" />
 		<member ref="17086" role="centerline" type="way" />
@@ -21532,7 +21532,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="17831" visible="true" version="1">
-		<member ref="455" role="regulatory element" type="relation" />
+		<member ref="455" role="regulatory_element" type="relation" />
 		<member ref="17823" role="left" type="way" />
 		<member ref="17821" role="right" type="way" />
 		<member ref="17830" role="centerline" type="way" />
@@ -21543,7 +21543,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="17835" visible="true" version="1">
-		<member ref="449" role="regulatory element" type="relation" />
+		<member ref="449" role="regulatory_element" type="relation" />
 		<member ref="17825" role="left" type="way" />
 		<member ref="17828" role="right" type="way" />
 		<member ref="17834" role="centerline" type="way" />
@@ -21554,7 +21554,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="17879" visible="true" version="1">
-		<member ref="455" role="regulatory element" type="relation" />
+		<member ref="455" role="regulatory_element" type="relation" />
 		<member ref="17851" role="left" type="way" />
 		<member ref="17843" role="right" type="way" />
 		<member ref="17878" role="centerline" type="way" />
@@ -21565,7 +21565,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="17890" visible="true" version="1">
-		<member ref="443" role="regulatory element" type="relation" />
+		<member ref="443" role="regulatory_element" type="relation" />
 		<member ref="17859" role="left" type="way" />
 		<member ref="17870" role="right" type="way" />
 		<member ref="17889" role="centerline" type="way" />
@@ -21596,7 +21596,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="17930" visible="true" version="1">
-		<member ref="413" role="regulatory element" type="relation" />
+		<member ref="413" role="regulatory_element" type="relation" />
 		<member ref="17925" role="left" type="way" />
 		<member ref="17923" role="right" type="way" />
 		<member ref="17929" role="centerline" type="way" />
@@ -21607,7 +21607,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="17933" visible="true" version="1">
-		<member ref="431" role="regulatory element" type="relation" />
+		<member ref="431" role="regulatory_element" type="relation" />
 		<member ref="17925" role="left" type="way" />
 		<member ref="17927" role="right" type="way" />
 		<member ref="17932" role="centerline" type="way" />
@@ -21618,7 +21618,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="17970" visible="true" version="1">
-		<member ref="413" role="regulatory element" type="relation" />
+		<member ref="413" role="regulatory_element" type="relation" />
 		<member ref="17951" role="left" type="way" />
 		<member ref="17944" role="right" type="way" />
 		<member ref="17969" role="centerline" type="way" />
@@ -21629,7 +21629,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="17978" visible="true" version="1">
-		<member ref="496" role="regulatory element" type="relation" />
+		<member ref="496" role="regulatory_element" type="relation" />
 		<member ref="17951" role="left" type="way" />
 		<member ref="17959" role="right" type="way" />
 		<member ref="17977" role="centerline" type="way" />
@@ -21640,7 +21640,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="17991" visible="true" version="1">
-		<member ref="425" role="regulatory element" type="relation" />
+		<member ref="425" role="regulatory_element" type="relation" />
 		<member ref="17984" role="left" type="way" />
 		<member ref="17981" role="right" type="way" />
 		<member ref="17990" role="centerline" type="way" />
@@ -21651,7 +21651,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="17995" visible="true" version="1">
-		<member ref="401" role="regulatory element" type="relation" />
+		<member ref="401" role="regulatory_element" type="relation" />
 		<member ref="17984" role="left" type="way" />
 		<member ref="17987" role="right" type="way" />
 		<member ref="17994" role="centerline" type="way" />
@@ -21902,7 +21902,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="24693" visible="true" version="1">
-		<member ref="502" role="regulatory element" type="relation" />
+		<member ref="502" role="regulatory_element" type="relation" />
 		<member ref="24671" role="left" type="way" />
 		<member ref="24668" role="right" type="way" />
 		<member ref="24692" role="centerline" type="way" />
@@ -21913,7 +21913,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="24700" visible="true" version="1">
-		<member ref="502" role="regulatory element" type="relation" />
+		<member ref="502" role="regulatory_element" type="relation" />
 		<member ref="24679" role="left" type="way" />
 		<member ref="24671" role="right" type="way" />
 		<member ref="24699" role="centerline" type="way" />
@@ -21924,7 +21924,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="24705" visible="true" version="1">
-		<member ref="478" role="regulatory element" type="relation" />
+		<member ref="478" role="regulatory_element" type="relation" />
 		<member ref="24682" role="left" type="way" />
 		<member ref="24686" role="right" type="way" />
 		<member ref="24704" role="centerline" type="way" />
@@ -21935,7 +21935,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="24709" visible="true" version="1">
-		<member ref="478" role="regulatory element" type="relation" />
+		<member ref="478" role="regulatory_element" type="relation" />
 		<member ref="24686" role="left" type="way" />
 		<member ref="24689" role="right" type="way" />
 		<member ref="24708" role="centerline" type="way" />
@@ -21986,7 +21986,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="24819" visible="true" version="1">
-		<member ref="437" role="regulatory element" type="relation" />
+		<member ref="437" role="regulatory_element" type="relation" />
 		<member ref="24792" role="left" type="way" />
 		<member ref="24783" role="right" type="way" />
 		<member ref="24818" role="centerline" type="way" />
@@ -21997,7 +21997,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="24829" visible="true" version="1">
-		<member ref="437" role="regulatory element" type="relation" />
+		<member ref="437" role="regulatory_element" type="relation" />
 		<member ref="24801" role="left" type="way" />
 		<member ref="24792" role="right" type="way" />
 		<member ref="24828" role="centerline" type="way" />
@@ -22008,7 +22008,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="24838" visible="true" version="1">
-		<member ref="478" role="regulatory element" type="relation" />
+		<member ref="478" role="regulatory_element" type="relation" />
 		<member ref="24801" role="left" type="way" />
 		<member ref="24807" role="right" type="way" />
 		<member ref="24837" role="centerline" type="way" />
@@ -22019,7 +22019,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="24873" visible="true" version="1">
-		<member ref="395" role="regulatory element" type="relation" />
+		<member ref="395" role="regulatory_element" type="relation" />
 		<member ref="24853" role="left" type="way" />
 		<member ref="24844" role="right" type="way" />
 		<member ref="24872" role="centerline" type="way" />
@@ -22030,7 +22030,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="24886" visible="true" version="1">
-		<member ref="478" role="regulatory element" type="relation" />
+		<member ref="478" role="regulatory_element" type="relation" />
 		<member ref="24853" role="left" type="way" />
 		<member ref="24864" role="right" type="way" />
 		<member ref="24885" role="centerline" type="way" />
@@ -22051,7 +22051,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="26048" visible="true" version="1">
-		<member ref="347" role="regulatory element" type="relation" />
+		<member ref="347" role="regulatory_element" type="relation" />
 		<member ref="26028" role="left" type="way" />
 		<member ref="26025" role="right" type="way" />
 		<member ref="26047" role="centerline" type="way" />
@@ -22062,7 +22062,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="26052" visible="true" version="1">
-		<member ref="347" role="regulatory element" type="relation" />
+		<member ref="347" role="regulatory_element" type="relation" />
 		<member ref="26031" role="left" type="way" />
 		<member ref="26028" role="right" type="way" />
 		<member ref="26051" role="centerline" type="way" />
@@ -22073,7 +22073,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="26056" visible="true" version="1">
-		<member ref="341" role="regulatory element" type="relation" />
+		<member ref="341" role="regulatory_element" type="relation" />
 		<member ref="26031" role="left" type="way" />
 		<member ref="26034" role="right" type="way" />
 		<member ref="26055" role="centerline" type="way" />
@@ -22084,7 +22084,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="26060" visible="true" version="1">
-		<member ref="341" role="regulatory element" type="relation" />
+		<member ref="341" role="regulatory_element" type="relation" />
 		<member ref="26034" role="left" type="way" />
 		<member ref="26037" role="right" type="way" />
 		<member ref="26059" role="centerline" type="way" />
@@ -22095,7 +22095,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="26064" visible="true" version="1">
-		<member ref="341" role="regulatory element" type="relation" />
+		<member ref="341" role="regulatory_element" type="relation" />
 		<member ref="26037" role="left" type="way" />
 		<member ref="26040" role="right" type="way" />
 		<member ref="26063" role="centerline" type="way" />
@@ -22176,7 +22176,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="30253" visible="true" version="1">
-		<member ref="514" role="regulatory element" type="relation" />
+		<member ref="514" role="regulatory_element" type="relation" />
 		<member ref="30228" role="left" type="way" />
 		<member ref="30240" role="right" type="way" />
 		<member ref="30252" role="centerline" type="way" />
@@ -22237,7 +22237,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="30530" visible="true" version="1">
-		<member ref="490" role="regulatory element" type="relation" />
+		<member ref="490" role="regulatory_element" type="relation" />
 		<member ref="30504" role="left" type="way" />
 		<member ref="30519" role="right" type="way" />
 		<member ref="30529" role="centerline" type="way" />
@@ -22248,7 +22248,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="30620" visible="true" version="1">
-		<member ref="466" role="regulatory element" type="relation" />
+		<member ref="466" role="regulatory_element" type="relation" />
 		<member ref="30586" role="left" type="way" />
 		<member ref="30597" role="right" type="way" />
 		<member ref="30619" role="centerline" type="way" />
@@ -22259,7 +22259,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="30632" visible="true" version="1">
-		<member ref="466" role="regulatory element" type="relation" />
+		<member ref="466" role="regulatory_element" type="relation" />
 		<member ref="30597" role="left" type="way" />
 		<member ref="30608" role="right" type="way" />
 		<member ref="30631" role="centerline" type="way" />
@@ -22300,7 +22300,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="30841" visible="true" version="1">
-		<member ref="419" role="regulatory element" type="relation" />
+		<member ref="419" role="regulatory_element" type="relation" />
 		<member ref="30826" role="left" type="way" />
 		<member ref="30815" role="right" type="way" />
 		<member ref="30840" role="centerline" type="way" />
@@ -22311,7 +22311,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="30993" visible="true" version="1">
-		<member ref="389" role="regulatory element" type="relation" />
+		<member ref="389" role="regulatory_element" type="relation" />
 		<member ref="30979" role="left" type="way" />
 		<member ref="30971" role="right" type="way" />
 		<member ref="30992" role="centerline" type="way" />
@@ -22322,7 +22322,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="31360" visible="true" version="1">
-		<member ref="490" role="regulatory element" type="relation" />
+		<member ref="490" role="regulatory_element" type="relation" />
 		<member ref="31350" role="left" type="way" />
 		<member ref="31347" role="right" type="way" />
 		<member ref="31359" role="centerline" type="way" />
@@ -22333,7 +22333,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="31364" visible="true" version="1">
-		<member ref="490" role="regulatory element" type="relation" />
+		<member ref="490" role="regulatory_element" type="relation" />
 		<member ref="31353" role="left" type="way" />
 		<member ref="31350" role="right" type="way" />
 		<member ref="31363" role="centerline" type="way" />
@@ -22344,7 +22344,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="31483" visible="true" version="1">
-		<member ref="472" role="regulatory element" type="relation" />
+		<member ref="472" role="regulatory_element" type="relation" />
 		<member ref="31460" role="left" type="way" />
 		<member ref="31451" role="right" type="way" />
 		<member ref="31482" role="centerline" type="way" />
@@ -22355,7 +22355,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="31492" visible="true" version="1">
-		<member ref="472" role="regulatory element" type="relation" />
+		<member ref="472" role="regulatory_element" type="relation" />
 		<member ref="31470" role="left" type="way" />
 		<member ref="31460" role="right" type="way" />
 		<member ref="31491" role="centerline" type="way" />
@@ -22386,7 +22386,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="31687" visible="true" version="1">
-		<member ref="419" role="regulatory element" type="relation" />
+		<member ref="419" role="regulatory_element" type="relation" />
 		<member ref="31668" role="left" type="way" />
 		<member ref="31677" role="right" type="way" />
 		<member ref="31686" role="centerline" type="way" />
@@ -22457,7 +22457,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="32150" visible="true" version="1">
-		<member ref="377" role="regulatory element" type="relation" />
+		<member ref="377" role="regulatory_element" type="relation" />
 		<member ref="32141" role="left" type="way" />
 		<member ref="32137" role="right" type="way" />
 		<member ref="32149" role="centerline" type="way" />
@@ -22468,7 +22468,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="32154" visible="true" version="1">
-		<member ref="472" role="regulatory element" type="relation" />
+		<member ref="472" role="regulatory_element" type="relation" />
 		<member ref="32144" role="left" type="way" />
 		<member ref="32146" role="right" type="way" />
 		<member ref="32153" role="centerline" type="way" />
@@ -22479,7 +22479,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="32164" visible="true" version="1">
-		<member ref="389" role="regulatory element" type="relation" />
+		<member ref="389" role="regulatory_element" type="relation" />
 		<member ref="32156" role="left" type="way" />
 		<member ref="32157" role="right" type="way" />
 		<member ref="32163" role="centerline" type="way" />
@@ -22490,7 +22490,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="32171" visible="true" version="1">
-		<member ref="389" role="regulatory element" type="relation" />
+		<member ref="389" role="regulatory_element" type="relation" />
 		<member ref="32157" role="left" type="way" />
 		<member ref="32162" role="right" type="way" />
 		<member ref="32170" role="centerline" type="way" />
@@ -22611,7 +22611,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="32624" visible="true" version="1">
-		<member ref="490" role="regulatory element" type="relation" />
+		<member ref="490" role="regulatory_element" type="relation" />
 		<member ref="32608" role="left" type="way" />
 		<member ref="32615" role="right" type="way" />
 		<member ref="32623" role="centerline" type="way" />
@@ -22622,7 +22622,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="32652" visible="true" version="1">
-		<member ref="514" role="regulatory element" type="relation" />
+		<member ref="514" role="regulatory_element" type="relation" />
 		<member ref="32633" role="left" type="way" />
 		<member ref="32642" role="right" type="way" />
 		<member ref="32651" role="centerline" type="way" />
@@ -22703,7 +22703,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="33054" visible="true" version="1">
-		<member ref="466" role="regulatory element" type="relation" />
+		<member ref="466" role="regulatory_element" type="relation" />
 		<member ref="33044" role="left" type="way" />
 		<member ref="33036" role="right" type="way" />
 		<member ref="33053" role="centerline" type="way" />
@@ -22714,7 +22714,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="33145" visible="true" version="1">
-		<member ref="490" role="regulatory element" type="relation" />
+		<member ref="490" role="regulatory_element" type="relation" />
 		<member ref="33120" role="left" type="way" />
 		<member ref="33133" role="right" type="way" />
 		<member ref="33144" role="centerline" type="way" />
@@ -22785,7 +22785,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="33387" visible="true" version="1">
-		<member ref="514" role="regulatory element" type="relation" />
+		<member ref="514" role="regulatory_element" type="relation" />
 		<member ref="33383" role="left" type="way" />
 		<member ref="33380" role="right" type="way" />
 		<member ref="33386" role="centerline" type="way" />
@@ -22806,7 +22806,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="33503" visible="true" version="1">
-		<member ref="377" role="regulatory element" type="relation" />
+		<member ref="377" role="regulatory_element" type="relation" />
 		<member ref="33485" role="left" type="way" />
 		<member ref="33480" role="right" type="way" />
 		<member ref="33502" role="centerline" type="way" />
@@ -22817,7 +22817,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="33512" visible="true" version="1">
-		<member ref="377" role="regulatory element" type="relation" />
+		<member ref="377" role="regulatory_element" type="relation" />
 		<member ref="33494" role="left" type="way" />
 		<member ref="33485" role="right" type="way" />
 		<member ref="33511" role="centerline" type="way" />
@@ -22888,7 +22888,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="33647" visible="true" version="1">
-		<member ref="472" role="regulatory element" type="relation" />
+		<member ref="472" role="regulatory_element" type="relation" />
 		<member ref="33631" role="left" type="way" />
 		<member ref="33638" role="right" type="way" />
 		<member ref="33646" role="centerline" type="way" />
@@ -22899,7 +22899,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="33743" visible="true" version="1">
-		<member ref="389" role="regulatory element" type="relation" />
+		<member ref="389" role="regulatory_element" type="relation" />
 		<member ref="33732" role="left" type="way" />
 		<member ref="33722" role="right" type="way" />
 		<member ref="33742" role="centerline" type="way" />
@@ -22960,7 +22960,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="33981" visible="true" version="1">
-		<member ref="389" role="regulatory element" type="relation" />
+		<member ref="389" role="regulatory_element" type="relation" />
 		<member ref="33964" role="left" type="way" />
 		<member ref="33972" role="right" type="way" />
 		<member ref="33980" role="centerline" type="way" />
@@ -23011,7 +23011,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="34292" visible="true" version="1">
-		<member ref="514" role="regulatory element" type="relation" />
+		<member ref="514" role="regulatory_element" type="relation" />
 		<member ref="34251" role="left" type="way" />
 		<member ref="34264" role="right" type="way" />
 		<member ref="34291" role="centerline" type="way" />
@@ -23022,7 +23022,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="34307" visible="true" version="1">
-		<member ref="514" role="regulatory element" type="relation" />
+		<member ref="514" role="regulatory_element" type="relation" />
 		<member ref="34264" role="left" type="way" />
 		<member ref="34279" role="right" type="way" />
 		<member ref="34306" role="centerline" type="way" />
@@ -23093,7 +23093,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="34535" visible="true" version="1">
-		<member ref="377" role="regulatory element" type="relation" />
+		<member ref="377" role="regulatory_element" type="relation" />
 		<member ref="34523" role="left" type="way" />
 		<member ref="34514" role="right" type="way" />
 		<member ref="34534" role="centerline" type="way" />
@@ -23164,7 +23164,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="34670" visible="true" version="1">
-		<member ref="419" role="regulatory element" type="relation" />
+		<member ref="419" role="regulatory_element" type="relation" />
 		<member ref="34664" role="left" type="way" />
 		<member ref="34663" role="right" type="way" />
 		<member ref="34669" role="centerline" type="way" />
@@ -23175,7 +23175,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="34673" visible="true" version="1">
-		<member ref="466" role="regulatory element" type="relation" />
+		<member ref="466" role="regulatory_element" type="relation" />
 		<member ref="34665" role="left" type="way" />
 		<member ref="34668" role="right" type="way" />
 		<member ref="34672" role="centerline" type="way" />
@@ -23276,7 +23276,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="35114" visible="true" version="1">
-		<member ref="525" role="regulatory element" type="relation" />
+		<member ref="525" role="regulatory_element" type="relation" />
 		<member ref="35109" role="left" type="way" />
 		<member ref="35108" role="right" type="way" />
 		<member ref="35113" role="centerline" type="way" />
@@ -23377,7 +23377,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="35551" visible="true" version="1">
-		<member ref="484" role="regulatory element" type="relation" />
+		<member ref="484" role="regulatory_element" type="relation" />
 		<member ref="35540" role="left" type="way" />
 		<member ref="35543" role="right" type="way" />
 		<member ref="35550" role="centerline" type="way" />
@@ -23448,7 +23448,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="36963" visible="true" version="1">
-		<member ref="484" role="regulatory element" type="relation" />
+		<member ref="484" role="regulatory_element" type="relation" />
 		<member ref="36930" role="left" type="way" />
 		<member ref="36947" role="right" type="way" />
 		<member ref="36962" role="centerline" type="way" />
@@ -23459,7 +23459,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="37205" visible="true" version="1">
-		<member ref="525" role="regulatory element" type="relation" />
+		<member ref="525" role="regulatory_element" type="relation" />
 		<member ref="37196" role="left" type="way" />
 		<member ref="37189" role="right" type="way" />
 		<member ref="37204" role="centerline" type="way" />
@@ -23470,7 +23470,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="37295" visible="true" version="1">
-		<member ref="383" role="regulatory element" type="relation" />
+		<member ref="383" role="regulatory_element" type="relation" />
 		<member ref="37273" role="left" type="way" />
 		<member ref="37284" role="right" type="way" />
 		<member ref="37294" role="centerline" type="way" />
@@ -23651,7 +23651,7 @@
 		<tag k="turn direction" v="no_turn" />
 	</relation>
 	<relation id="50408" visible="true" version="1">
-		<member ref="395" role="regulatory element" type="relation" />
+		<member ref="395" role="regulatory_element" type="relation" />
 		<member ref="50403" role="left" type="way" />
 		<member ref="50401" role="right" type="way" />
 		<member ref="50407" role="centerline" type="way" />
@@ -23992,7 +23992,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="52095" visible="true" version="1">
-		<member ref="525" role="regulatory element" type="relation" />
+		<member ref="525" role="regulatory_element" type="relation" />
 		<member ref="52084" role="left" type="way" />
 		<member ref="52088" role="right" type="way" />
 		<member ref="52094" role="centerline" type="way" />
@@ -24083,7 +24083,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="52388" visible="true" version="1">
-		<member ref="508" role="regulatory element" type="relation" />
+		<member ref="508" role="regulatory_element" type="relation" />
 		<member ref="52358" role="left" type="way" />
 		<member ref="52368" role="right" type="way" />
 		<member ref="52387" role="centerline" type="way" />
@@ -24094,7 +24094,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="52400" visible="true" version="1">
-		<member ref="508" role="regulatory element" type="relation" />
+		<member ref="508" role="regulatory_element" type="relation" />
 		<member ref="52368" role="left" type="way" />
 		<member ref="52377" role="right" type="way" />
 		<member ref="52399" role="centerline" type="way" />
@@ -24105,7 +24105,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="52420" visible="true" version="1">
-		<member ref="484" role="regulatory element" type="relation" />
+		<member ref="484" role="regulatory_element" type="relation" />
 		<member ref="52403" role="left" type="way" />
 		<member ref="52411" role="right" type="way" />
 		<member ref="52419" role="centerline" type="way" />
@@ -24116,7 +24116,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="52424" visible="true" version="1">
-		<member ref="484" role="regulatory element" type="relation" />
+		<member ref="484" role="regulatory_element" type="relation" />
 		<member ref="52411" role="left" type="way" />
 		<member ref="52414" role="right" type="way" />
 		<member ref="52423" role="centerline" type="way" />
@@ -24127,7 +24127,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="52494" visible="true" version="1">
-		<member ref="383" role="regulatory element" type="relation" />
+		<member ref="383" role="regulatory_element" type="relation" />
 		<member ref="52474" role="left" type="way" />
 		<member ref="52481" role="right" type="way" />
 		<member ref="52493" role="centerline" type="way" />
@@ -24148,7 +24148,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="52524" visible="true" version="1">
-		<member ref="508" role="regulatory element" type="relation" />
+		<member ref="508" role="regulatory_element" type="relation" />
 		<member ref="52516" role="left" type="way" />
 		<member ref="52508" role="right" type="way" />
 		<member ref="52523" role="centerline" type="way" />
@@ -24249,7 +24249,7 @@
 		<tag k="turn direction" v="no_turn" />
 	</relation>
 	<relation id="52847" visible="true" version="1">
-		<member ref="407" role="regulatory element" type="relation" />
+		<member ref="407" role="regulatory_element" type="relation" />
 		<member ref="52832" role="left" type="way" />
 		<member ref="52839" role="right" type="way" />
 		<member ref="52846" role="centerline" type="way" />
@@ -24260,7 +24260,7 @@
 		<tag k="turn direction" v="right_turn" />
 	</relation>
 	<relation id="52871" visible="true" version="1">
-		<member ref="508" role="regulatory element" type="relation" />
+		<member ref="508" role="regulatory_element" type="relation" />
 		<member ref="52865" role="left" type="way" />
 		<member ref="52862" role="right" type="way" />
 		<member ref="52870" role="centerline" type="way" />
@@ -24271,7 +24271,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="52875" visible="true" version="1">
-		<member ref="383" role="regulatory element" type="relation" />
+		<member ref="383" role="regulatory_element" type="relation" />
 		<member ref="52865" role="left" type="way" />
 		<member ref="52867" role="right" type="way" />
 		<member ref="52874" role="centerline" type="way" />
@@ -24332,7 +24332,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="52953" visible="true" version="1">
-		<member ref="407" role="regulatory element" type="relation" />
+		<member ref="407" role="regulatory_element" type="relation" />
 		<member ref="52929" role="left" type="way" />
 		<member ref="52941" role="right" type="way" />
 		<member ref="52952" role="centerline" type="way" />
@@ -24383,7 +24383,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="53193" visible="true" version="1">
-		<member ref="484" role="regulatory element" type="relation" />
+		<member ref="484" role="regulatory_element" type="relation" />
 		<member ref="53171" role="left" type="way" />
 		<member ref="53183" role="right" type="way" />
 		<member ref="53192" role="centerline" type="way" />
@@ -24394,7 +24394,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="53386" visible="true" version="1">
-		<member ref="407" role="regulatory element" type="relation" />
+		<member ref="407" role="regulatory_element" type="relation" />
 		<member ref="53368" role="left" type="way" />
 		<member ref="53356" role="right" type="way" />
 		<member ref="53385" role="centerline" type="way" />
@@ -24405,7 +24405,7 @@
 		<tag k="turn direction" v="left_turn" />
 	</relation>
 	<relation id="53400" visible="true" version="1">
-		<member ref="407" role="regulatory element" type="relation" />
+		<member ref="407" role="regulatory_element" type="relation" />
 		<member ref="53373" role="left" type="way" />
 		<member ref="53368" role="right" type="way" />
 		<member ref="53399" role="centerline" type="way" />
@@ -24436,7 +24436,7 @@
 		<tag k="turn direction" v="straight" />
 	</relation>
 	<relation id="53565" visible="true" version="1">
-		<member ref="407" role="regulatory element" type="relation" />
+		<member ref="407" role="regulatory_element" type="relation" />
 		<member ref="53562" role="left" type="way" />
 		<member ref="53563" role="right" type="way" />
 		<member ref="53564" role="centerline" type="way" />
