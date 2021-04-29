@@ -18256,7 +18256,7 @@
     <tag k='name' v='-15068' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='left_turn' />
+    <tag k='turn_direction' v='left' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110908' action='modify' visible='true'>
@@ -18267,7 +18267,7 @@
     <tag k='name' v='-15070' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='right_turn' />
+    <tag k='turn_direction' v='right' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110909' action='modify' visible='true'>
@@ -18278,7 +18278,7 @@
     <tag k='name' v='-15072' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='left_turn' />
+    <tag k='turn_direction' v='left' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110910' action='modify' visible='true'>
@@ -18289,7 +18289,7 @@
     <tag k='name' v='-15074' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='right_turn' />
+    <tag k='turn_direction' v='right' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110911' action='modify' visible='true'>
@@ -18300,7 +18300,7 @@
     <tag k='name' v='-15076' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='left_turn' />
+    <tag k='turn_direction' v='left' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110912' action='modify' visible='true'>
@@ -18311,7 +18311,7 @@
     <tag k='name' v='-15078' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='right_turn' />
+    <tag k='turn_direction' v='right' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110913' action='modify' visible='true'>
@@ -18322,7 +18322,7 @@
     <tag k='name' v='-15080' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='left_turn' />
+    <tag k='turn_direction' v='left' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110914' action='modify' visible='true'>
@@ -18333,7 +18333,7 @@
     <tag k='name' v='-15082' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='right_turn' />
+    <tag k='turn_direction' v='right' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110915' action='modify' visible='true'>
@@ -18344,7 +18344,7 @@
     <tag k='name' v='-15084' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='straight' />
+    <tag k='turn_direction' v='straight' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110916' action='modify' visible='true'>
@@ -18355,7 +18355,7 @@
     <tag k='name' v='-15086' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='straight' />
+    <tag k='turn_direction' v='straight' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110917' action='modify' visible='true'>
@@ -18366,7 +18366,7 @@
     <tag k='name' v='-15088' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='straight' />
+    <tag k='turn_direction' v='straight' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110918' action='modify' visible='true'>
@@ -18377,7 +18377,7 @@
     <tag k='name' v='-15090' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='straight' />
+    <tag k='turn_direction' v='straight' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110919' action='modify' visible='true'>
@@ -18388,7 +18388,7 @@
     <tag k='name' v='-15092' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='straight' />
+    <tag k='turn_direction' v='straight' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110920' action='modify' visible='true'>
@@ -18399,7 +18399,7 @@
     <tag k='name' v='-15094' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='straight' />
+    <tag k='turn_direction' v='straight' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110921' action='modify' visible='true'>
@@ -18410,7 +18410,7 @@
     <tag k='name' v='-15096' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='left_turn' />
+    <tag k='turn_direction' v='left' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110922' action='modify' visible='true'>
@@ -18421,7 +18421,7 @@
     <tag k='name' v='-15098' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='right_turn' />
+    <tag k='turn_direction' v='right' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110923' action='modify' visible='true'>
@@ -18432,7 +18432,7 @@
     <tag k='name' v='-15100' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='left_turn' />
+    <tag k='turn_direction' v='left' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110924' action='modify' visible='true'>
@@ -18443,7 +18443,7 @@
     <tag k='name' v='-15102' />
     <tag k='right_marking' v='none' />
     <tag k='speed_limit' v='50' />
-    <tag k='turn direction' v='right_turn' />
+    <tag k='turn_direction' v='right' />
     <tag k='type' v='lanelet' />
   </relation>
   <relation id='-1110925' visible='true'>
