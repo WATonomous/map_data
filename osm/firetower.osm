@@ -13474,14 +13474,14 @@
   <node id='-1171480' action='modify' visible='true' lat='43.43392489932' lon='-80.57820707593' />
   <node id='-1171481' action='modify' visible='true' lat='43.43392830786' lon='-80.57824797962' />
   <node id='-1171482' action='modify' visible='true' lat='43.43393902039' lon='-80.57834755663' />
-  <node id='-1171483' action='modify' visible='true' lat='43.43658372916' lon='-80.57966973351'>
+  <node id='-1171483' action='modify' visible='true' lat='43.43660372916' lon='-80.57966973351'>
     <tag k='ele' v='390' />
   </node>
   <node id='-1171484' action='modify' visible='true' lat='43.43657369818' lon='-80.57966911035'>
     <tag k='ele' v='391' />
   </node>
   <node id='-1171485' action='modify' visible='true' lat='43.43657765434' lon='-80.57965848628' />
-  <node id='-1171486' action='modify' visible='true' lat='43.43654074875' lon='-80.57968819604'>
+  <node id='-1171486' action='modify' visible='true' lat='43.43657074875' lon='-80.57968819604'>
     <tag k='ele' v='396' />
   </node>
   <way id='-1111345' action='modify' visible='true'>
